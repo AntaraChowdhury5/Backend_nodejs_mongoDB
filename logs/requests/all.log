@@ -1,0 +1,106 @@
+info: ::ffff:127.0.0.1 - - [09/Mar/2022:10:47:09 +0000] "POST /api/v1/users HTTP/1.1" 201 233 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2022:18:47:53 +0000] "POST /api/v1/users/registrationUser HTTP/1.1" 400 56 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2022:18:48:49 +0000] "POST /api/v1/users/registrationUser HTTP/1.1" 400 50 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2022:18:49:21 +0000] "POST /api/v1/users/registrationUser HTTP/1.1" 201 305 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2022:18:50:19 +0000] "POST /api/v1/users/registrationAdmin HTTP/1.1" 201 310 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2022:18:52:40 +0000] "GET /api/v1/users/login HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2022:18:53:14 +0000] "POST /api/v1/users/login HTTP/1.1" 401 37 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2022:18:54:58 +0000] "POST /api/v1/users/login HTTP/1.1" 200 365 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2022:18:57:04 +0000] "GET /api/v1/employee/ HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2022:18:58:36 +0000] "POST /api/v1/emp/ HTTP/1.1" 401 52 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2022:19:02:38 +0000] "POST /api/v1/emp/ HTTP/1.1" 401 52 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2022:19:03:54 +0000] "POST /api/v1/emp/ HTTP/1.1" 401 52 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2022:19:04:16 +0000] "POST /api/v1/emp/ HTTP/1.1" 500 54 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2022:19:06:12 +0000] "POST /api/v1/emp/ HTTP/1.1" 401 52 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2022:19:06:44 +0000] "POST /api/v1/emp/ HTTP/1.1" 401 52 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2022:19:11:37 +0000] "POST /api/v1/emp/ HTTP/1.1" 401 52 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2022:19:12:19 +0000] "POST /api/v1/emp/ HTTP/1.1" 401 52 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2022:19:19:39 +0000] "POST /api/v1/emp/ HTTP/1.1" 401 52 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2022:19:20:31 +0000] "POST /api/v1/emp/ HTTP/1.1" 401 52 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2022:19:21:16 +0000] "POST /api/v1/emp/ HTTP/1.1" 500 119 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2022:19:21:54 +0000] "POST /api/v1/emp/ HTTP/1.1" 500 63 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2022:19:22:28 +0000] "POST /api/v1/emp/ HTTP/1.1" 401 52 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2022:19:25:10 +0000] "POST /api/v1/emp/ HTTP/1.1" 401 52 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2022:19:29:09 +0000] "POST /api/v1/emp/ HTTP/1.1" 400 56 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2022:19:30:17 +0000] "POST /api/v1/emp/ HTTP/1.1" 401 52 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2022:19:31:46 +0000] "POST /api/v1/emp/ HTTP/1.1" 401 52 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [10/Mar/2022:05:29:51 +0000] "POST /api/v1/emp/ HTTP/1.1" 401 52 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [10/Mar/2022:05:32:23 +0000] "POST /api/v1/emp/ HTTP/1.1" 401 52 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [10/Mar/2022:05:34:17 +0000] "POST /api/v1/emp/ HTTP/1.1" 401 52 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [10/Mar/2022:05:43:01 +0000] "POST /api/v1/users/login HTTP/1.1" 200 365 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [10/Mar/2022:11:40:37 +0000] "POST /api/v1/users/registrationAdmin HTTP/1.1" 201 310 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [10/Mar/2022:11:40:44 +0000] "POST /api/v1/users/login HTTP/1.1" 200 365 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [10/Mar/2022:11:41:08 +0000] "POST /api/v1/emp/ HTTP/1.1" 401 52 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [10/Mar/2022:11:46:52 +0000] "POST /api/v1/emp/ HTTP/1.1" 500 48 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [10/Mar/2022:11:47:11 +0000] "POST /api/v1/emp/ HTTP/1.1" 500 119 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [10/Mar/2022:11:50:40 +0000] "POST /api/v1/emp/ HTTP/1.1" 201 231 "-" "Thunder Client (https://www.thunderclient.com)"
+
+error: uncaughtException: C:\Projects\employee-backend\src\services\employee.service.js: 'Const declarations' require an initialization value. (15:17)
+
+[0m [90m 13 |[39m[0m
+[0m [90m 14 |[39m [90m//get all employees[39m[0m
+[0m[31m[1m>[22m[39m[90m 15 |[39m [36mexport[39m [36mconst[39m echo [32m"# Backend_nodejs_mongoDB"[39m [33m>>[39m [33mREADME[39m[33m.[39mmdgetAllEmployee [33m=[39m [36masync[39m () [33m=>[39m {[0m
+[0m [90m    |[39m                  [31m[1m^[22m[39m[0m
+[0m [90m 16 |[39m   [36mconst[39m data [33m=[39m [36mawait[39m [33mEmployee[39m[33m.[39mfind()[33m;[39m[0m
+[0m [90m 17 |[39m   [36mreturn[39m data[33m;[39m[0m
+[0m [90m 18 |[39m }[33m;[39m[0m
+SyntaxError: C:\Projects\employee-backend\src\services\employee.service.js: 'Const declarations' require an initialization value. (15:17)
+
+[0m [90m 13 |[39m[0m
+[0m [90m 14 |[39m [90m//get all employees[39m[0m
+[0m[31m[1m>[22m[39m[90m 15 |[39m [36mexport[39m [36mconst[39m echo [32m"# Backend_nodejs_mongoDB"[39m [33m>>[39m [33mREADME[39m[33m.[39mmdgetAllEmployee [33m=[39m [36masync[39m () [33m=>[39m {[0m
+[0m [90m    |[39m                  [31m[1m^[22m[39m[0m
+[0m [90m 16 |[39m   [36mconst[39m data [33m=[39m [36mawait[39m [33mEmployee[39m[33m.[39mfind()[33m;[39m[0m
+[0m [90m 17 |[39m   [36mreturn[39m data[33m;[39m[0m
+[0m [90m 18 |[39m }[33m;[39m[0m
+    at Parser._raise (C:\Users\antara.chowdhury\AppData\Roaming\npm\node_modules\@babel\node\node_modules\@babel\parser\src\parser\error.js:150:45)
+    at Parser.raiseWithData (C:\Users\antara.chowdhury\AppData\Roaming\npm\node_modules\@babel\node\node_modules\@babel\parser\src\parser\error.js:145:17)
+    at Parser.raise (C:\Users\antara.chowdhury\AppData\Roaming\npm\node_modules\@babel\node\node_modules\@babel\parser\src\parser\error.js:89:17)
+    at Parser.parseVar (C:\Users\antara.chowdhury\AppData\Roaming\npm\node_modules\@babel\node\node_modules\@babel\parser\src\parser\statement.js:1222:18)
+    at Parser.parseVarStatement (C:\Users\antara.chowdhury\AppData\Roaming\npm\node_modules\@babel\node\node_modules\@babel\parser\src\parser\statement.js:897:10)
+    at Parser.parseStatementContent (C:\Users\antara.chowdhury\AppData\Roaming\npm\node_modules\@babel\node\node_modules\@babel\parser\src\parser\statement.js:391:21)
+    at Parser.parseStatement (C:\Users\antara.chowdhury\AppData\Roaming\npm\node_modules\@babel\node\node_modules\@babel\parser\src\parser\statement.js:329:17)
+    at Parser.parseExportDeclaration (C:\Users\antara.chowdhury\AppData\Roaming\npm\node_modules\@babel\node\node_modules\@babel\parser\src\parser\statement.js:2124:17)
+    at Parser.maybeParseExportDeclaration (C:\Users\antara.chowdhury\AppData\Roaming\npm\node_modules\@babel\node\node_modules\@babel\parser\src\parser\statement.js:2063:31)
+    at Parser.parseExport (C:\Users\antara.chowdhury\AppData\Roaming\npm\node_modules\@babel\node\node_modules\@babel\parser\src\parser\statement.js:1983:29)
+    at Parser.parseStatementContent (C:\Users\antara.chowdhury\AppData\Roaming\npm\node_modules\@babel\node\node_modules\@babel\parser\src\parser\statement.js:431:25)
+    at Parser.parseStatement (C:\Users\antara.chowdhury\AppData\Roaming\npm\node_modules\@babel\node\node_modules\@babel\parser\src\parser\statement.js:329:17)
+    at Parser.parseBlockOrModuleBlockBody (C:\Users\antara.chowdhury\AppData\Roaming\npm\node_modules\@babel\node\node_modules\@babel\parser\src\parser\statement.js:1073:25)
+    at Parser.parseBlockBody (C:\Users\antara.chowdhury\AppData\Roaming\npm\node_modules\@babel\node\node_modules\@babel\parser\src\parser\statement.js:1049:10)
+    at Parser.parseProgram (C:\Users\antara.chowdhury\AppData\Roaming\npm\node_modules\@babel\node\node_modules\@babel\parser\src\parser\statement.js:214:10)
+    at Parser.parseTopLevel (C:\Users\antara.chowdhury\AppData\Roaming\npm\node_modules\@babel\node\node_modules\@babel\parser\src\parser\statement.js:197:25) {"date":"Thu Mar 10 2022 17:52:53 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":17,"index":300,"line":15},"pos":300,"reasonCode":"DeclarationMissingInitializer"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":286809},"process":{"argv":["node","C:\\Projects\\employee-backend\\src\\index.js"],"cwd":"C:\\Projects\\employee-backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18334051,"external":24166994,"heapTotal":101814272,"heapUsed":78507800,"rss":136380416},"pid":15536,"uid":null,"version":"v16.14.0"},"stack":"SyntaxError: C:\\Projects\\employee-backend\\src\\services\\employee.service.js: 'Const declarations' require an initialization value. (15:17)\n\n\u001b[0m \u001b[90m 13 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 14 |\u001b[39m \u001b[90m//get all employees\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 15 |\u001b[39m \u001b[36mexport\u001b[39m \u001b[36mconst\u001b[39m echo \u001b[32m\"# Backend_nodejs_mongoDB\"\u001b[39m \u001b[33m>>\u001b[39m \u001b[33mREADME\u001b[39m\u001b[33m.\u001b[39mmdgetAllEmployee \u001b[33m=\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 16 |\u001b[39m   \u001b[36mconst\u001b[39m data \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mEmployee\u001b[39m\u001b[33m.\u001b[39mfind()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 17 |\u001b[39m   \u001b[36mreturn\u001b[39m data\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 18 |\u001b[39m }\u001b[33m;\u001b[39m\u001b[0m\n    at Parser._raise (C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\error.js:150:45)\n    at Parser.raiseWithData (C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\error.js:145:17)\n    at Parser.raise (C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\error.js:89:17)\n    at Parser.parseVar (C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1222:18)\n    at Parser.parseVarStatement (C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js:897:10)\n    at Parser.parseStatementContent (C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js:391:21)\n    at Parser.parseStatement (C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js:329:17)\n    at Parser.parseExportDeclaration (C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js:2124:17)\n    at Parser.maybeParseExportDeclaration (C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js:2063:31)\n    at Parser.parseExport (C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1983:29)\n    at Parser.parseStatementContent (C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js:431:25)\n    at Parser.parseStatement (C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js:329:17)\n    at Parser.parseBlockOrModuleBlockBody (C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1073:25)\n    at Parser.parseBlockBody (C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1049:10)\n    at Parser.parseProgram (C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js:214:10)\n    at Parser.parseTopLevel (C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js:197:25)","trace":[{"column":45,"file":"C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":150,"method":"_raise","native":false},{"column":17,"file":"C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":145,"method":"raiseWithData","native":false},{"column":17,"file":"C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":89,"method":"raise","native":false},{"column":18,"file":"C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseVar","line":1222,"method":"parseVar","native":false},{"column":10,"file":"C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseVarStatement","line":897,"method":"parseVarStatement","native":false},{"column":21,"file":"C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseStatementContent","line":391,"method":"parseStatementContent","native":false},{"column":17,"file":"C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseStatement","line":329,"method":"parseStatement","native":false},{"column":17,"file":"C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseExportDeclaration","line":2124,"method":"parseExportDeclaration","native":false},{"column":31,"file":"C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.maybeParseExportDeclaration","line":2063,"method":"maybeParseExportDeclaration","native":false},{"column":29,"file":"C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseExport","line":1983,"method":"parseExport","native":false},{"column":25,"file":"C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseStatementContent","line":431,"method":"parseStatementContent","native":false},{"column":17,"file":"C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseStatement","line":329,"method":"parseStatement","native":false},{"column":25,"file":"C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseBlockOrModuleBlockBody","line":1073,"method":"parseBlockOrModuleBlockBody","native":false},{"column":10,"file":"C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseBlockBody","line":1049,"method":"parseBlockBody","native":false},{"column":10,"file":"C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseProgram","line":214,"method":"parseProgram","native":false},{"column":25,"file":"C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseTopLevel","line":197,"method":"parseTopLevel","native":false}]}

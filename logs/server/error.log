@@ -1,0 +1,187 @@
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 75
+    at JSON.parse (<anonymous>)
+    at parse (C:\Projects\employee-backend\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Projects\employee-backend\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Projects\employee-backend\node_modules\raw-body\index.js:224:16)
+    at done (C:\Projects\employee-backend\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Projects\employee-backend\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:532:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1346:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-09T18:46:53.422Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (C:\Projects\employee-backend\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee2$ (C:\Projects\employee-backend\src\services\/user.service.js:25:31)
+    at tryCatch (C:\Projects\employee-backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Projects\employee-backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Projects\employee-backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Projects\employee-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Projects\employee-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-09T18:53:14.923Z"}
+error: 
+    status - 500 
+    message - ReferenceError: user is not defined
+    at _callee3$ (C:\Projects\employee-backend\src\middlewares\/auth.middleware.js:50:48)
+    at tryCatch (C:\Projects\employee-backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Projects\employee-backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Projects\employee-backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Projects\employee-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Projects\employee-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Projects\employee-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Projects\employee-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at adminAuth (C:\Projects\employee-backend\src\middlewares\/auth.middleware.js:42:23)
+    at Layer.handle [as handle_request] (C:\Projects\employee-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\employee-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\employee-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\employee-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Projects\employee-backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Projects\employee-backend\node_modules\express\lib\router\index.js:341:12) 
+    url - /api/v1/emp/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-09T19:04:16.873Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: verify must be called asynchronous if secret or public key is provided as a callback
+    at Object.verify (C:\Projects\employee-backend\node_modules\jsonwebtoken\verify.js:83:19)
+    at _callee3$ (C:\Projects\employee-backend\src\middlewares\/auth.middleware.js:51:29)
+    at tryCatch (C:\Projects\employee-backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Projects\employee-backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Projects\employee-backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Projects\employee-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Projects\employee-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Projects\employee-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Projects\employee-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at adminAuth (C:\Projects\employee-backend\src\middlewares\/auth.middleware.js:42:23)
+    at Layer.handle [as handle_request] (C:\Projects\employee-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\employee-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\employee-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\employee-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Projects\employee-backend\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/emp/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-09T19:21:16.089Z"}
+error: 
+    status - 500 
+    message - TypeError: "antara" is not a function
+    at _callee3$ (C:\Projects\employee-backend\src\middlewares\/auth.middleware.js:51:47)
+    at tryCatch (C:\Projects\employee-backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Projects\employee-backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Projects\employee-backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Projects\employee-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Projects\employee-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Projects\employee-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Projects\employee-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at adminAuth (C:\Projects\employee-backend\src\middlewares\/auth.middleware.js:42:23)
+    at Layer.handle [as handle_request] (C:\Projects\employee-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\employee-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\employee-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\employee-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Projects\employee-backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Projects\employee-backend\node_modules\express\lib\router\index.js:341:12) 
+    url - /api/v1/emp/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-09T19:21:54.177Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/emp/ 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-03-09T19:29:09.763Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid token
+    at Object.verify (C:\Projects\employee-backend\node_modules\jsonwebtoken\verify.js:75:17)
+    at _callee3$ (C:\Projects\employee-backend\src\middlewares\/auth.middleware.js:50:29)
+    at tryCatch (C:\Projects\employee-backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Projects\employee-backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Projects\employee-backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Projects\employee-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Projects\employee-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Projects\employee-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Projects\employee-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at adminAuth (C:\Projects\employee-backend\src\middlewares\/auth.middleware.js:42:23)
+    at Layer.handle [as handle_request] (C:\Projects\employee-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\employee-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\employee-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\employee-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Projects\employee-backend\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/emp/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-10T11:46:52.336Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: verify must be called asynchronous if secret or public key is provided as a callback
+    at Object.verify (C:\Projects\employee-backend\node_modules\jsonwebtoken\verify.js:83:19)
+    at _callee3$ (C:\Projects\employee-backend\src\middlewares\/auth.middleware.js:50:29)
+    at tryCatch (C:\Projects\employee-backend\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Projects\employee-backend\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Projects\employee-backend\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Projects\employee-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Projects\employee-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Projects\employee-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Projects\employee-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at adminAuth (C:\Projects\employee-backend\src\middlewares\/auth.middleware.js:42:23)
+    at Layer.handle [as handle_request] (C:\Projects\employee-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\employee-backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\employee-backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\employee-backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Projects\employee-backend\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/emp/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-10T11:47:11.730Z"}
+error: uncaughtException: C:\Projects\employee-backend\src\services\employee.service.js: 'Const declarations' require an initialization value. (15:17)
+
+[0m [90m 13 |[39m[0m
+[0m [90m 14 |[39m [90m//get all employees[39m[0m
+[0m[31m[1m>[22m[39m[90m 15 |[39m [36mexport[39m [36mconst[39m echo [32m"# Backend_nodejs_mongoDB"[39m [33m>>[39m [33mREADME[39m[33m.[39mmdgetAllEmployee [33m=[39m [36masync[39m () [33m=>[39m {[0m
+[0m [90m    |[39m                  [31m[1m^[22m[39m[0m
+[0m [90m 16 |[39m   [36mconst[39m data [33m=[39m [36mawait[39m [33mEmployee[39m[33m.[39mfind()[33m;[39m[0m
+[0m [90m 17 |[39m   [36mreturn[39m data[33m;[39m[0m
+[0m [90m 18 |[39m }[33m;[39m[0m
+SyntaxError: C:\Projects\employee-backend\src\services\employee.service.js: 'Const declarations' require an initialization value. (15:17)
+
+[0m [90m 13 |[39m[0m
+[0m [90m 14 |[39m [90m//get all employees[39m[0m
+[0m[31m[1m>[22m[39m[90m 15 |[39m [36mexport[39m [36mconst[39m echo [32m"# Backend_nodejs_mongoDB"[39m [33m>>[39m [33mREADME[39m[33m.[39mmdgetAllEmployee [33m=[39m [36masync[39m () [33m=>[39m {[0m
+[0m [90m    |[39m                  [31m[1m^[22m[39m[0m
+[0m [90m 16 |[39m   [36mconst[39m data [33m=[39m [36mawait[39m [33mEmployee[39m[33m.[39mfind()[33m;[39m[0m
+[0m [90m 17 |[39m   [36mreturn[39m data[33m;[39m[0m
+[0m [90m 18 |[39m }[33m;[39m[0m
+    at Parser._raise (C:\Users\antara.chowdhury\AppData\Roaming\npm\node_modules\@babel\node\node_modules\@babel\parser\src\parser\error.js:150:45)
+    at Parser.raiseWithData (C:\Users\antara.chowdhury\AppData\Roaming\npm\node_modules\@babel\node\node_modules\@babel\parser\src\parser\error.js:145:17)
+    at Parser.raise (C:\Users\antara.chowdhury\AppData\Roaming\npm\node_modules\@babel\node\node_modules\@babel\parser\src\parser\error.js:89:17)
+    at Parser.parseVar (C:\Users\antara.chowdhury\AppData\Roaming\npm\node_modules\@babel\node\node_modules\@babel\parser\src\parser\statement.js:1222:18)
+    at Parser.parseVarStatement (C:\Users\antara.chowdhury\AppData\Roaming\npm\node_modules\@babel\node\node_modules\@babel\parser\src\parser\statement.js:897:10)
+    at Parser.parseStatementContent (C:\Users\antara.chowdhury\AppData\Roaming\npm\node_modules\@babel\node\node_modules\@babel\parser\src\parser\statement.js:391:21)
+    at Parser.parseStatement (C:\Users\antara.chowdhury\AppData\Roaming\npm\node_modules\@babel\node\node_modules\@babel\parser\src\parser\statement.js:329:17)
+    at Parser.parseExportDeclaration (C:\Users\antara.chowdhury\AppData\Roaming\npm\node_modules\@babel\node\node_modules\@babel\parser\src\parser\statement.js:2124:17)
+    at Parser.maybeParseExportDeclaration (C:\Users\antara.chowdhury\AppData\Roaming\npm\node_modules\@babel\node\node_modules\@babel\parser\src\parser\statement.js:2063:31)
+    at Parser.parseExport (C:\Users\antara.chowdhury\AppData\Roaming\npm\node_modules\@babel\node\node_modules\@babel\parser\src\parser\statement.js:1983:29)
+    at Parser.parseStatementContent (C:\Users\antara.chowdhury\AppData\Roaming\npm\node_modules\@babel\node\node_modules\@babel\parser\src\parser\statement.js:431:25)
+    at Parser.parseStatement (C:\Users\antara.chowdhury\AppData\Roaming\npm\node_modules\@babel\node\node_modules\@babel\parser\src\parser\statement.js:329:17)
+    at Parser.parseBlockOrModuleBlockBody (C:\Users\antara.chowdhury\AppData\Roaming\npm\node_modules\@babel\node\node_modules\@babel\parser\src\parser\statement.js:1073:25)
+    at Parser.parseBlockBody (C:\Users\antara.chowdhury\AppData\Roaming\npm\node_modules\@babel\node\node_modules\@babel\parser\src\parser\statement.js:1049:10)
+    at Parser.parseProgram (C:\Users\antara.chowdhury\AppData\Roaming\npm\node_modules\@babel\node\node_modules\@babel\parser\src\parser\statement.js:214:10)
+    at Parser.parseTopLevel (C:\Users\antara.chowdhury\AppData\Roaming\npm\node_modules\@babel\node\node_modules\@babel\parser\src\parser\statement.js:197:25) {"date":"Thu Mar 10 2022 17:52:53 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":17,"index":300,"line":15},"pos":300,"reasonCode":"DeclarationMissingInitializer"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":286809},"process":{"argv":["node","C:\\Projects\\employee-backend\\src\\index.js"],"cwd":"C:\\Projects\\employee-backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18308851,"external":24141754,"heapTotal":101814272,"heapUsed":78359952,"rss":135643136},"pid":15536,"uid":null,"version":"v16.14.0"},"stack":"SyntaxError: C:\\Projects\\employee-backend\\src\\services\\employee.service.js: 'Const declarations' require an initialization value. (15:17)\n\n\u001b[0m \u001b[90m 13 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 14 |\u001b[39m \u001b[90m//get all employees\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 15 |\u001b[39m \u001b[36mexport\u001b[39m \u001b[36mconst\u001b[39m echo \u001b[32m\"# Backend_nodejs_mongoDB\"\u001b[39m \u001b[33m>>\u001b[39m \u001b[33mREADME\u001b[39m\u001b[33m.\u001b[39mmdgetAllEmployee \u001b[33m=\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 16 |\u001b[39m   \u001b[36mconst\u001b[39m data \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mEmployee\u001b[39m\u001b[33m.\u001b[39mfind()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 17 |\u001b[39m   \u001b[36mreturn\u001b[39m data\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 18 |\u001b[39m }\u001b[33m;\u001b[39m\u001b[0m\n    at Parser._raise (C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\error.js:150:45)\n    at Parser.raiseWithData (C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\error.js:145:17)\n    at Parser.raise (C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\error.js:89:17)\n    at Parser.parseVar (C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1222:18)\n    at Parser.parseVarStatement (C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js:897:10)\n    at Parser.parseStatementContent (C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js:391:21)\n    at Parser.parseStatement (C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js:329:17)\n    at Parser.parseExportDeclaration (C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js:2124:17)\n    at Parser.maybeParseExportDeclaration (C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js:2063:31)\n    at Parser.parseExport (C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1983:29)\n    at Parser.parseStatementContent (C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js:431:25)\n    at Parser.parseStatement (C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js:329:17)\n    at Parser.parseBlockOrModuleBlockBody (C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1073:25)\n    at Parser.parseBlockBody (C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1049:10)\n    at Parser.parseProgram (C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js:214:10)\n    at Parser.parseTopLevel (C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js:197:25)","timestamp":"2022-03-10T12:22:53.042Z","trace":[{"column":45,"file":"C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":150,"method":"_raise","native":false},{"column":17,"file":"C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":145,"method":"raiseWithData","native":false},{"column":17,"file":"C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":89,"method":"raise","native":false},{"column":18,"file":"C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseVar","line":1222,"method":"parseVar","native":false},{"column":10,"file":"C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseVarStatement","line":897,"method":"parseVarStatement","native":false},{"column":21,"file":"C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseStatementContent","line":391,"method":"parseStatementContent","native":false},{"column":17,"file":"C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseStatement","line":329,"method":"parseStatement","native":false},{"column":17,"file":"C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseExportDeclaration","line":2124,"method":"parseExportDeclaration","native":false},{"column":31,"file":"C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.maybeParseExportDeclaration","line":2063,"method":"maybeParseExportDeclaration","native":false},{"column":29,"file":"C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseExport","line":1983,"method":"parseExport","native":false},{"column":25,"file":"C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseStatementContent","line":431,"method":"parseStatementContent","native":false},{"column":17,"file":"C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseStatement","line":329,"method":"parseStatement","native":false},{"column":25,"file":"C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseBlockOrModuleBlockBody","line":1073,"method":"parseBlockOrModuleBlockBody","native":false},{"column":10,"file":"C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseBlockBody","line":1049,"method":"parseBlockBody","native":false},{"column":10,"file":"C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseProgram","line":214,"method":"parseProgram","native":false},{"column":25,"file":"C:\\Users\\antara.chowdhury\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseTopLevel","line":197,"method":"parseTopLevel","native":false}]}
