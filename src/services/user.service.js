@@ -1,0 +1,47 @@
+//import User from '../models/user.model';
+const dbconnect= require('../config/database')
+const mongoDB= require('mongodb')
+
+//get all users
+export const getAllUsers = async () => {
+  let data= await dbconnect();
+    data=await data.find().toArray();
+    return data;
+};
+
+//create new user
+export const newUser = async (body) => {
+  let data= await dbconnect();
+  let result= await data.insertOne(body);
+  console.log(result)
+  console.log(body)
+  return body;
+};
+
+
+//update single user
+export const updateUser = async (req) => {
+  let data=await dbconnect();
+    let result= await data.updateOne(
+        {name:req.params.empId},
+        {$set: req.body}
+        )
+    return result;
+};
+
+//delete single user
+export const deleteUser = async (req) => {
+  let data=await dbconnect();
+    let result= await data.deleteOne({_id:new mongoDB.ObjectId(req.params._id)})
+    return result;
+ 
+};
+
+//get single user
+export const getUser = async (req) => {
+  console.log(req);
+  let data=await dbconnect();
+    data= await data.findOne({_id:new mongoDB.ObjectId(req.params._id)});
+    console.log(data);
+    return data;
+};

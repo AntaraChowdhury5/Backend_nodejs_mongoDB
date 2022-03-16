@@ -1,0 +1,206 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-16T09:56:44.594Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-16T10:00:30.240Z"}
+info: Connected to the database. {"timestamp":"2022-03-16T10:00:30.269Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-16T10:01:13.950Z"}
+info: Connected to the database. {"timestamp":"2022-03-16T10:01:13.973Z"}
+error: 
+    status - 500 
+    message - TypeError: dbconnect is not a function
+    at _callee2$ (C:\Projects\EmpApi\src\services\/user.service.js:15:19)
+    at tryCatch (C:\Projects\EmpApi\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Projects\EmpApi\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Projects\EmpApi\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Projects\EmpApi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Projects\EmpApi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Projects\EmpApi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Projects\EmpApi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.newUser (C:\Projects\EmpApi\src\services\/user.service.js:12:21)
+    at _callee3$ (C:\Projects\EmpApi\src\controllers\/user.controller.js:50:36)
+    at tryCatch (C:\Projects\EmpApi\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Projects\EmpApi\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Projects\EmpApi\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Projects\EmpApi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Projects\EmpApi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-16T10:01:54.951Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-16T10:08:10.803Z"}
+info: Connected to the database. {"timestamp":"2022-03-16T10:08:10.823Z"}
+error: 
+    status - 500 
+    message - TypeError: dbconnect is not a function
+    at _callee2$ (C:\Projects\EmpApi\src\services\/user.service.js:15:19)
+    at tryCatch (C:\Projects\EmpApi\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Projects\EmpApi\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Projects\EmpApi\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Projects\EmpApi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Projects\EmpApi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Projects\EmpApi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Projects\EmpApi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.newUser (C:\Projects\EmpApi\src\services\/user.service.js:12:21)
+    at _callee3$ (C:\Projects\EmpApi\src\controllers\/user.controller.js:50:36)
+    at tryCatch (C:\Projects\EmpApi\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Projects\EmpApi\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Projects\EmpApi\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Projects\EmpApi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Projects\EmpApi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-16T10:08:18.091Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-16T10:09:23.570Z"}
+info: Connected to the database. {"timestamp":"2022-03-16T10:09:23.589Z"}
+error: 
+    status - 500 
+    message - ReferenceError: insertOne is not defined
+    at _callee2$ (C:\Projects\EmpApi\src\services\/user.service.js:12:24)
+    at tryCatch (C:\Projects\EmpApi\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Projects\EmpApi\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Projects\EmpApi\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Projects\EmpApi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Projects\EmpApi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Projects\EmpApi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Projects\EmpApi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.newUser (C:\Projects\EmpApi\src\services\/user.service.js:12:21)
+    at _callee3$ (C:\Projects\EmpApi\src\controllers\/user.controller.js:50:36)
+    at tryCatch (C:\Projects\EmpApi\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Projects\EmpApi\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Projects\EmpApi\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Projects\EmpApi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Projects\EmpApi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-16T10:09:28.715Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-16T10:12:17.478Z"}
+info: Connected to the database. {"timestamp":"2022-03-16T10:12:17.502Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-16T10:12:38.257Z"}
+info: Connected to the database. {"timestamp":"2022-03-16T10:12:38.276Z"}
+info: Connected to the database. {"timestamp":"2022-03-16T10:12:39.347Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-16T10:14:33.715Z"}
+info: Connected to the database. {"timestamp":"2022-03-16T10:14:33.731Z"}
+info: Connected to the database. {"timestamp":"2022-03-16T10:14:39.471Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-16T10:15:32.808Z"}
+info: Connected to the database. {"timestamp":"2022-03-16T10:15:32.834Z"}
+info: Connected to the database. {"timestamp":"2022-03-16T10:15:40.857Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-16T10:16:05.723Z"}
+info: Connected to the database. {"timestamp":"2022-03-16T10:16:05.752Z"}
+info: Connected to the database. {"timestamp":"2022-03-16T10:16:08.537Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-16T10:22:38.604Z"}
+info: Connected to the database. {"timestamp":"2022-03-16T10:22:38.621Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-16T10:25:06.537Z"}
+info: Connected to the database. {"timestamp":"2022-03-16T10:25:06.558Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-16T10:25:10.602Z"}
+info: Connected to the database. {"timestamp":"2022-03-16T10:25:10.625Z"}
+info: Connected to the database. {"timestamp":"2022-03-16T10:25:21.044Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/6231b8e84b0d893dbdd041db 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-03-16T10:25:38.331Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-16T10:26:03.584Z"}
+info: Connected to the database. {"timestamp":"2022-03-16T10:26:03.605Z"}
+info: Connected to the database. {"timestamp":"2022-03-16T10:26:05.217Z"}
+error: 
+    status - 500 
+    message - MongoInvalidArgumentError: Query filter must be a plain object or ObjectId
+    at new FindOperation (C:\Projects\EmpApi\node_modules\mongodb\src\operations\find.ts:90:13)
+    at FindCursor._initialize (C:\Projects\EmpApi\node_modules\mongodb\src\cursor\find_cursor.ts:72:27)
+    at next (C:\Projects\EmpApi\node_modules\mongodb\src\cursor\abstract_cursor.ts:667:12)
+    at C:\Projects\EmpApi\node_modules\mongodb\src\cursor\abstract_cursor.ts:309:7
+    at maybePromise (C:\Projects\EmpApi\node_modules\mongodb\src\utils.ts:609:3)
+    at FindCursor.next (C:\Projects\EmpApi\node_modules\mongodb\src\cursor\abstract_cursor.ts:304:24)
+    at Collection.findOne (C:\Projects\EmpApi\node_modules\mongodb\src\collection.ts:740:72)
+    at _callee5$ (C:\Projects\EmpApi\src\services\/user.service.js:56:22)
+    at tryCatch (C:\Projects\EmpApi\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Projects\EmpApi\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Projects\EmpApi\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Projects\EmpApi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Projects\EmpApi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/6231b8e84b0d893dbdd041db 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-16T10:26:05.284Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-16T10:26:34.891Z"}
+info: Connected to the database. {"timestamp":"2022-03-16T10:26:34.911Z"}
+info: Connected to the database. {"timestamp":"2022-03-16T10:26:45.473Z"}
+error: 
+    status - 500 
+    message - BSONError: cyclic dependency detected
+    at new BSONError (C:\Projects\EmpApi\node_modules\mongodb\node_modules\bson\src\error.ts:4:5)
+    at serializeObject (C:\Projects\EmpApi\node_modules\mongodb\node_modules\bson\src\parser\serializer.ts:367:34)
+    at serializeInto (C:\Projects\EmpApi\node_modules\mongodb\node_modules\bson\src\parser\serializer.ts:1006:17)
+    at serializeObject (C:\Projects\EmpApi\node_modules\mongodb\node_modules\bson\src\parser\serializer.ts:381:20)
+    at serializeInto (C:\Projects\EmpApi\node_modules\mongodb\node_modules\bson\src\parser\serializer.ts:1006:17)
+    at serializeObject (C:\Projects\EmpApi\node_modules\mongodb\node_modules\bson\src\parser\serializer.ts:381:20)
+    at serializeInto (C:\Projects\EmpApi\node_modules\mongodb\node_modules\bson\src\parser\serializer.ts:1006:17)
+    at serializeObject (C:\Projects\EmpApi\node_modules\mongodb\node_modules\bson\src\parser\serializer.ts:381:20)
+    at Object.serializeInto (C:\Projects\EmpApi\node_modules\mongodb\node_modules\bson\src\parser\serializer.ts:1006:17)
+    at Object.serialize (C:\Projects\EmpApi\node_modules\mongodb\node_modules\bson\src\bson.ts:153:30)
+    at Msg.serializeBson (C:\Projects\EmpApi\node_modules\mongodb\src\cmap\commands.ts:750:17)
+    at Msg.makeDocumentSegment (C:\Projects\EmpApi\node_modules\mongodb\src\cmap\commands.ts:742:33)
+    at Msg.toBin (C:\Projects\EmpApi\node_modules\mongodb\src\cmap\commands.ts:728:25)
+    at MessageStream.writeCommand (C:\Projects\EmpApi\node_modules\mongodb\src\cmap\message_stream.ts:84:28)
+    at write (C:\Projects\EmpApi\node_modules\mongodb\src\cmap\connection.ts:863:26)
+    at Connection.command (C:\Projects\EmpApi\node_modules\mongodb\src\cmap\connection.ts:450:7) 
+    url - /api/v1/users/6231b8e84b0d893dbdd041db 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-16T10:26:45.552Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-16T10:28:25.309Z"}
+info: Connected to the database. {"timestamp":"2022-03-16T10:28:25.329Z"}
+info: Connected to the database. {"timestamp":"2022-03-16T10:28:28.200Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-16T10:29:37.829Z"}
+info: Connected to the database. {"timestamp":"2022-03-16T10:29:37.853Z"}
+info: Connected to the database. {"timestamp":"2022-03-16T10:29:46.244Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-16T10:31:47.468Z"}
+info: Connected to the database. {"timestamp":"2022-03-16T10:31:47.487Z"}
+info: Connected to the database. {"timestamp":"2022-03-16T10:31:51.638Z"}
+info: Connected to the database. {"timestamp":"2022-03-16T10:32:01.567Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-16T10:33:38.266Z"}
+info: Connected to the database. {"timestamp":"2022-03-16T10:33:38.286Z"}
+info: Connected to the database. {"timestamp":"2022-03-16T10:34:04.689Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-16T10:36:24.645Z"}
+info: Connected to the database. {"timestamp":"2022-03-16T10:36:24.669Z"}
+info: Connected to the database. {"timestamp":"2022-03-16T10:36:34.388Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-16T10:37:08.704Z"}
+info: Connected to the database. {"timestamp":"2022-03-16T10:37:08.734Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-16T11:19:47.494Z"}
+info: Connected to the database. {"timestamp":"2022-03-16T11:19:47.514Z"}
+info: Connected to the database. {"timestamp":"2022-03-16T11:20:18.114Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-16T11:21:30.807Z"}
+info: Connected to the database. {"timestamp":"2022-03-16T11:21:30.825Z"}
+info: Connected to the database. {"timestamp":"2022-03-16T11:21:34.081Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-16T11:23:05.348Z"}
+info: Connected to the database. {"timestamp":"2022-03-16T11:23:05.371Z"}
+info: Connected to the database. {"timestamp":"2022-03-16T11:23:22.466Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-16T11:29:33.993Z"}
+info: Connected to the database. {"timestamp":"2022-03-16T11:29:34.014Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-16T11:34:04.764Z"}
+info: Connected to the database. {"timestamp":"2022-03-16T11:34:04.786Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 77
+    at JSON.parse (<anonymous>)
+    at parse (C:\Projects\EmpApi\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Projects\EmpApi\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Projects\EmpApi\node_modules\raw-body\index.js:224:16)
+    at done (C:\Projects\EmpApi\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Projects\EmpApi\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:532:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1346:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-16T11:34:10.017Z"}
+info: Connected to the database. {"timestamp":"2022-03-16T11:34:17.576Z"}
+info: Connected to the database. {"timestamp":"2022-03-16T11:34:24.817Z"}
