@@ -135,3 +135,30 @@ error:
     method - GET 
     IP - ::ffff:127.0.0.1
    {"timestamp":"2022-03-16T11:34:10.017Z"}
+error: 
+    status - 500 
+    message - ReferenceError: logger is not defined
+    at _callee2$ (C:\Projects\EmpApi\src\services\/user.service.js:28:7)
+    at tryCatch (C:\Projects\EmpApi\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Projects\EmpApi\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Projects\EmpApi\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Projects\EmpApi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Projects\EmpApi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-17T10:00:00.438Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-03-17T10:47:46.092Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-23T11:03:43.971Z"}

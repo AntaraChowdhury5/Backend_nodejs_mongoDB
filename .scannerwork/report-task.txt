@@ -1,0 +1,6 @@
+projectKey=EmpApi
+serverUrl=http://localhost:9050
+serverVersion=9.3.0.51899
+dashboardUrl=http://localhost:9050/dashboard?id=EmpApi
+ceTaskId=AX-2qafeCYu53umMbrnu
+ceTaskUrl=http://localhost:9050/api/ce/task?id=AX-2qafeCYu53umMbrnu

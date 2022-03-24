@@ -1,0 +1,41 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-17T09:55:58.697Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T09:55:58.717Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T09:57:28.077Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T10:00:00.338Z"}
+error: 
+    status - 500 
+    message - ReferenceError: logger is not defined
+    at _callee2$ (C:\Projects\EmpApi\src\services\/user.service.js:28:7)
+    at tryCatch (C:\Projects\EmpApi\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Projects\EmpApi\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Projects\EmpApi\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Projects\EmpApi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Projects\EmpApi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-17T10:00:00.438Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-17T10:01:00.511Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T10:01:00.529Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T10:01:12.874Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMzMwNjA4NzIyMWFlNmJiNTU1NmQ0NSIsImVtYWlsIjoiQWRtaW5AZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNjQ3NTExMjcyfQ.hVEVyMGgRWFLiIMSvkF0NQx8hykn_1_OpPgc7hyarqc {"timestamp":"2022-03-17T10:01:12.971Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T10:02:43.832Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T10:03:14.995Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMzMwNzQzY2MyYTgxY2FhYTMyY2E1MCIsImVtYWlsIjoiRW1wMUBnbWFpbC5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTY0NzUxMTM5NX0.sLuSiPEP03dsZ706PfNeodKs8-72G9BUhZvCwWBo4AM {"timestamp":"2022-03-17T10:03:15.155Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T10:42:43.586Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMzMwNzQzY2MyYTgxY2FhYTMyY2E1MCIsImVtYWlsIjoiRW1wMUBnbWFpbC5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTY0NzUxMzc2M30.jQVZqzrRpUrY5K-cOaVkOxjU9i2zW2fSvPCst4yNmYM {"timestamp":"2022-03-17T10:42:43.833Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T10:43:48.916Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMzMwNzQzY2MyYTgxY2FhYTMyY2E1MCIsImVtYWlsIjoiRW1wMUBnbWFpbC5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTY0NzUxMzgyOX0.vs7ldC-POZFxUkPkDEwMV_etiSssifJJqxFPWUVFEsE {"timestamp":"2022-03-17T10:43:49.172Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-17T10:47:08.684Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T10:47:08.702Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-03-17T10:47:46.092Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T10:53:30.004Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMzMwNjA4NzIyMWFlNmJiNTU1NmQ0NSIsImVtYWlsIjoiQWRtaW5AZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNjQ3NTE0NDEwfQ.WQKTxxStfvhIEpTtdoPwwpSPh8_KdaCtB_n4JF-8RTA {"timestamp":"2022-03-17T10:53:30.096Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T10:54:45.161Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T10:55:06.071Z"}

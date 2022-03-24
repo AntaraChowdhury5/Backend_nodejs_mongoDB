@@ -1,0 +1,28 @@
+info: ::ffff:127.0.0.1 - - [17/Mar/2022:09:57:28 +0000] "POST /api/v1/users/registrationAdmin HTTP/1.1" 201 243 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [17/Mar/2022:09:59:40 +0000] "POST /api/v1/login HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [17/Mar/2022:10:00:00 +0000] "POST /api/v1/users/login HTTP/1.1" 401 37 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [17/Mar/2022:10:01:12 +0000] "POST /api/v1/users/login HTTP/1.1" 200 363 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [17/Mar/2022:10:02:43 +0000] "POST /api/v1/users/registrationUser HTTP/1.1" 201 239 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [17/Mar/2022:10:03:15 +0000] "POST /api/v1/users/login HTTP/1.1" 200 358 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::1 - - [17/Mar/2022:10:42:43 +0000] "POST /api/v1/users/login HTTP/1.1" 200 358 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36"
+
+info: ::1 - - [17/Mar/2022:10:43:49 +0000] "POST /api/v1/users/login HTTP/1.1" 200 358 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [17/Mar/2022:10:47:46 +0000] "POST /api/v1/users HTTP/1.1" 400 56 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [17/Mar/2022:10:53:10 +0000] "POST /api/v1/users HTTP/1.1" 401 48 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [17/Mar/2022:10:53:30 +0000] "POST /api/v1/users/login HTTP/1.1" 200 363 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [17/Mar/2022:10:54:01 +0000] "POST /api/v1/users HTTP/1.1" 400 50 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [17/Mar/2022:10:54:45 +0000] "POST /api/v1/users HTTP/1.1" 201 167 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [17/Mar/2022:10:55:06 +0000] "POST /api/v1/users HTTP/1.1" 201 188 "-" "Thunder Client (https://www.thunderclient.com)"
+
