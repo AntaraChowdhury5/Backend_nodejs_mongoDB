@@ -68,3 +68,5 @@ info: ::ffff:127.0.0.1 - - [28/Mar/2022:17:33:45 +0000] "GET /api/v1/users/ HTTP
 
 info: ::ffff:127.0.0.1 - - [28/Mar/2022:17:35:27 +0000] "GET /api/v1/users/6241b2f71307d0fab5dc62b4 HTTP/1.1" 200 63 "-" "Thunder Client (https://www.thunderclient.com)"
 
+info: ::ffff:127.0.0.1 - - [28/Mar/2022:17:35:55 +0000] "GET /api/v1/users/6241b2f71307d0fab5dc62b4 HTTP/1.1" 200 65 "-" "Thunder Client (https://www.thunderclient.com)"
+
