@@ -14,7 +14,7 @@ export class UserDao implements IUserDao{
         return result;
     }
     public findById=async(_id:string)=>{       
-        const result = await db.collection<User>(collectionName).findOne({_id});
+        const result = await db.collection<User>(collectionName).findOne({"_id" : new ObjectId(_id)});
         return result;
     }
 
