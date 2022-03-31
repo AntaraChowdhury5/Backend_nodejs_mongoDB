@@ -2,3 +2,31 @@ info: ::ffff:127.0.0.1 - - [31/Mar/2022:05:28:14 +0000] "PUT /api/v1/users/id HT
 
 info: ::ffff:127.0.0.1 - - [31/Mar/2022:05:28:29 +0000] "PUT /api/v1/users/62442ea2b73a94398d4cb9bc HTTP/1.1" 202 233 "-" "Thunder Client (https://www.thunderclient.com)"
 
+info: ::ffff:127.0.0.1 - - [31/Mar/2022:07:46:24 +0000] "POST /api/v1/users/ HTTP/1.1" 201 101 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Mar/2022:08:28:51 +0000] "POST /api/v1/users/login HTTP/1.1" 200 358 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Mar/2022:08:29:15 +0000] "POST /api/v1/users/ HTTP/1.1" 500 77 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Mar/2022:08:29:56 +0000] "POST /api/v1/users/ HTTP/1.1" 500 115 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Mar/2022:08:30:38 +0000] "POST /api/v1/users/ HTTP/1.1" 201 101 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Mar/2022:08:38:25 +0000] "POST /api/v1/users/ HTTP/1.1" - - "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Mar/2022:08:38:46 +0000] "POST /api/v1/users/ HTTP/1.1" - - "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Mar/2022:08:44:37 +0000] "POST /api/v1/users/ HTTP/1.1" 401 48 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Mar/2022:08:45:07 +0000] "POST /api/v1/users/ HTTP/1.1" 201 101 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Mar/2022:09:56:30 +0000] "POST /api/v1/users/ HTTP/1.1" 201 101 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Mar/2022:10:01:09 +0000] "POST /api/v1/users/ HTTP/1.1" 500 69 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Mar/2022:10:01:32 +0000] "POST /api/v1/users/ HTTP/1.1" 201 101 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Mar/2022:10:03:11 +0000] "POST /api/v1/users/ HTTP/1.1" 500 74 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Mar/2022:11:24:55 +0000] "POST /api/v1/users/ HTTP/1.1" 422 238 "-" "Thunder Client (https://www.thunderclient.com)"
+

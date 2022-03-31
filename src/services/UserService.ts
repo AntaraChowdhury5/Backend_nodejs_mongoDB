@@ -1,8 +1,6 @@
 import { UserDao } from '../Dao/user.dao';
 import { User } from '../models/user.model';
-//import { IUserDao } from '../Dao/user.dao';
-import ResponseType from '../models/response';
-//import { ObjectId } from 'mongodb';
+import ResponseType from '../models/ResponseType';
 
 class UserService {
   public responseType = new ResponseType();
@@ -18,7 +16,6 @@ class UserService {
 
   //create new user
   public newUser = async (body: User): Promise<any> => {
-    //let responseType= new ResponseType();
     const userDao = new UserDao()
     const res = await userDao.saveUser(body);
     this.responseType.code = 201;
@@ -79,18 +76,3 @@ class UserService {
   }
 }
 export default UserService;
-
-
-
-
-
-/* {
-  _id
-},
-body,
-{
-  new: true
-}
-);
-return data;
-}; */

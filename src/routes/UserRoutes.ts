@@ -1,12 +1,12 @@
 import express, { IRouter } from 'express';
-import userController from '../controllers/user.controller';
-import userValidator from '../validators/user.validator';
-import { userAuth } from '../middlewares/auth.middleware';
+import userController from '../controllers/UserController';
+import {Schemas,ValidateJoi} from "../validators/UserValidator"
+import { adminAuth } from '../middlewares/auth.middleware';
 
 class UserRoutes {
   private UserController = new userController();
   private router = express.Router();
-  private UserValidator = new userValidator();
+  
 
   constructor() {
     this.routes();
@@ -16,16 +16,16 @@ class UserRoutes {
     //route to get all users
     this.router.get('', this.UserController.getAllUsers); 
 
-    //route to create a new user
-    this.router.post('',this.UserController.newUser);
+    //route to create a new employee
+    this.router.post('',adminAuth,ValidateJoi(Schemas.data),this.UserController.newUser);
 
-    //route to get a single user
+    //route to get a single employee
     this.router.get('/:_id', this.UserController.getUser);
 
-    //route to update a single user
+    //route to update a single employee
     this.router.put('/:_id', this.UserController.updateUser); 
 
-    //route to delete a single user
+    //route to delete a single employee
     this.router.delete('/:_id', this.UserController.deleteUser); 
 
     //register for admin

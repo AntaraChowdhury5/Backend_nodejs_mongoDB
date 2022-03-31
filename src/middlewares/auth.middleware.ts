@@ -1,35 +1,46 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import HttpStatus from 'http-status-codes';
 import jwt from 'jsonwebtoken';
 import { Request, Response, NextFunction } from 'express';
 
 /**
  * Middleware to authenticate if user has a valid Authorization token
- * Authorization: Bearer <token>
+ * Authorization: <token>
  *
  * @param {Object} req
  * @param {Object} res
  * @param {Function} next
  */
-export const userAuth = async (
+
+export const adminAuth = async (
   req: Request,
   res: Response,
   next: NextFunction
 ): Promise<void> => {
   try {
-    let bearerToken = req.header('Authorization');
-    if (!bearerToken)
-      throw {
-        code: HttpStatus.BAD_REQUEST,
-        message: 'Authorization token is required'
-      };
-    bearerToken = bearerToken.split(' ')[1];
-
-    const { user }: any = await jwt.verify(bearerToken, 'your-secret-key');
-    res.locals.user = user;
-    res.locals.token = bearerToken;
-    next();
+    let adminToken = req.header('token');
+    if (!adminToken) {
+      throw new Error("Authorization token is required" + 404);
+    }
+   jwt.verify(adminToken, 'antara', ((err, decode) => {
+      if (err) {
+        console.log(err)
+        return res.status(401).send({
+          status: false,
+          message: "Authentication declined"
+        });
+      }
+      else {
+        if (decode.role == "Admin") {
+          next();
+        } else {
+          return res.status(401).send({
+            status: false,
+            message: 'Unauthorised access'
+          });
+        }
+      }
+    }))
   } catch (error) {
     next(error);
   }
-};
+}

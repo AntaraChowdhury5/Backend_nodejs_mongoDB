@@ -4,7 +4,8 @@ export class User  {
   public email:string;
   public password:string;
   public department : string;
-  public role?: string;
+  public role: string;
+  YOJ?: number;
 }
 
 

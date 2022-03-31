@@ -4,11 +4,9 @@ dotenv.config();
 import express, { Application } from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
-
 import routes from './routes';
-//import Database from './config/database';
 import { database } from './config/database';
-import ErrorHandler from './middlewares/error.middleware';
+import ErrorHandler from './middlewares/ErrorMiddleware';
 import Logger from './config/logger';
 
 import morgan from 'morgan';
@@ -20,7 +18,6 @@ class App {
   public port: string | number;
   public api_version: string | number;
   public env: boolean;
-  //private db = new Database();
   private logStream = Logger.logStream;
   private logger = Logger.logger;
   public errorHandler = new ErrorHandler();
@@ -32,7 +29,6 @@ class App {
     this.api_version = process.env.API_VERSION;
     this.initializeMiddleWares();
     this.initializeRoutes();
-    //this.initializeDatabase();
     this.initializeErrorHandlers();
     this.startApp();
   }
@@ -45,9 +41,6 @@ class App {
     this.app.use(morgan('combined', { stream: this.logStream }));
   }
 
-  /* public initializeDatabase(): void {
-    this.db.initializeDatabase();
-  } */
 
   public initializeRoutes(): void {
     this.app.use(`/api/${this.api_version}`, routes());

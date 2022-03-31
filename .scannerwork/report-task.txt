@@ -1,0 +1,6 @@
+projectKey=EmpType
+serverUrl=http://localhost:9050
+serverVersion=9.3.0.51899
+dashboardUrl=http://localhost:9050/dashboard?id=EmpType
+ceTaskId=AX_fcj_rcERBSNOaLoBM
+ceTaskUrl=http://localhost:9050/api/ce/task?id=AX_fcj_rcERBSNOaLoBM

@@ -1,9 +1,9 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import HttpStatus from 'http-status-codes';
-import userService from '../services/user.service';
-import ResponseType from '../models/response';
+import userService from '../services/UserService';
+import ResponseType from '../models/ResponseType';
 import { Request, Response, NextFunction } from 'express';
-import { User } from '../models/user.model';
+
 
 class UserController {
   public UserService = new userService();
@@ -20,12 +20,12 @@ class UserController {
     next: NextFunction
   ): Promise<any> => {
     try {
-      const data:ResponseType = await this.UserService.newUser(req.body);
-      console.log(data);
-      res.status(data.code).json({
-        code: data.code,
-        data: data.data,
-        message: data.message
+      const reqdata:ResponseType = await this.UserService.newUser(req.body);
+      console.log(reqdata);
+      res.status(reqdata.code).json({
+        code: reqdata.code,
+        data: reqdata.data,
+        message:reqdata.message
       });
     } catch (error) {
       next(error);

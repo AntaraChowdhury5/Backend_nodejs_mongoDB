@@ -17,30 +17,28 @@ export interface IUserDao {
 }
 export class UserDao implements IUserDao {
     public saveUser = async (user: User) => {
-        const result = await db.collection<User>(collectionName).insertOne(user);
-        return result;
+        return db.collection<User>(collectionName).insertOne(user);
     }
 
     public findById = async (_id: string) => {
-        const result = await db.collection<User>(collectionName).findOne({ "_id": new ObjectId(_id) });
+        let result = await db.collection<User>(collectionName).findOne({ "_id": new ObjectId(_id) });
         console.log(result);
         return result;
     }
 
     public getAllUser = async () => {
-        const cursor = await db.collection<User>(collectionName).find({});
-        const result = await cursor.toArray();
-        return result
+        const cursor = db.collection<User>(collectionName).find({});
+        return cursor.toArray();
     }
 
     public deleteUser = async (_id: string) => {
-        const result = await db.collection<User>(collectionName).deleteOne({ "_id": new ObjectId(_id) });
+        let result = await db.collection<User>(collectionName).deleteOne({ "_id": new ObjectId(_id) });
         console.log(result);
         return result;
     }
 
     public Update = async (_id: string, body: User) => {
-        let result = await db.collection<User>(collectionName).findOneAndUpdate(
+        return db.collection<User>(collectionName).findOneAndUpdate(
             { _id: new ObjectId(_id) },
             {
                 $set: {
@@ -48,18 +46,16 @@ export class UserDao implements IUserDao {
                 }
             }
         )
-        return result;
     }
 
     public registration = async (body:User) => {
         const hashedPassWord = await bcrypt.hash(body.password, 10);
         body.password = hashedPassWord;
-        let result = await db.collection<User>(collectionName).insertOne(body);
-        return result;
+        return db.collection<User>(collectionName).insertOne(body);
     };
 
     public loggedin = async (body:User) => {
-        let data = await db.collection<User>(collectionName)
+        let data = db.collection<User>(collectionName)
         const findData = await data.findOne({
             email: body.email
         });
@@ -68,30 +64,23 @@ export class UserDao implements IUserDao {
             if (passworkCheck) {
                 const secretKey = 'antara';
                 const payload = { id: findData._id, email: findData.email, role: findData.role };
-                const token = await jwt.sign(payload, secretKey)
+                const token = jwt.sign(payload, secretKey)
                 Logger.logger.info(`Login token  ${token}`);
-                return new Promise((resolve, reject) => {
-                    resolve({
-                        UserDetails: {
-                            userId: findData._id,
-                            email: findData.email,
-                            role: findData.role,
-                            token: token
-                        }
-                    })
-                })
+                return Promise.resolve({
+                    UserDetails: {
+                        userId: findData._id,
+                        email: findData.email,
+                        role: findData.role,
+                        token: token
+                    }
+                });
             }
             else {
-                return new Promise((resolve, reject) => {
-                    reject("worng entry");
-                }
-                )
+            return Promise.reject("Wrong Entry")
             }
         }
         else {
-            return new Promise((resolve, reject) => {
-                reject("worng entry");
-            })
+            return Promise.reject("Wrong Entry")
         }
     } 
 
