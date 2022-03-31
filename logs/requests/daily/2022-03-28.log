@@ -70,3 +70,23 @@ info: ::ffff:127.0.0.1 - - [28/Mar/2022:17:35:27 +0000] "GET /api/v1/users/6241b
 
 info: ::ffff:127.0.0.1 - - [28/Mar/2022:17:35:55 +0000] "GET /api/v1/users/6241b2f71307d0fab5dc62b4 HTTP/1.1" 200 65 "-" "Thunder Client (https://www.thunderclient.com)"
 
+info: ::ffff:127.0.0.1 - - [28/Mar/2022:17:57:00 +0000] "GET /api/v1/users/ HTTP/1.1" 200 398 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [28/Mar/2022:17:57:13 +0000] "GET /api/v1/users/6241b2a61307d0fab5dc62b2 HTTP/1.1" 200 65 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [28/Mar/2022:18:00:54 +0000] "GET /api/v1/users/6241b2a61307d0fab5dc62b2 HTTP/1.1" 200 65 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [28/Mar/2022:18:04:12 +0000] "GET /api/v1/users/6241b2a61307d0fab5dc62b2 HTTP/1.1" 200 173 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [28/Mar/2022:18:06:55 +0000] "GET /api/v1/users/6241b2a61307d0fab5dc62b2 HTTP/1.1" 200 173 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [28/Mar/2022:18:07:04 +0000] "GET /api/v1/users/6241b2a61307d0fab5dc62b2 HTTP/1.1" 200 173 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [28/Mar/2022:18:08:18 +0000] "GET /api/v1/users/6241b2b71307d0fab5dc62b3 HTTP/1.1" 200 173 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [28/Mar/2022:18:08:28 +0000] "GET /api/v1/users/6241b2b71307d0fab5dc62b HTTP/1.1" 500 115 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [28/Mar/2022:18:08:43 +0000] "GET /api/v1/users/6241b2b71307d0fab5dc62b8 HTTP/1.1" 200 65 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [28/Mar/2022:18:08:48 +0000] "GET /api/v1/users/6241b2b71307d0fab5dc62b3 HTTP/1.1" 200 173 "-" "Thunder Client (https://www.thunderclient.com)"
+

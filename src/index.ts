@@ -30,7 +30,6 @@ class App {
     this.host = process.env.APP_HOST;
     this.port = process.env.APP_PORT;
     this.api_version = process.env.API_VERSION;
-
     this.initializeMiddleWares();
     this.initializeRoutes();
     //this.initializeDatabase();

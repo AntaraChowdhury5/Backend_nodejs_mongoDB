@@ -1,0 +1,84 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-30T06:42:19.309Z"}
+info: Connected to the database. {"timestamp":"2022-03-30T06:42:19.340Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-30T08:57:56.653Z"}
+info: Connected to the database. {"timestamp":"2022-03-30T08:57:56.675Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-30T09:06:28.269Z"}
+info: Connected to the database. {"timestamp":"2022-03-30T09:06:28.290Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-30T09:08:10.356Z"}
+info: Connected to the database. {"timestamp":"2022-03-30T09:08:10.384Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-30T09:14:21.525Z"}
+info: Connected to the database. {"timestamp":"2022-03-30T09:14:21.548Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-30T10:14:31.094Z"}
+info: Connected to the database. {"timestamp":"2022-03-30T10:14:31.114Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-30T10:14:41.747Z"}
+info: Connected to the database. {"timestamp":"2022-03-30T10:14:41.773Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-30T10:15:00.089Z"}
+info: Connected to the database. {"timestamp":"2022-03-30T10:15:00.110Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-30T10:15:30.160Z"}
+info: Connected to the database. {"timestamp":"2022-03-30T10:15:30.177Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-30T10:16:03.503Z"}
+info: Connected to the database. {"timestamp":"2022-03-30T10:16:03.524Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-30T10:17:22.492Z"}
+info: Connected to the database. {"timestamp":"2022-03-30T10:17:22.513Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-30T10:18:21.817Z"}
+info: Connected to the database. {"timestamp":"2022-03-30T10:18:21.838Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 96
+    at JSON.parse (<anonymous>)
+    at parse (C:\Projects\EmpType\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Projects\EmpType\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Projects\EmpType\node_modules\raw-body\index.js:224:16)
+    at done (C:\Projects\EmpType\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Projects\EmpType\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:532:35)
+    at endReadableNT (node:internal/streams/readable:1346:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-30T10:19:35.970Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-30T10:20:46.416Z"}
+info: Connected to the database. {"timestamp":"2022-03-30T10:20:46.440Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-30T10:21:43.157Z"}
+info: Connected to the database. {"timestamp":"2022-03-30T10:21:43.179Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-30T10:50:55.301Z"}
+info: Connected to the database. {"timestamp":"2022-03-30T10:50:55.317Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-30T10:53:50.180Z"}
+info: Connected to the database. {"timestamp":"2022-03-30T10:53:50.201Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-30T11:58:37.530Z"}
+info: Connected to the database. {"timestamp":"2022-03-30T11:58:37.553Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (C:\Projects\EmpType\node_modules\bcrypt\bcrypt.js:137:17)
+    at C:\Projects\EmpType\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Projects\EmpType\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (C:\Projects\EmpType\node_modules\bcrypt\bcrypt.js:133:25)
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\user.dao.ts:58:45)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\Dao\user.dao.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\Dao\user.dao.ts:4:12) 
+    url - /api/v1/users/registrationAdmin 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-30T12:02:53.863Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 79
+    at JSON.parse (<anonymous>)
+    at parse (C:\Projects\EmpType\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Projects\EmpType\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Projects\EmpType\node_modules\raw-body\index.js:224:16)
+    at done (C:\Projects\EmpType\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Projects\EmpType\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:532:35)
+    at endReadableNT (node:internal/streams/readable:1346:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/registrationAdmin 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-30T12:08:45.316Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNDQ0ODU1YjNiNTVmMDBlN2Y4N2RlMyIsImVtYWlsIjoiQWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ4NjQyMTgwfQ.hPj3CG8CiumCKpIeEtZfjiNajdS1Y-Epr97ZRQD0Ksc {"timestamp":"2022-03-30T12:09:40.898Z"}

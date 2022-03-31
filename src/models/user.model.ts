@@ -1,9 +1,10 @@
 export class User  {
   public _id: string | Object;
-  private name: string;
-  private email:string;
-  private department : string;
-  private role: string;
+  public name: string;
+  public email:string;
+  public password:string;
+  public department : string;
+  public role?: string;
 }
 
 

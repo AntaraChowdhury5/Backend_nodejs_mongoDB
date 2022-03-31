@@ -1,0 +1,4 @@
+info: ::ffff:127.0.0.1 - - [31/Mar/2022:05:28:14 +0000] "PUT /api/v1/users/id HTTP/1.1" 500 115 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Mar/2022:05:28:29 +0000] "PUT /api/v1/users/62442ea2b73a94398d4cb9bc HTTP/1.1" 202 233 "-" "Thunder Client (https://www.thunderclient.com)"
+

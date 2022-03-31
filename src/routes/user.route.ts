@@ -21,12 +21,18 @@ class UserRoutes {
 
     //route to get a single user
     this.router.get('/:_id', this.UserController.getUser);
-/*
+
     //route to update a single user
-    this.router.put('/:_id', this.UserController.updateUser);
+    this.router.put('/:_id', this.UserController.updateUser); 
 
     //route to delete a single user
-    this.router.delete('/:_id', this.UserController.deleteUser); */
+    this.router.delete('/:_id', this.UserController.deleteUser); 
+
+    //register for admin
+    this.router.post('/registrationAdmin',this.UserController.registration)
+
+    //login
+    this.router.post("/login", this.UserController.login);
   };
 
   public getRoutes = (): IRouter => {

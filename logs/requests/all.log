@@ -70,3 +70,59 @@ info: ::ffff:127.0.0.1 - - [28/Mar/2022:17:35:27 +0000] "GET /api/v1/users/6241b
 
 info: ::ffff:127.0.0.1 - - [28/Mar/2022:17:35:55 +0000] "GET /api/v1/users/6241b2f71307d0fab5dc62b4 HTTP/1.1" 200 65 "-" "Thunder Client (https://www.thunderclient.com)"
 
+info: ::ffff:127.0.0.1 - - [28/Mar/2022:17:57:00 +0000] "GET /api/v1/users/ HTTP/1.1" 200 398 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [28/Mar/2022:17:57:13 +0000] "GET /api/v1/users/6241b2a61307d0fab5dc62b2 HTTP/1.1" 200 65 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [28/Mar/2022:18:00:54 +0000] "GET /api/v1/users/6241b2a61307d0fab5dc62b2 HTTP/1.1" 200 65 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [28/Mar/2022:18:04:12 +0000] "GET /api/v1/users/6241b2a61307d0fab5dc62b2 HTTP/1.1" 200 173 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [28/Mar/2022:18:06:55 +0000] "GET /api/v1/users/6241b2a61307d0fab5dc62b2 HTTP/1.1" 200 173 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [28/Mar/2022:18:07:04 +0000] "GET /api/v1/users/6241b2a61307d0fab5dc62b2 HTTP/1.1" 200 173 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [28/Mar/2022:18:08:18 +0000] "GET /api/v1/users/6241b2b71307d0fab5dc62b3 HTTP/1.1" 200 173 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [28/Mar/2022:18:08:28 +0000] "GET /api/v1/users/6241b2b71307d0fab5dc62b HTTP/1.1" 500 115 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [28/Mar/2022:18:08:43 +0000] "GET /api/v1/users/6241b2b71307d0fab5dc62b8 HTTP/1.1" 200 65 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [28/Mar/2022:18:08:48 +0000] "GET /api/v1/users/6241b2b71307d0fab5dc62b3 HTTP/1.1" 200 173 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [30/Mar/2022:06:44:24 +0000] "DELETE /api/v1/users/6241b2b71307d0fab5dc62b3 HTTP/1.1" 200 99 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [30/Mar/2022:06:46:35 +0000] "DELETE /api/v1/users/6241b2f71307d0fab5dc62b4 HTTP/1.1" 200 99 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [30/Mar/2022:06:47:36 +0000] "GET /api/v1/users/6241b2f71307d0fab5dc62b4 HTTP/1.1" 200 65 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [30/Mar/2022:06:47:46 +0000] "DELETE /api/v1/users/6241b2f71307d0fab5dc62b4 HTTP/1.1" 200 99 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [30/Mar/2022:10:19:14 +0000] "POST /api/v1/users/ HTTP/1.1" 201 101 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [30/Mar/2022:10:19:43 +0000] "POST /api/v1/users/ HTTP/1.1" 201 101 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [30/Mar/2022:10:23:13 +0000] "PUT /api/v1/users:62442ea2b73a94398d4cb9bc HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [30/Mar/2022:10:23:23 +0000] "PUT /api/v1/users/62442ea2b73a94398d4cb9bc HTTP/1.1" 202 236 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [30/Mar/2022:10:23:57 +0000] "PUT /api/v1/users/62442ea2b73a94398d4cb9bc HTTP/1.1" 202 237 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [30/Mar/2022:10:24:45 +0000] "PUT /api/v1/users/62442ea2b73a94398d4cb9bc HTTP/1.1" 202 231 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [30/Mar/2022:12:02:53 +0000] "POST /api/v1/users/registrationAdmin HTTP/1.1" 500 67 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [30/Mar/2022:12:08:53 +0000] "POST /api/v1/users/registrationAdmin HTTP/1.1" 201 117 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [30/Mar/2022:12:09:40 +0000] "POST /api/v1/users/login HTTP/1.1" 200 358 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [30/Mar/2022:12:12:30 +0000] "POST /api/v1/users/ HTTP/1.1" 201 101 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [30/Mar/2022:12:14:47 +0000] "POST /api/v1/users/ HTTP/1.1" 201 101 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [30/Mar/2022:12:17:47 +0000] "POST /api/v1/users/ HTTP/1.1" 201 101 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Mar/2022:05:28:14 +0000] "PUT /api/v1/users/id HTTP/1.1" 500 115 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [31/Mar/2022:05:28:29 +0000] "PUT /api/v1/users/62442ea2b73a94398d4cb9bc HTTP/1.1" 202 233 "-" "Thunder Client (https://www.thunderclient.com)"
+
