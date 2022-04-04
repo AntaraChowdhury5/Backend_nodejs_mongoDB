@@ -61,3 +61,26 @@ error:
     method - PUT 
     IP - ::ffff:127.0.0.1
    {"timestamp":"2022-04-04T10:56:09.213Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-04T12:08:36.459Z"}
+info: Connected to the database. {"timestamp":"2022-04-04T12:08:36.483Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-04T12:13:53.842Z"}
+info: Connected to the database. {"timestamp":"2022-04-04T12:13:53.855Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-04T12:14:39.595Z"}
+info: Connected to the database. {"timestamp":"2022-04-04T12:14:39.615Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required404
+    at C:\Projects\EmpType\src\middlewares\auth.middleware.ts:22:13
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\middlewares\auth.middleware.ts:4:12)
+    at adminAuth (C:\Projects\EmpType\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (C:\Projects\EmpType\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\EmpType\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\EmpType\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\EmpType\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/role 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-04T12:15:48.397Z"}

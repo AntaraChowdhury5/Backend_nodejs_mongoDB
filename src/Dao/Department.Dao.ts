@@ -1,7 +1,6 @@
 import { ObjectId } from "mongodb";
 import { db } from "../config/database";
 import { Department } from "../models/department.model";
-import Logger from "../config/logger";
 const collectionName = "departments";
 
 export interface IDepartmentDao {

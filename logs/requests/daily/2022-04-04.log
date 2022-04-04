@@ -82,3 +82,15 @@ info: ::ffff:127.0.0.1 - - [04/Apr/2022:10:56:13 +0000] "PUT /api/v1/dept/624ace
 
 info: ::ffff:127.0.0.1 - - [04/Apr/2022:10:56:43 +0000] "PUT /api/v1/dept/624ace873ee49b48c8994011 HTTP/1.1" 202 195 "-" "Thunder Client (https://www.thunderclient.com)"
 
+info: ::ffff:127.0.0.1 - - [04/Apr/2022:12:15:43 +0000] "GET /api/v1/role HTTP/1.1" 200 63 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [04/Apr/2022:12:15:48 +0000] "POST /api/v1/role HTTP/1.1" 500 69 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [04/Apr/2022:12:16:11 +0000] "POST /api/v1/role HTTP/1.1" 201 101 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [04/Apr/2022:12:16:34 +0000] "POST /api/v1/role HTTP/1.1" 422 182 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [04/Apr/2022:12:17:01 +0000] "POST /api/v1/role HTTP/1.1" 422 266 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [04/Apr/2022:12:17:46 +0000] "POST /api/v1/role HTTP/1.1" 422 268 "-" "Thunder Client (https://www.thunderclient.com)"
+
