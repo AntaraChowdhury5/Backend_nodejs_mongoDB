@@ -1,8 +1,8 @@
 import Joi, { ObjectSchema } from 'joi';
 import { NextFunction, Request, Response } from 'express';
-import { User } from '../models/user.model';
+import { Employee } from '../models/employee.model';
 
-export const ValidateJoi = (schema: ObjectSchema) => {
+export const validateJoi = (schema: ObjectSchema) => {
     return async (req: Request, res: Response, next: NextFunction) => {
         try {
             await schema.validateAsync(req.body);
@@ -16,8 +16,8 @@ export const ValidateJoi = (schema: ObjectSchema) => {
     };
 };
 
-export const Schemas = {
-    data: Joi.object<User>({
+export const schemas = {
+    data: Joi.object<Employee>({
         name: Joi.string().alphanum().min(3).max(15).required(),
         password: Joi.string().pattern(new RegExp('^[a-zA-Z0-9]{3,30}$')),
         email: Joi.string().email().required(),

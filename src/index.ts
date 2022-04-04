@@ -64,7 +64,6 @@ class App {
     return this.app;
   }
 }
-
 const app = new App();
 
 export default app;

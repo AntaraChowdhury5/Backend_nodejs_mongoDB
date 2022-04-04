@@ -1,11 +1,11 @@
-import { UserDao } from '../Dao/user.dao';
-import { User } from '../models/user.model';
+import { UserDao } from '../Dao/Employee.Dao';
+import {Employee } from '../models/employee.model';
 import ResponseType from '../models/ResponseType';
 
-class UserService {
+class EmployeeService {
   public responseType = new ResponseType();
   //get all users
-  public getAllUsers = async (): Promise<any> => {
+  public getAllEmps = async (): Promise<any> => {
     const userDao = new UserDao()
     const res = await userDao.getAllUser();
     this.responseType.code = 200;
@@ -15,7 +15,7 @@ class UserService {
   };
 
   //create new user
-  public newUser = async (body: User): Promise<any> => {
+  public newEmp = async (body: Employee): Promise<any> => {
     const userDao = new UserDao()
     const res = await userDao.saveUser(body);
     this.responseType.code = 201;
@@ -25,7 +25,7 @@ class UserService {
   };
 
   //get a single user
-  public getUser = async (_id: string): Promise<any> => {
+  public getEmp = async (_id: string): Promise<any> => {
     const userDao = new UserDao();
     const res = await userDao.findById(_id);
     this.responseType.code = 200;
@@ -35,7 +35,7 @@ class UserService {
   };
 
   //delete a user
-  public deleteUser = async (_id: string): Promise<any> => {
+  public deleteEmp = async (_id: string): Promise<any> => {
     const userDao = new UserDao();
     const res = await userDao.deleteUser(_id);
     this.responseType.code = 200;
@@ -46,7 +46,7 @@ class UserService {
   };
 
   //update a user
-  public updateUser = async (_id: string, body: User): Promise<any> => {
+  public updateEmp = async (_id: string, body: Employee): Promise<any> => {
     const userDao = new UserDao();
     const res = await userDao.Update(_id, body);
     this.responseType.code = 202;
@@ -56,7 +56,7 @@ class UserService {
   };
 
   //registration
-  public registration = async (body: User) => {
+  public registration = async (body: Employee) => {
     const userDao = new UserDao();
     const res = await userDao.registration(body);
     this.responseType.code = 201;
@@ -66,7 +66,7 @@ class UserService {
   };
 
   //login
-  public loggedin = async (body: User) => {
+  public loggedin = async (body: Employee) => {
     const userDao = new UserDao();
     const res = await userDao.loggedin(body);
     this.responseType.code = 200;
@@ -75,4 +75,4 @@ class UserService {
     return this.responseType;
   }
 }
-export default UserService;
+export default EmployeeService;

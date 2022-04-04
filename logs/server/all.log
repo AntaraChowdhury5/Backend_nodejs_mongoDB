@@ -480,3 +480,297 @@ TypeError: UserValidator_1.default is not a constructor
     at require.extensions..jsx.require.extensions..js (C:\Users\ANTARA~1.CHO\AppData\Local\Temp\ts-node-dev-hook-39303988813536694.js:114:20) {"date":"Thu Mar 31 2022 16:51:04 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":535931},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18569901,"external":23352099,"heapTotal":37134336,"heapUsed":24466176,"rss":111267840},"pid":11368,"uid":null,"version":"v16.14.0"},"stack":"TypeError: UserValidator_1.default is not a constructor\n    at new UserRoutes (C:\\Projects\\EmpType\\src\\routes\\UserRoutes.ts:9:27)\n    at routes (C:\\Projects\\EmpType\\src\\routes\\index.ts:15:24)\n    at App.initializeRoutes (C:\\Projects\\EmpType\\src\\index.ts:46:52)\n    at new App (C:\\Projects\\EmpType\\src\\index.ts:31:10)\n    at Object.<anonymous> (C:\\Projects\\EmpType\\src\\index.ts:68:13)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Module._compile (C:\\Projects\\EmpType\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-39303988813536694.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-39303988813536694.js:114:20)","timestamp":"2022-03-31T11:21:04.934Z","trace":[{"column":27,"file":"C:\\Projects\\EmpType\\src\\routes\\UserRoutes.ts","function":"new UserRoutes","line":9,"method":null,"native":false},{"column":24,"file":"C:\\Projects\\EmpType\\src\\routes\\index.ts","function":"routes","line":15,"method":null,"native":false},{"column":52,"file":"C:\\Projects\\EmpType\\src\\index.ts","function":"App.initializeRoutes","line":46,"method":"initializeRoutes","native":false},{"column":10,"file":"C:\\Projects\\EmpType\\src\\index.ts","function":"new App","line":31,"method":null,"native":false},{"column":13,"file":"C:\\Projects\\EmpType\\src\\index.ts","function":null,"line":68,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false},{"column":25,"file":"C:\\Projects\\EmpType\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-39303988813536694.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1155,"method":".js","native":false},{"column":20,"file":"C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-39303988813536694.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false}]}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-31T11:23:31.948Z"}
 info: Connected to the database. {"timestamp":"2022-03-31T11:23:31.964Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-31T11:25:24.963Z"}
+info: Connected to the database. {"timestamp":"2022-03-31T11:25:24.990Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 79
+    at JSON.parse (<anonymous>)
+    at parse (C:\Projects\EmpType\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Projects\EmpType\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Projects\EmpType\node_modules\raw-body\index.js:224:16)
+    at done (C:\Projects\EmpType\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Projects\EmpType\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:532:35)
+    at endReadableNT (node:internal/streams/readable:1346:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-31T11:32:27.672Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-01T05:22:50.481Z"}
+info: Connected to the database. {"timestamp":"2022-04-01T05:22:50.512Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-01T05:25:16.918Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNDQ0ODU1YjNiNTVmMDBlN2Y4N2RlMyIsImVtYWlsIjoiQWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ4NzkwNzM5fQ.3fUonSXZVmrP1YOpjYQeSpDTM-xvbHVBMErR7kXEVAs {"timestamp":"2022-04-01T05:25:39.820Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-01T05:39:00.229Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNDQ0ODU1YjNiNTVmMDBlN2Y4N2RlMyIsImVtYWlsIjoiQWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ4NzkxNTUyfQ.bfeYxreddv5vrsB1VQ-PzhPhgzNdoVBKWdkznns__mU {"timestamp":"2022-04-01T05:39:12.656Z"}
+error: 
+    status - 500 
+    message - BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters
+    at new BSONTypeError (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\error.ts:16:5)
+    at new ObjectId (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\objectid.ts:86:15)
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\user.dao.ts:35:83)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\Dao\user.dao.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\Dao\user.dao.ts:4:12)
+    at UserDao.deleteUser (C:\Projects\EmpType\src\Dao\user.dao.ts:34:47)
+    at UserService.<anonymous> (C:\Projects\EmpType\src\services\UserService.ts:40:31)
+    at Generator.next (<anonymous>) 
+    url - /api/v1/users/undefined 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-04-01T05:50:23.122Z"}
+error: uncaughtException: userController is not defined
+ReferenceError: userController is not defined
+    at Object.<anonymous> (C:\Projects\EmpType\src\controllers\UserController.ts:179:16)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (C:\Projects\EmpType\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\ANTARA~1.CHO\AppData\Local\Temp\ts-node-dev-hook-345001305426317.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\ANTARA~1.CHO\AppData\Local\Temp\ts-node-dev-hook-345001305426317.js:114:20)
+    at require.extensions.<computed> (C:\Users\ANTARA~1.CHO\AppData\Local\Temp\ts-node-dev-hook-345001305426317.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Projects\EmpType\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12) {"date":"Fri Apr 01 2022 17:47:59 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":625745},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18847273,"external":22740776,"heapTotal":34250752,"heapUsed":23974328,"rss":64569344},"pid":19832,"uid":null,"version":"v16.14.0"},"stack":"ReferenceError: userController is not defined\n    at Object.<anonymous> (C:\\Projects\\EmpType\\src\\controllers\\UserController.ts:179:16)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Module._compile (C:\\Projects\\EmpType\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-345001305426317.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-345001305426317.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-345001305426317.js:71:20)\n    at Object.nodeDevHook [as .ts] (C:\\Projects\\EmpType\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)","timestamp":"2022-04-01T12:17:59.127Z","trace":[{"column":16,"file":"C:\\Projects\\EmpType\\src\\controllers\\UserController.ts","function":null,"line":179,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false},{"column":25,"file":"C:\\Projects\\EmpType\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-345001305426317.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1155,"method":".js","native":false},{"column":20,"file":"C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-345001305426317.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-345001305426317.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"C:\\Projects\\EmpType\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-01T12:18:20.181Z"}
+info: Connected to the database. {"timestamp":"2022-04-01T12:18:20.228Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNDQ0ODU1YjNiNTVmMDBlN2Y4N2RlMyIsImVtYWlsIjoiQWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ4ODE1NTA1fQ.rCQFewp0unOWzvk7bfl-SuY-g5P03B57jmhQ9KWsIeE {"timestamp":"2022-04-01T12:18:25.149Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNDQ0ODU1YjNiNTVmMDBlN2Y4N2RlMyIsImVtYWlsIjoiQWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ4ODE1NjAxfQ.iSsOBD8Y7bpgD4vKL3xMbTaoVxfzw-sKSkU0-jyoV_8 {"timestamp":"2022-04-01T12:20:01.721Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-02T08:39:58.186Z"}
+info: Connected to the database. {"timestamp":"2022-04-02T08:39:58.208Z"}
+error: 
+    status - 500 
+    message - BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters
+    at new BSONTypeError (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\error.ts:16:5)
+    at new ObjectId (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\objectid.ts:86:15)
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\user.dao.ts:35:83)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\Dao\user.dao.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\Dao\user.dao.ts:4:12)
+    at UserDao.deleteUser (C:\Projects\EmpType\src\Dao\user.dao.ts:34:47)
+    at UserService.<anonymous> (C:\Projects\EmpType\src\services\UserService.ts:40:31)
+    at Generator.next (<anonymous>) 
+    url - /api/v1/users/undefined 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-04-02T16:43:19.577Z"}
+error: 
+    status - 500 
+    message - BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters
+    at new BSONTypeError (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\error.ts:16:5)
+    at new ObjectId (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\objectid.ts:86:15)
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\user.dao.ts:35:83)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\Dao\user.dao.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\Dao\user.dao.ts:4:12)
+    at UserDao.deleteUser (C:\Projects\EmpType\src\Dao\user.dao.ts:34:47)
+    at UserService.<anonymous> (C:\Projects\EmpType\src\services\UserService.ts:40:31)
+    at Generator.next (<anonymous>) 
+    url - /api/v1/users/[object%20Object] 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-04-02T17:15:17.716Z"}
+error: 
+      status - 66
+      message - Plan executor error during findAndModify :: caused by :: Performing an update on the path '_id' would modify the immutable field '_id' 
+      url - /api/v1/users/62488675a9c28f5fbb8642dd 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2022-04-02T17:47:41.266Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 66
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\Projects\EmpType\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Projects\EmpType\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\Projects\EmpType\node_modules\express\lib\response.js:267:15)
+    at ErrorMiddleware.appErrorHandler (C:\Projects\EmpType\src\middlewares\ErrorMiddleware.ts:53:28)
+    at Layer.handle_error (C:\Projects\EmpType\node_modules\express\lib\router\layer.js:71:5) 
+    url - /api/v1/users/62488675a9c28f5fbb8642dd 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-04-02T17:47:41.273Z"}
+error: 
+      status - 66
+      message - Plan executor error during findAndModify :: caused by :: Performing an update on the path '_id' would modify the immutable field '_id' 
+      url - /api/v1/users/62488675a9c28f5fbb8642dd 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2022-04-02T17:48:43.480Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 66
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\Projects\EmpType\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Projects\EmpType\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\Projects\EmpType\node_modules\express\lib\response.js:267:15)
+    at ErrorMiddleware.appErrorHandler (C:\Projects\EmpType\src\middlewares\ErrorMiddleware.ts:53:28)
+    at Layer.handle_error (C:\Projects\EmpType\node_modules\express\lib\router\layer.js:71:5) 
+    url - /api/v1/users/62488675a9c28f5fbb8642dd 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-04-02T17:48:43.515Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-02T18:07:26.927Z"}
+info: Connected to the database. {"timestamp":"2022-04-02T18:07:26.946Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-02T18:13:02.889Z"}
+info: Connected to the database. {"timestamp":"2022-04-02T18:13:02.910Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-02T18:17:26.124Z"}
+info: Connected to the database. {"timestamp":"2022-04-02T18:17:26.147Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-02T18:17:41.000Z"}
+info: Connected to the database. {"timestamp":"2022-04-02T18:17:41.022Z"}
+error: 
+      status - 66
+      message - Plan executor error during findAndModify :: caused by :: Performing an update on the path '_id' would modify the immutable field '_id' 
+      url - /api/v1/emps/62488675a9c28f5fbb8642dd 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2022-04-02T18:19:38.710Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 66
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\Projects\EmpType\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Projects\EmpType\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\Projects\EmpType\node_modules\express\lib\response.js:267:15)
+    at ErrorMiddleware.appErrorHandler (C:\Projects\EmpType\src\middlewares\ErrorMiddleware.ts:53:28)
+    at Layer.handle_error (C:\Projects\EmpType\node_modules\express\lib\router\layer.js:71:5) 
+    url - /api/v1/emps/62488675a9c28f5fbb8642dd 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-04-02T18:19:38.734Z"}
+error: 
+      status - 66
+      message - Plan executor error during findAndModify :: caused by :: Performing an update on the path '_id' would modify the immutable field '_id' 
+      url - /api/v1/emps/62488675a9c28f5fbb8642dd 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2022-04-02T18:32:23.399Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 66
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\Projects\EmpType\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Projects\EmpType\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\Projects\EmpType\node_modules\express\lib\response.js:267:15)
+    at ErrorMiddleware.appErrorHandler (C:\Projects\EmpType\src\middlewares\ErrorMiddleware.ts:53:28)
+    at Layer.handle_error (C:\Projects\EmpType\node_modules\express\lib\router\layer.js:71:5) 
+    url - /api/v1/emps/62488675a9c28f5fbb8642dd 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-04-02T18:32:23.403Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-02T18:45:51.775Z"}
+info: Connected to the database. {"timestamp":"2022-04-02T18:45:51.805Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/emps/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-02T21:30:41.245Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNDQ0ODU1YjNiNTVmMDBlN2Y4N2RlMyIsImVtYWlsIjoiQWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ4OTM1MDY5fQ.3LBq3mjl1bStS8yH003kwFY14OBarFiWV5rsXbIF0tA {"timestamp":"2022-04-02T21:31:09.242Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-04T05:38:51.497Z"}
+info: Connected to the database. {"timestamp":"2022-04-04T05:38:51.517Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-04T07:44:32.032Z"}
+info: Connected to the database. {"timestamp":"2022-04-04T07:44:32.055Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-04T09:40:54.127Z"}
+info: Connected to the database. {"timestamp":"2022-04-04T09:40:54.152Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-04T09:47:32.765Z"}
+info: Connected to the database. {"timestamp":"2022-04-04T09:47:32.782Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required404
+    at C:\Projects\EmpType\src\middlewares\auth.middleware.ts:22:13
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\middlewares\auth.middleware.ts:4:12)
+    at adminAuth (C:\Projects\EmpType\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (C:\Projects\EmpType\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\EmpType\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\EmpType\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\EmpType\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/dept/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-04T10:40:09.946Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNDQ0ODU1YjNiNTVmMDBlN2Y4N2RlMyIsImVtYWlsIjoiQWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5MDY4ODczfQ.yY2SdXeh4EhtstpGL3PF97GzBYsyMuYTKpsd4Z8QfCo {"timestamp":"2022-04-04T10:41:13.300Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required404
+    at C:\Projects\EmpType\src\middlewares\auth.middleware.ts:22:13
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\middlewares\auth.middleware.ts:4:12)
+    at adminAuth (C:\Projects\EmpType\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (C:\Projects\EmpType\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\EmpType\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\EmpType\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\EmpType\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/dept/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-04T10:41:27.493Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-04T10:49:35.018Z"}
+info: Connected to the database. {"timestamp":"2022-04-04T10:49:35.039Z"}
+error: uncaughtException: joi_1.default.required(...).number is not a function
+TypeError: joi_1.default.required(...).number is not a function
+    at Object.<anonymous> (C:\Projects\EmpType\src\validators\DepartmentValidator.ts:21:34)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (C:\Projects\EmpType\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\ANTARA~1.CHO\AppData\Local\Temp\ts-node-dev-hook-06765825525676883.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\ANTARA~1.CHO\AppData\Local\Temp\ts-node-dev-hook-06765825525676883.js:114:20)
+    at require.extensions.<computed> (C:\Users\ANTARA~1.CHO\AppData\Local\Temp\ts-node-dev-hook-06765825525676883.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Projects\EmpType\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12) {"date":"Mon Apr 04 2022 16:22:31 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":879818},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18584034,"external":23346030,"heapTotal":37134336,"heapUsed":22805632,"rss":69775360},"pid":26704,"uid":null,"version":"v16.14.0"},"stack":"TypeError: joi_1.default.required(...).number is not a function\n    at Object.<anonymous> (C:\\Projects\\EmpType\\src\\validators\\DepartmentValidator.ts:21:34)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Module._compile (C:\\Projects\\EmpType\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-06765825525676883.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-06765825525676883.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-06765825525676883.js:71:20)\n    at Object.nodeDevHook [as .ts] (C:\\Projects\\EmpType\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)","timestamp":"2022-04-04T10:52:31.826Z","trace":[{"column":34,"file":"C:\\Projects\\EmpType\\src\\validators\\DepartmentValidator.ts","function":null,"line":21,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false},{"column":25,"file":"C:\\Projects\\EmpType\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-06765825525676883.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1155,"method":".js","native":false},{"column":20,"file":"C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-06765825525676883.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-06765825525676883.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"C:\\Projects\\EmpType\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-04T10:53:25.673Z"}
+info: Connected to the database. {"timestamp":"2022-04-04T10:53:25.692Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 26
+    at JSON.parse (<anonymous>)
+    at parse (C:\Projects\EmpType\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Projects\EmpType\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Projects\EmpType\node_modules\raw-body\index.js:224:16)
+    at done (C:\Projects\EmpType\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Projects\EmpType\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:532:35)
+    at endReadableNT (node:internal/streams/readable:1346:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/dept/624ace873ee49b48c8994011 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-04T10:56:09.213Z"}

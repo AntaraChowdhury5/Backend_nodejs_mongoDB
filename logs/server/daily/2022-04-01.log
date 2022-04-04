@@ -1,0 +1,39 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-01T05:22:50.481Z"}
+info: Connected to the database. {"timestamp":"2022-04-01T05:22:50.512Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-01T05:25:16.918Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNDQ0ODU1YjNiNTVmMDBlN2Y4N2RlMyIsImVtYWlsIjoiQWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ4NzkwNzM5fQ.3fUonSXZVmrP1YOpjYQeSpDTM-xvbHVBMErR7kXEVAs {"timestamp":"2022-04-01T05:25:39.820Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-01T05:39:00.229Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNDQ0ODU1YjNiNTVmMDBlN2Y4N2RlMyIsImVtYWlsIjoiQWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ4NzkxNTUyfQ.bfeYxreddv5vrsB1VQ-PzhPhgzNdoVBKWdkznns__mU {"timestamp":"2022-04-01T05:39:12.656Z"}
+error: 
+    status - 500 
+    message - BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters
+    at new BSONTypeError (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\error.ts:16:5)
+    at new ObjectId (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\objectid.ts:86:15)
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\user.dao.ts:35:83)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\Dao\user.dao.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\Dao\user.dao.ts:4:12)
+    at UserDao.deleteUser (C:\Projects\EmpType\src\Dao\user.dao.ts:34:47)
+    at UserService.<anonymous> (C:\Projects\EmpType\src\services\UserService.ts:40:31)
+    at Generator.next (<anonymous>) 
+    url - /api/v1/users/undefined 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-04-01T05:50:23.122Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-01T12:18:20.181Z"}
+info: Connected to the database. {"timestamp":"2022-04-01T12:18:20.228Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNDQ0ODU1YjNiNTVmMDBlN2Y4N2RlMyIsImVtYWlsIjoiQWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ4ODE1NTA1fQ.rCQFewp0unOWzvk7bfl-SuY-g5P03B57jmhQ9KWsIeE {"timestamp":"2022-04-01T12:18:25.149Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNDQ0ODU1YjNiNTVmMDBlN2Y4N2RlMyIsImVtYWlsIjoiQWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ4ODE1NjAxfQ.iSsOBD8Y7bpgD4vKL3xMbTaoVxfzw-sKSkU0-jyoV_8 {"timestamp":"2022-04-01T12:20:01.721Z"}

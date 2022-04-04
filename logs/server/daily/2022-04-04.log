@@ -1,0 +1,63 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-04T05:38:51.497Z"}
+info: Connected to the database. {"timestamp":"2022-04-04T05:38:51.517Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-04T07:44:32.032Z"}
+info: Connected to the database. {"timestamp":"2022-04-04T07:44:32.055Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-04T09:40:54.127Z"}
+info: Connected to the database. {"timestamp":"2022-04-04T09:40:54.152Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-04T09:47:32.765Z"}
+info: Connected to the database. {"timestamp":"2022-04-04T09:47:32.782Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required404
+    at C:\Projects\EmpType\src\middlewares\auth.middleware.ts:22:13
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\middlewares\auth.middleware.ts:4:12)
+    at adminAuth (C:\Projects\EmpType\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (C:\Projects\EmpType\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\EmpType\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\EmpType\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\EmpType\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/dept/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-04T10:40:09.946Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNDQ0ODU1YjNiNTVmMDBlN2Y4N2RlMyIsImVtYWlsIjoiQWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5MDY4ODczfQ.yY2SdXeh4EhtstpGL3PF97GzBYsyMuYTKpsd4Z8QfCo {"timestamp":"2022-04-04T10:41:13.300Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required404
+    at C:\Projects\EmpType\src\middlewares\auth.middleware.ts:22:13
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\middlewares\auth.middleware.ts:4:12)
+    at adminAuth (C:\Projects\EmpType\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (C:\Projects\EmpType\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\EmpType\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\EmpType\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\EmpType\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/dept/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-04T10:41:27.493Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-04T10:49:35.018Z"}
+info: Connected to the database. {"timestamp":"2022-04-04T10:49:35.039Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-04T10:53:25.673Z"}
+info: Connected to the database. {"timestamp":"2022-04-04T10:53:25.692Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 26
+    at JSON.parse (<anonymous>)
+    at parse (C:\Projects\EmpType\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Projects\EmpType\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Projects\EmpType\node_modules\raw-body\index.js:224:16)
+    at done (C:\Projects\EmpType\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Projects\EmpType\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:532:35)
+    at endReadableNT (node:internal/streams/readable:1346:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/dept/624ace873ee49b48c8994011 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-04T10:56:09.213Z"}

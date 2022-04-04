@@ -1,44 +1,44 @@
 import { ObjectId } from "mongodb";
 import { db } from "../config/database";
-import { User } from "../models/user.model";
+import { Employee } from "../models/employee.model";
 import bcrypt from "bcrypt";
 import  jwt  from "jsonwebtoken";
 import Logger from "../config/logger";
 const collectionName = "users";
 
 export interface IUserDao {
-    saveUser(user: User): Promise<any>;
+    saveUser(user: Employee): Promise<any>;
     findById(_id: ObjectId | string): Promise<any>;
     getAllUser(): Promise<any>;
     deleteUser(_id: ObjectId | string): Promise<any>;
-    Update(_id: string, body: User): Promise<any>;
-    registration(body:User): Promise<any>;
-    loggedin(body:User): Promise<any>;
+    Update(_id: string, body: Employee): Promise<any>;
+    registration(body:Employee): Promise<any>;
+    loggedin(body:Employee): Promise<any>;
 }
 export class UserDao implements IUserDao {
-    public saveUser = async (user: User) => {
-        return db.collection<User>(collectionName).insertOne(user);
+    public saveUser = async (user: Employee) => {
+        return db.collection<Employee>(collectionName).insertOne(user);
     }
 
     public findById = async (_id: string) => {
-        let result = await db.collection<User>(collectionName).findOne({ "_id": new ObjectId(_id) });
+        let result = await db.collection<Employee>(collectionName).findOne({ "_id": new ObjectId(_id) });
         console.log(result);
         return result;
     }
 
     public getAllUser = async () => {
-        const cursor = db.collection<User>(collectionName).find({});
+        const cursor = db.collection<Employee>(collectionName).find({});
         return cursor.toArray();
     }
 
     public deleteUser = async (_id: string) => {
-        let result = await db.collection<User>(collectionName).deleteOne({ "_id": new ObjectId(_id) });
+        let result = await db.collection<Employee>(collectionName).deleteOne({ "_id": new ObjectId(_id) });
         console.log(result);
         return result;
     }
 
-    public Update = async (_id: string, body: User) => {
-        return db.collection<User>(collectionName).findOneAndUpdate(
+    public Update = async (_id: string, body: Employee) => {
+        return db.collection<Employee>(collectionName).findOneAndUpdate(
             { _id: new ObjectId(_id) },
             {
                 $set: {
@@ -48,14 +48,14 @@ export class UserDao implements IUserDao {
         )
     }
 
-    public registration = async (body:User) => {
+    public registration = async (body:Employee) => {
         const hashedPassWord = await bcrypt.hash(body.password, 10);
         body.password = hashedPassWord;
-        return db.collection<User>(collectionName).insertOne(body);
+        return db.collection<Employee>(collectionName).insertOne(body);
     };
 
-    public loggedin = async (body:User) => {
-        let data = db.collection<User>(collectionName)
+    public loggedin = async (body:Employee) => {
+        let data = db.collection<Employee>(collectionName)
         const findData = await data.findOne({
             email: body.email
         });

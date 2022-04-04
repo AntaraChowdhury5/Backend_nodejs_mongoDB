@@ -2,7 +2,7 @@
     "preset": "ts-jest",
     "coverageDirectory": "./coverage",
     "testMatch": [
-        "**/?(*.)+(UserTest).ts"
+        "**/?(*.)+(spec).ts"
     ],
     "resetMocks": true,
     "clearMocks": true

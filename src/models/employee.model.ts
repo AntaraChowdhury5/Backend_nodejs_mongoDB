@@ -1,4 +1,4 @@
-export class User  {
+export class Employee  {
   public _id: string | Object;
   public name: string;
   public email:string;

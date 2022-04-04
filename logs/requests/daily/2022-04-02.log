@@ -1,0 +1,94 @@
+info: ::1 - - [02/Apr/2022:09:15:49 +0000] "GET /api/v1/users/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [02/Apr/2022:09:20:32 +0000] "GET /api/v1/users/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [02/Apr/2022:09:21:06 +0000] "GET /api/v1/users/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [02/Apr/2022:09:32:53 +0000] "GET /api/v1/users/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [02/Apr/2022:09:32:56 +0000] "GET /api/v1/users/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [02/Apr/2022:09:41:58 +0000] "GET /api/v1/users/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [02/Apr/2022:16:42:54 +0000] "GET /api/v1/users/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [02/Apr/2022:16:43:19 +0000] "DELETE /api/v1/users/undefined HTTP/1.1" 500 115 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [02/Apr/2022:16:58:42 +0000] "GET /api/v1/users/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [02/Apr/2022:16:59:49 +0000] "GET /api/v1/users/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [02/Apr/2022:17:03:32 +0000] "GET /api/v1/users/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [02/Apr/2022:17:03:35 +0000] "DELETE /api/v1/users/6241b2a61307d0fab5dc62b2 HTTP/1.1" 200 99 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [02/Apr/2022:17:03:43 +0000] "DELETE /api/v1/users/6241b2a61307d0fab5dc62b2 HTTP/1.1" 200 99 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [02/Apr/2022:17:03:47 +0000] "GET /api/v1/users/ HTTP/1.1" 200 678 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [02/Apr/2022:17:04:07 +0000] "DELETE /api/v1/users/62456a13f0fd47b08b8f5a19 HTTP/1.1" 200 99 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [02/Apr/2022:17:08:32 +0000] "GET /api/v1/users/ HTTP/1.1" 200 572 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [02/Apr/2022:17:08:38 +0000] "DELETE /api/v1/users/62455c505d1e804e50ca5031 HTTP/1.1" 200 99 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [02/Apr/2022:17:14:30 +0000] "GET /api/v1/users/ HTTP/1.1" 200 465 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [02/Apr/2022:17:14:44 +0000] "GET /api/v1/users/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [02/Apr/2022:17:14:50 +0000] "GET /api/v1/users/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [02/Apr/2022:17:15:17 +0000] "DELETE /api/v1/users/[object%20Object] HTTP/1.1" 500 115 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [02/Apr/2022:17:18:30 +0000] "GET /api/v1/users/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [02/Apr/2022:17:18:35 +0000] "GET /api/v1/users/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [02/Apr/2022:17:18:38 +0000] "DELETE /api/v1/users/62457ace8814beb19ea4f8c3 HTTP/1.1" 200 99 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [02/Apr/2022:17:18:45 +0000] "GET /api/v1/users/ HTTP/1.1" 200 358 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [02/Apr/2022:17:23:01 +0000] "POST /api/v1/users/ HTTP/1.1" 201 101 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [02/Apr/2022:17:23:06 +0000] "GET /api/v1/users/ HTTP/1.1" 200 481 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [02/Apr/2022:17:24:14 +0000] "GET /api/v1/users/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [02/Apr/2022:17:31:53 +0000] "GET /api/v1/users/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [02/Apr/2022:17:32:22 +0000] "GET /api/v1/users/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [02/Apr/2022:17:32:33 +0000] "POST /api/v1/users/undefined HTTP/1.1" 404 47 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [02/Apr/2022:17:41:36 +0000] "GET /api/v1/users/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [02/Apr/2022:17:41:43 +0000] "POST /api/v1/users/undefined HTTP/1.1" 404 47 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [02/Apr/2022:17:44:46 +0000] "GET /api/v1/users/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [02/Apr/2022:17:44:49 +0000] "POST /api/v1/users/62488675a9c28f5fbb8642dd HTTP/1.1" 404 47 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [02/Apr/2022:17:45:32 +0000] "GET /api/v1/users/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [02/Apr/2022:17:45:36 +0000] "POST /api/v1/users/62488675a9c28f5fbb8642dd HTTP/1.1" 404 47 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [02/Apr/2022:17:47:01 +0000] "GET /api/v1/users/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [02/Apr/2022:17:47:03 +0000] "POST /api/v1/users/62488675a9c28f5fbb8642dd HTTP/1.1" 404 47 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [02/Apr/2022:17:47:39 +0000] "GET /api/v1/users/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [02/Apr/2022:17:47:41 +0000] "PUT /api/v1/users/62488675a9c28f5fbb8642dd HTTP/1.1" 500 58 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [02/Apr/2022:17:48:41 +0000] "GET /api/v1/users/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [02/Apr/2022:17:48:43 +0000] "PUT /api/v1/users/62488675a9c28f5fbb8642dd HTTP/1.1" 500 58 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::ffff:127.0.0.1 - - [02/Apr/2022:17:49:53 +0000] "PUT /api/v1/users/62488675a9c28f5fbb8642dd HTTP/1.1" 202 249 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::1 - - [02/Apr/2022:18:18:29 +0000] "GET /api/v1/emps/ HTTP/1.1" 200 475 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [02/Apr/2022:18:19:27 +0000] "GET /api/v1/emps/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [02/Apr/2022:18:19:38 +0000] "PUT /api/v1/emps/62488675a9c28f5fbb8642dd HTTP/1.1" 500 58 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+

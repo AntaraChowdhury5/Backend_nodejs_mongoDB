@@ -1,0 +1,84 @@
+info: ::1 - - [04/Apr/2022:05:39:42 +0000] "GET /api/v1/emps/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [04/Apr/2022:05:48:42 +0000] "DELETE /api/v1/emps/62488675a9c28f5fbb8642dd HTTP/1.1" 200 99 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [04/Apr/2022:05:48:50 +0000] "GET /api/v1/emps/ HTTP/1.1" 200 358 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [04/Apr/2022:05:49:41 +0000] "GET /api/v1/emps/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [04/Apr/2022:05:59:32 +0000] "GET /api/v1/emps/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [04/Apr/2022:05:59:39 +0000] "GET /api/v1/emps/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [04/Apr/2022:06:06:45 +0000] "GET /api/v1/emps/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [04/Apr/2022:06:07:16 +0000] "GET /api/v1/emps/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [04/Apr/2022:06:07:54 +0000] "GET /api/v1/emps/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [04/Apr/2022:06:09:50 +0000] "GET /api/v1/emps/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [04/Apr/2022:06:14:34 +0000] "GET /api/v1/emps/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [04/Apr/2022:06:15:37 +0000] "GET /api/v1/emps/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [04/Apr/2022:06:16:23 +0000] "GET /api/v1/emps/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [04/Apr/2022:06:17:06 +0000] "GET /api/v1/emps/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::ffff:127.0.0.1 - - [04/Apr/2022:09:48:07 +0000] "POST /api/v1/users/ HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [04/Apr/2022:10:05:21 +0000] "POST /api/v1/emps/ HTTP/1.1" 422 269 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [04/Apr/2022:10:07:08 +0000] "POST /api/v1/emps/ HTTP/1.1" 201 101 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [04/Apr/2022:10:07:37 +0000] "GET /api/v1/emps/ HTTP/1.1" 200 473 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::1 - - [04/Apr/2022:10:10:37 +0000] "GET /api/v1/emps/ HTTP/1.1" 200 473 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [04/Apr/2022:10:15:08 +0000] "GET /api/v1/emps/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [04/Apr/2022:10:15:53 +0000] "GET /api/v1/emps/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::ffff:127.0.0.1 - - [04/Apr/2022:10:40:09 +0000] "POST /api/v1/dept/ HTTP/1.1" 500 69 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [04/Apr/2022:10:40:54 +0000] "POST /api/v1/dept/ HTTP/1.1" 401 52 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [04/Apr/2022:10:41:03 +0000] "POST /api/v1/users/login HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [04/Apr/2022:10:41:13 +0000] "POST /api/v1/emps/login HTTP/1.1" 200 358 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [04/Apr/2022:10:41:27 +0000] "POST /api/v1/dept/ HTTP/1.1" 500 69 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [04/Apr/2022:10:41:34 +0000] "POST /api/v1/dept/ HTTP/1.1" 201 101 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [04/Apr/2022:10:42:29 +0000] "POST /api/v1/dept/ HTTP/1.1" 201 101 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [04/Apr/2022:10:42:50 +0000] "POST /api/v1/dept/ HTTP/1.1" 201 101 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [04/Apr/2022:10:43:09 +0000] "POST /api/v1/dept/ HTTP/1.1" 201 101 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [04/Apr/2022:10:43:21 +0000] "POST /api/v1/dept/ HTTP/1.1" 201 101 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [04/Apr/2022:10:43:28 +0000] "GET /api/v1/dept/ HTTP/1.1" 200 427 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [04/Apr/2022:10:43:58 +0000] "DELETE /api/v1/dept/624acbbdf85b7ab265867541 HTTP/1.1" 200 101 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [04/Apr/2022:10:49:54 +0000] "POST /api/v1/dept/624acbbdf85b7ab265867541 HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [04/Apr/2022:10:50:01 +0000] "POST /api/v1/dept HTTP/1.1" 422 252 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [04/Apr/2022:10:50:15 +0000] "POST /api/v1/dept HTTP/1.1" 201 101 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [04/Apr/2022:10:53:40 +0000] "POST /api/v1/dept HTTP/1.1" 201 101 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [04/Apr/2022:10:54:14 +0000] "POST /api/v1/dept HTTP/1.1" 422 212 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [04/Apr/2022:10:55:03 +0000] "POST /api/v1/dept HTTP/1.1" 201 101 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [04/Apr/2022:10:55:41 +0000] "PUT /api/v1/dept/624ace873ee49b48c8994011 HTTP/1.1" 202 196 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [04/Apr/2022:10:56:13 +0000] "PUT /api/v1/dept/624ace873ee49b48c8994011 HTTP/1.1" 202 195 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [04/Apr/2022:10:56:43 +0000] "PUT /api/v1/dept/624ace873ee49b48c8994011 HTTP/1.1" 202 195 "-" "Thunder Client (https://www.thunderclient.com)"
+

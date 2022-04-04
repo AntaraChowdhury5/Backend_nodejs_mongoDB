@@ -1,12 +1,12 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import HttpStatus from 'http-status-codes';
-import userService from '../services/UserService';
+import employeeService from '../services/EmployeeService';
 import ResponseType from '../models/ResponseType';
 import { Request, Response, NextFunction } from 'express';
 
 
-class UserController {
-  public UserService = new userService();
+class EmployeeController {
+  public employeeService = new employeeService();
 
   /**
    * Controller to create new user
@@ -14,13 +14,13 @@ class UserController {
    * @param {object} Response - response object
    * @param {Function} NextFunction
    */
-   public newUser = async (
+   public newEmp = async (
     req: Request,
     res: Response,
     next: NextFunction
   ): Promise<any> => {
     try {
-      const reqdata:ResponseType = await this.UserService.newUser(req.body);
+      const reqdata:ResponseType = await this.employeeService.newEmp(req.body);
       console.log(reqdata);
       res.status(reqdata.code).json({
         code: reqdata.code,
@@ -39,13 +39,13 @@ class UserController {
    * @param {object} Response - response object
    * @param {Function} NextFunction
    */
-  public getAllUsers = async (
+  public getAllEmps = async (
     req: Request,
     res: Response,
     next: NextFunction
   ): Promise<any> => {
     try {
-      const data:ResponseType = await this.UserService.getAllUsers();
+      const data:ResponseType = await this.employeeService.getAllEmps();
       res.status(HttpStatus.OK).json({
         code: data.code,
         data: data.data,
@@ -62,13 +62,15 @@ class UserController {
    * @param {object} Response - response object
    * @param {Function} NextFunction
    */
-  public getUser = async (
+  public getEmp = async (
     req: Request,
     res: Response,
     next: NextFunction
   ): Promise<any> => {
     try {
-      const data:ResponseType = await this.UserService.getUser(req.params._id);
+      console.log("hii");
+      
+      const data:ResponseType = await this.employeeService.getEmp(req.params._id);
       res.status(HttpStatus.OK).json({
         code: data.code,
         data: data.data,
@@ -85,13 +87,13 @@ class UserController {
    * @param {object} Response - response object
    * @param {Function} NextFunction
    */
-   public deleteUser = async (
+   public deleteEmp = async (
     req: Request,
     res: Response,
     next: NextFunction
   ): Promise<any> => {
     try {
-      const data:ResponseType = await this.UserService.deleteUser(req.params._id);
+      const data:ResponseType = await this.employeeService.deleteEmp(req.params._id);
       res.status(HttpStatus.OK).json({
         code: data.code,
         data: data.data,
@@ -108,13 +110,13 @@ class UserController {
    * @param {object} Response - response object
    * @param {Function} NextFunction
    */
-   public updateUser = async (
+   public updateEmp = async (
     req: Request,
     res: Response,
     next: NextFunction
   ): Promise<any> => {
     try {
-      const data = await this.UserService.updateUser(req.params._id, req.body);
+      const data = await this.employeeService.updateEmp(req.params._id, req.body);
       res.status(HttpStatus.ACCEPTED).json({
         code: data.code,
         data: data.data,
@@ -137,7 +139,7 @@ class UserController {
     next: NextFunction
   ): Promise<any> => {
     try {
-      const data:ResponseType = await this.UserService.registration(req.body);
+      const data:ResponseType = await this.employeeService.registration(req.body);
       console.log(data);
       res.status(data.code).json({
         code: data.code,
@@ -162,7 +164,7 @@ class UserController {
     next: NextFunction
   ): Promise<any> => {
     try {
-      const data:ResponseType = await this.UserService.loggedin(req.body);
+      const data:ResponseType = await this.employeeService.loggedin(req.body);
       res.status(data.code).json({
         code: data.code,
         data: data.data,
@@ -174,4 +176,4 @@ class UserController {
   };
 }
 
-export default UserController;
+export default EmployeeController;

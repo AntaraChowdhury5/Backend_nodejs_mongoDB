@@ -1,5 +1,6 @@
 import express, { IRouter } from 'express';
-import UserRoutes from './UserRoutes';
+import EmployeeRoutes from './EmployeeRoutes';
+import DepartmentRoutes from './DepartmentRoutes';
 const router = express.Router();
 
 
@@ -12,8 +13,8 @@ const routes = (): IRouter => {
   router.get('/', (req, res) => {
     res.json('Welcome');
   });
-  router.use('/users', new UserRoutes().getRoutes());
-
+  router.use('/emps', new EmployeeRoutes().getRoutes());
+  router.use('/dept', new DepartmentRoutes().getRoutes());
   return router;
 };
 
