@@ -44,6 +44,16 @@
             "date": 1649050731179,
             "name": "logs\\server\\daily\\2022-04-04.log",
             "hash": "2deeb6f0b4ebf998dd8584abdfd5e4ae"
+        },
+        {
+            "date": 1649137434545,
+            "name": "logs\\server\\daily\\2022-04-05.log",
+            "hash": "54c989e4a7724c96606709fa12d90954"
+        },
+        {
+            "date": 1649240604078,
+            "name": "logs\\server\\daily\\2022-04-06.log",
+            "hash": "647124bf42985fdee6bd4ea063b58ddc"
         }
     ],
     "hashType": "md5"

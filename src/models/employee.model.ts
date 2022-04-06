@@ -3,10 +3,14 @@ export class Employee  {
   public name: string;
   public email:string;
   public password:string;
-  public department : string;
-  public role: string;
+  public department : {
+    dept_id: number,
+    dept_name: string
+  };
+  public role: {
+    role_id : number,
+    role_name : string
+  };
   YOJ?: number;
 }
-
-
 

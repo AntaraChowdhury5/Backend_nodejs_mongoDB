@@ -21,8 +21,8 @@ export const schemas = {
         name: Joi.string().alphanum().min(3).max(15).required(),
         password: Joi.string().pattern(new RegExp('^[a-zA-Z0-9]{3,30}$')),
         email: Joi.string().email().required(),
-        department: Joi.string().required(),
-        role: Joi.string().required(),
+        department: Joi.object().required(),
+        role: Joi.object().required(),
         YOJ: Joi.number().integer().min(2010).max(2022)
     })
 };

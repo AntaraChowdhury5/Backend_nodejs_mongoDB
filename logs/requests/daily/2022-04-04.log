@@ -94,3 +94,53 @@ info: ::ffff:127.0.0.1 - - [04/Apr/2022:12:17:01 +0000] "POST /api/v1/role HTTP/
 
 info: ::ffff:127.0.0.1 - - [04/Apr/2022:12:17:46 +0000] "POST /api/v1/role HTTP/1.1" 422 268 "-" "Thunder Client (https://www.thunderclient.com)"
 
+info: ::ffff:127.0.0.1 - - [04/Apr/2022:12:18:09 +0000] "POST /api/v1/role HTTP/1.1" 201 101 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [04/Apr/2022:12:24:55 +0000] "POST /api/v1/role/624ae20112d44acf8fe1efe8 HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [04/Apr/2022:12:25:00 +0000] "PUT /api/v1/role/624ae20112d44acf8fe1efe8 HTTP/1.1" 202 196 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::1 - - [04/Apr/2022:12:51:43 +0000] "GET /api/v1/emps/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [04/Apr/2022:12:56:21 +0000] "GET /api/v1/emps/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [04/Apr/2022:12:58:59 +0000] "GET /api/v1/emps/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [04/Apr/2022:13:09:45 +0000] "GET /api/v1/emps/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [04/Apr/2022:13:11:09 +0000] "GET /api/v1/emps/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [04/Apr/2022:13:11:19 +0000] "PUT /api/v1/emps/undefined HTTP/1.1" 500 115 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [04/Apr/2022:13:12:13 +0000] "GET /api/v1/emps/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [04/Apr/2022:13:12:21 +0000] "PUT /api/v1/emps/undefined HTTP/1.1" 500 115 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [04/Apr/2022:13:13:49 +0000] "GET /api/v1/emps/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [04/Apr/2022:13:14:34 +0000] "GET /api/v1/emps/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [04/Apr/2022:13:15:04 +0000] "GET /api/v1/emps/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [04/Apr/2022:13:15:16 +0000] "PUT /api/v1/emps/undefined HTTP/1.1" 500 115 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [04/Apr/2022:13:23:14 +0000] "GET /api/v1/emps/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [04/Apr/2022:13:23:23 +0000] "PUT /api/v1/emps/624ac34cf85b7ab26586753d HTTP/1.1" 202 241 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [04/Apr/2022:13:26:08 +0000] "GET /api/v1/emps/ HTTP/1.1" 200 473 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [04/Apr/2022:13:26:33 +0000] "PUT /api/v1/emps/624ac34cf85b7ab26586753d HTTP/1.1" 202 241 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [04/Apr/2022:13:26:45 +0000] "GET /api/v1/emps/ HTTP/1.1" 200 473 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [04/Apr/2022:13:28:03 +0000] "GET /api/v1/emps/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [04/Apr/2022:13:28:10 +0000] "PUT /api/v1/emps/624ac34cf85b7ab26586753d HTTP/1.1" 202 241 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [04/Apr/2022:13:32:15 +0000] "GET /api/v1/emps/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [04/Apr/2022:13:32:46 +0000] "PUT /api/v1/emps/624ac34cf85b7ab26586753d HTTP/1.1" 202 241 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+
+info: ::1 - - [04/Apr/2022:13:33:32 +0000] "GET /api/v1/emps/ HTTP/1.1" 200 467 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55"
+

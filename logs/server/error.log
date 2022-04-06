@@ -539,3 +539,367 @@ error:
     method - POST 
     IP - ::ffff:127.0.0.1
    {"timestamp":"2022-04-04T12:15:48.397Z"}
+error: 
+    status - 500 
+    message - BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters
+    at new BSONTypeError (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\error.ts:16:5)
+    at new ObjectId (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\objectid.ts:86:15)
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:42:20)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\Dao\Employee.Dao.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:4:12)
+    at UserDao.Update (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:40:59)
+    at EmployeeService.<anonymous> (C:\Projects\EmpType\src\services\EmployeeService.ts:51:31)
+    at Generator.next (<anonymous>) 
+    url - /api/v1/emps/undefined 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-04-04T13:11:19.827Z"}
+error: 
+    status - 500 
+    message - BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters
+    at new BSONTypeError (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\error.ts:16:5)
+    at new ObjectId (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\objectid.ts:86:15)
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:42:20)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\Dao\Employee.Dao.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:4:12)
+    at UserDao.Update (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:40:59)
+    at EmployeeService.<anonymous> (C:\Projects\EmpType\src\services\EmployeeService.ts:51:31)
+    at Generator.next (<anonymous>) 
+    url - /api/v1/emps/undefined 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-04-04T13:12:21.179Z"}
+error: 
+    status - 500 
+    message - BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters
+    at new BSONTypeError (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\error.ts:16:5)
+    at new ObjectId (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\objectid.ts:86:15)
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:42:20)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\Dao\Employee.Dao.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:4:12)
+    at UserDao.Update (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:40:59)
+    at EmployeeService.<anonymous> (C:\Projects\EmpType\src\services\EmployeeService.ts:51:31)
+    at Generator.next (<anonymous>) 
+    url - /api/v1/emps/undefined 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-04-04T13:15:16.341Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'dept_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:24:35)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-06T10:26:12.219Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'dept_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:26:35)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-06T10:27:37.319Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'dept_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:26:35)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-06T10:28:42.604Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'dept_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:27:35)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-06T10:32:42.076Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'dept_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:27:35)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-06T10:35:00.565Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'dept_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:27:35)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-06T10:41:58.122Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'dept_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:59:52)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/624d94756ea4373050baa9e0 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-06T13:34:45.993Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'dept_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:59:52)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/624d94756ea4373050baa9e0 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-06T13:35:00.219Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'dept_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:53:98)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\Dao\Employee.Dao.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:4:12)
+    at UserDao.Update (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:52:59)
+    at EmployeeService.<anonymous> (C:\Projects\EmpType\src\services\EmployeeService.ts:51:31)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\services\EmployeeService.ts:8:71
+    at new Promise (<anonymous>) 
+    url - /api/v1/emps/624d94756ea4373050baa9e0 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-06T13:36:28.567Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'dept_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:53:98)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\Dao\Employee.Dao.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:4:12)
+    at UserDao.Update (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:52:59)
+    at EmployeeService.<anonymous> (C:\Projects\EmpType\src\services\EmployeeService.ts:51:31)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\services\EmployeeService.ts:8:71
+    at new Promise (<anonymous>) 
+    url - /api/v1/emps/624d94756ea4373050baa9e0 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-06T13:36:35.952Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'dept_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:53:98)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\Dao\Employee.Dao.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:4:12)
+    at UserDao.Update (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:52:59)
+    at EmployeeService.<anonymous> (C:\Projects\EmpType\src\services\EmployeeService.ts:51:31)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\services\EmployeeService.ts:8:71
+    at new Promise (<anonymous>) 
+    url - /api/v1/emps/624d94756ea4373050baa9e0 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-06T13:41:14.443Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'dept_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:53:98)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\Dao\Employee.Dao.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:4:12)
+    at UserDao.Update (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:52:59)
+    at EmployeeService.<anonymous> (C:\Projects\EmpType\src\services\EmployeeService.ts:51:31)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\services\EmployeeService.ts:8:71
+    at new Promise (<anonymous>) 
+    url - /api/v1/emps/624d94756ea4373050baa9e0 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-06T13:45:21.280Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'dept_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:53:98)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\Dao\Employee.Dao.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:4:12)
+    at UserDao.Update (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:52:59)
+    at EmployeeService.<anonymous> (C:\Projects\EmpType\src\services\EmployeeService.ts:51:31)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\services\EmployeeService.ts:8:71
+    at new Promise (<anonymous>) 
+    url - /api/v1/emps/624d94756ea4373050baa9e0 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-06T13:47:27.274Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'dept_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:53:28)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\Dao\Employee.Dao.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:4:12)
+    at UserDao.Update (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:52:59)
+    at EmployeeService.<anonymous> (C:\Projects\EmpType\src\services\EmployeeService.ts:51:31)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\services\EmployeeService.ts:8:71
+    at new Promise (<anonymous>) 
+    url - /api/v1/emps/624d94756ea4373050baa9e0 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-06T13:49:47.824Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'dept_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:53:29)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\Dao\Employee.Dao.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:4:12)
+    at UserDao.Update (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:52:59)
+    at EmployeeService.<anonymous> (C:\Projects\EmpType\src\services\EmployeeService.ts:51:31)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\services\EmployeeService.ts:8:71
+    at new Promise (<anonymous>) 
+    url - /api/v1/emps/624d94756ea4373050baa9e0 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-06T13:53:01.350Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'dept_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:53:29)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\Dao\Employee.Dao.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:4:12)
+    at UserDao.Update (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:52:59)
+    at EmployeeService.<anonymous> (C:\Projects\EmpType\src\services\EmployeeService.ts:51:31)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\services\EmployeeService.ts:8:71
+    at new Promise (<anonymous>) 
+    url - /api/v1/emps/624d94756ea4373050baa9e0 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-06T13:58:24.698Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'dept_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:71:102)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\Dao\Employee.Dao.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:4:12)
+    at UserDao.Update (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:58:59)
+    at EmployeeService.<anonymous> (C:\Projects\EmpType\src\services\EmployeeService.ts:51:31)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\services\EmployeeService.ts:8:71
+    at new Promise (<anonymous>) 
+    url - /api/v1/emps/624d94756ea4373050baa9e0 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-06T14:27:13.253Z"}
+error: 
+      status - 28
+      message - Plan executor error during findAndModify :: caused by :: Cannot create field 'role_id' in element {role: "SE"} 
+      url - /api/v1/emps/624d94756ea4373050baa9e0 
+      method - PUT 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-04-06T14:28:44.679Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 28
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\Projects\EmpType\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Projects\EmpType\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\Projects\EmpType\node_modules\express\lib\response.js:267:15)
+    at ErrorMiddleware.appErrorHandler (C:\Projects\EmpType\src\middlewares\ErrorMiddleware.ts:53:28)
+    at Layer.handle_error (C:\Projects\EmpType\node_modules\express\lib\router\layer.js:71:5) 
+    url - /api/v1/emps/624d94756ea4373050baa9e0 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-06T14:28:44.694Z"}
+error: 
+      status - 28
+      message - Plan executor error during findAndModify :: caused by :: Cannot create field 'role_id' in element {role: "SE"} 
+      url - /api/v1/emps/624d94756ea4373050baa9e0 
+      method - PUT 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-04-06T14:30:25.266Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 28
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\Projects\EmpType\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Projects\EmpType\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\Projects\EmpType\node_modules\express\lib\response.js:267:15)
+    at ErrorMiddleware.appErrorHandler (C:\Projects\EmpType\src\middlewares\ErrorMiddleware.ts:53:28)
+    at Layer.handle_error (C:\Projects\EmpType\node_modules\express\lib\router\layer.js:71:5) 
+    url - /api/v1/emps/624d94756ea4373050baa9e0 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-06T14:30:25.270Z"}
+error: 
+      status - 28
+      message - Plan executor error during findAndModify :: caused by :: Cannot create field 'role_id' in element {role: "SE"} 
+      url - /api/v1/emps/624d94756ea4373050baa9e0 
+      method - PUT 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-04-06T14:34:13.133Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 28
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\Projects\EmpType\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Projects\EmpType\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\Projects\EmpType\node_modules\express\lib\response.js:267:15)
+    at ErrorMiddleware.appErrorHandler (C:\Projects\EmpType\src\middlewares\ErrorMiddleware.ts:53:28)
+    at Layer.handle_error (C:\Projects\EmpType\node_modules\express\lib\router\layer.js:71:5) 
+    url - /api/v1/emps/624d94756ea4373050baa9e0 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-06T14:34:13.147Z"}
