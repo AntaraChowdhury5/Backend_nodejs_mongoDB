@@ -30,7 +30,11 @@ export const adminAuth = async (
         });
       }
       else {
-        if (decode.role == "Admin") {
+        console.log(decode);
+        
+        if (decode.role == "Admin")  {
+          console.log("Hiiii");
+          
           next();
         } else {
           return res.status(401).send({

@@ -1,6 +1,6 @@
 import Joi, { ObjectSchema } from 'joi';
 import { NextFunction, Request, Response } from 'express';
-import { Employee } from '../models/employee.model';
+import { Employee } from '../DTO/employee.dto';
 
 export const validateJoi = (schema: ObjectSchema) => {
     return async (req: Request, res: Response, next: NextFunction) => {
@@ -18,11 +18,15 @@ export const validateJoi = (schema: ObjectSchema) => {
 
 export const schemas = {
     data: Joi.object<Employee>({
-        name: Joi.string().alphanum().min(3).max(15).required(),
+        name: Joi.string().min(3).max(25).required(),
         password: Joi.string().pattern(new RegExp('^[a-zA-Z0-9]{3,30}$')),
         email: Joi.string().email().required(),
         department: Joi.object().required(),
         role: Joi.object().required(),
-        YOJ: Joi.number().integer().min(2010).max(2022)
+        YOJ: Joi.number().integer().min(2010).max(2022),
+        createAt: Joi.date(),
+        updateAt: Joi.date(),
+        isActive: Joi.boolean(),
+        isDelete: Joi.boolean(),
     })
 };

@@ -1,0 +1,160 @@
+info: ::ffff:127.0.0.1 - - [12/Apr/2022:06:43:11 +0000] "GET /api/v1/emps/ HTTP/1.1" 200 1424 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [12/Apr/2022:06:43:46 +0000] "GET /api/v1/emps/625429ad9dc17802ad9306e7 HTTP/1.1" 200 405 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::1 - - [12/Apr/2022:07:52:43 +0000] "POST /api/v1/emps/login HTTP/1.1" 200 358 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:07:53:44 +0000] "POST /api/v1/emps/login HTTP/1.1" 200 358 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:07:53:46 +0000] "GET /api/v1/emps/undefined HTTP/1.1" 500 115 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:07:54:11 +0000] "POST /api/v1/emps/login HTTP/1.1" 200 365 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:07:56:27 +0000] "POST /api/v1/emps/login HTTP/1.1" 200 358 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:07:58:29 +0000] "POST /api/v1/emps/login HTTP/1.1" 200 358 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:07:59:49 +0000] "POST /api/v1/emps/login HTTP/1.1" 200 358 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:07:59:53 +0000] "GET /api/v1/emps/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:08:47:04 +0000] "POST /api/v1/emps/login HTTP/1.1" 200 358 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:08:47:06 +0000] "GET /api/v1/emps/undefined HTTP/1.1" 500 115 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:10:24:56 +0000] "GET /api/v1/emps/undefined HTTP/1.1" 500 115 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:10:28:05 +0000] "GET /api/v1/emps/undefined HTTP/1.1" 500 115 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:10:28:18 +0000] "POST /api/v1/emps/login HTTP/1.1" 200 358 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:10:35:23 +0000] "POST /api/v1/emps/login HTTP/1.1" 200 358 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:10:35:25 +0000] "GET /api/v1/emps/undefined HTTP/1.1" 500 115 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:11:46:18 +0000] "POST /api/v1/emps/login HTTP/1.1" 200 358 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:11:46:18 +0000] "GET /api/v1/emps/62516659c399274a6770630d HTTP/1.1" 200 409 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:11:58:15 +0000] "GET /api/v1/emps/62516659c399274a6770630d HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:11:59:52 +0000] "POST /api/v1/emps/login HTTP/1.1" 200 358 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:11:59:52 +0000] "GET /api/v1/emps/62516659c399274a6770630d HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:12:00:01 +0000] "GET /api/v1/emps/62516659c399274a6770630d HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:12:08:17 +0000] "POST /api/v1/emps/login HTTP/1.1" 200 358 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:12:08:17 +0000] "GET /api/v1/emps/62516659c399274a6770630d HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:12:08:19 +0000] "GET /api/v1/emps/62516659c399274a6770630d HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:12:09:40 +0000] "POST /api/v1/emps/login HTTP/1.1" 200 358 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:12:09:40 +0000] "GET /api/v1/emps/62516659c399274a6770630d HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:12:09:42 +0000] "GET /api/v1/emps/62516659c399274a6770630d HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:12:15:03 +0000] "POST /api/v1/emps/login HTTP/1.1" 200 358 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:12:15:03 +0000] "GET /api/v1/emps/62516659c399274a6770630d HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:12:15:05 +0000] "GET /api/v1/emps/62516659c399274a6770630d HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:12:19:29 +0000] "POST /api/v1/emps/login HTTP/1.1" 200 358 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:12:19:29 +0000] "GET /api/v1/emps/62516659c399274a6770630d HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:12:19:30 +0000] "GET /api/v1/emps/62516659c399274a6770630d HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:12:21:06 +0000] "POST /api/v1/emps/login HTTP/1.1" 200 358 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:12:21:06 +0000] "GET /api/v1/emps/62516659c399274a6770630d HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:12:21:07 +0000] "GET /api/v1/emps/62516659c399274a6770630d HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:12:25:28 +0000] "POST /api/v1/emps/login HTTP/1.1" 200 358 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:12:25:28 +0000] "GET /api/v1/emps/62516659c399274a6770630d HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:12:25:29 +0000] "GET /api/v1/emps/62516659c399274a6770630d HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:12:30:02 +0000] "POST /api/v1/emps/login HTTP/1.1" 200 358 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:12:30:02 +0000] "GET /api/v1/emps/62516659c399274a6770630d HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:12:30:04 +0000] "GET /api/v1/emps/62516659c399274a6770630d HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:12:30:34 +0000] "POST /api/v1/emps/login HTTP/1.1" 200 358 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:12:30:34 +0000] "GET /api/v1/emps/62516659c399274a6770630d HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:12:30:34 +0000] "GET /api/v1/emps/62516659c399274a6770630d HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:12:30:35 +0000] "GET /api/v1/emps/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:12:32:16 +0000] "GET /api/v1/emps/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:12:32:27 +0000] "POST /api/v1/emps/login HTTP/1.1" 200 358 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:12:32:29 +0000] "GET /api/v1/emps/62516659c399274a6770630d HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:12:35:34 +0000] "POST /api/v1/emps/login HTTP/1.1" 200 358 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:12:36:20 +0000] "POST /api/v1/emps/login HTTP/1.1" 200 358 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::1 - - [12/Apr/2022:12:36:21 +0000] "GET /api/v1/emps/62516659c399274a6770630d HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36"
+
+info: ::ffff:127.0.0.1 - - [12/Apr/2022:13:30:52 +0000] "GET /api/v1/emps/625429ad9dc17802ad9306e7 HTTP/1.1" 200 65 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [12/Apr/2022:13:31:01 +0000] "GET /api/v1/emps/ HTTP/1.1" 200 67 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [12/Apr/2022:13:31:25 +0000] "POST /api/v1/emps/ HTTP/1.1" 500 85 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [12/Apr/2022:13:32:40 +0000] "POST /api/v1/dept/624acb5ef85b7ab26586753e HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [12/Apr/2022:13:32:47 +0000] "POST /api/v1/dept/ HTTP/1.1" 401 48 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [12/Apr/2022:13:34:41 +0000] "POST /api/v1/dept/ HTTP/1.1" 201 124 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [12/Apr/2022:13:35:07 +0000] "GET /api/v1/dept/ HTTP/1.1" 200 133 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [12/Apr/2022:13:36:36 +0000] "POST /api/v1/dept/ HTTP/1.1" 422 278 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [12/Apr/2022:13:36:59 +0000] "POST /api/v1/dept/ HTTP/1.1" 201 124 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [12/Apr/2022:13:37:17 +0000] "POST /api/v1/dept/ HTTP/1.1" 201 124 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [12/Apr/2022:13:37:23 +0000] "GET /api/v1/dept/ HTTP/1.1" 200 276 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [12/Apr/2022:13:38:12 +0000] "POST /api/v1/role/ HTTP/1.1" 201 101 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [12/Apr/2022:13:38:29 +0000] "POST /api/v1/role/ HTTP/1.1" 201 101 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [12/Apr/2022:13:38:51 +0000] "POST /api/v1/role/ HTTP/1.1" 201 101 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [12/Apr/2022:13:39:09 +0000] "POST /api/v1/emps/ HTTP/1.1" 201 101 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [12/Apr/2022:13:39:31 +0000] "POST /api/v1/emps/ HTTP/1.1" 201 101 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [12/Apr/2022:13:39:36 +0000] "GET /api/v1/emps/ HTTP/1.1" 200 758 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [12/Apr/2022:13:40:09 +0000] "GET /api/v1/emps/ HTTP/1.1" 200 758 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [12/Apr/2022:13:41:10 +0000] "GET /api/v1/emps/ HTTP/1.1" 200 758 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [12/Apr/2022:13:41:17 +0000] "POST /api/v1/emps/ HTTP/1.1" 201 101 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [12/Apr/2022:13:41:39 +0000] "GET /api/v1/dept/ HTTP/1.1" 200 276 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [12/Apr/2022:13:42:05 +0000] "POST /api/v1/emps/login HTTP/1.1" 200 358 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [12/Apr/2022:13:43:12 +0000] "GET /api/v1/dept/ HTTP/1.1" 200 276 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [12/Apr/2022:13:43:25 +0000] "POST /api/v1/dept/ HTTP/1.1" 401 48 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [12/Apr/2022:13:44:06 +0000] "POST /api/v1/dept/ HTTP/1.1" 201 124 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [12/Apr/2022:13:44:16 +0000] "GET /api/v1/dept/ HTTP/1.1" 200 342 "-" "Thunder Client (https://www.thunderclient.com)"
+

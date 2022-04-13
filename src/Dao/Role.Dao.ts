@@ -1,6 +1,6 @@
 import { ObjectId } from "mongodb";
 import { db } from "../config/database";
-import { Role } from "../models/role.model";
+import { Role } from "../DTO/role.dto";
 const collectionName = "role";
 
 export interface IRoleDao {

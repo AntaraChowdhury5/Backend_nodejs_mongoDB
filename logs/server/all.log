@@ -1256,3 +1256,1029 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-06T1
 info: Connected to the database. {"timestamp":"2022-04-06T14:59:21.983Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-06T14:59:51.079Z"}
 info: Connected to the database. {"timestamp":"2022-04-06T14:59:51.100Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-06T15:10:29.698Z"}
+info: Connected to the database. {"timestamp":"2022-04-06T15:10:29.723Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-07T04:50:30.329Z"}
+info: Connected to the database. {"timestamp":"2022-04-07T04:50:30.353Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-07T06:22:54.641Z"}
+info: Connected to the database. {"timestamp":"2022-04-07T06:22:54.669Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'dept_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:29:35)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-07T06:24:14.165Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'role_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:33:35)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-07T07:18:50.744Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-07T07:37:22.572Z"}
+info: Connected to the database. {"timestamp":"2022-04-07T07:37:22.589Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'dept_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:29:35)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-07T07:52:09.681Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-07T07:55:34.610Z"}
+info: Connected to the database. {"timestamp":"2022-04-07T07:55:34.631Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'role_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:107:47)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/624e9869d5cc0800a3168bf6 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-04-07T08:01:14.203Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'role_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:107:47)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/624e9869d5cc0800a3168bf6 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-04-07T08:04:12.795Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'dept_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:109:53)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/624e9869d5cc0800a3168bf6 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-04-07T08:04:34.490Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'role_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:107:47)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/624e9869d5cc0800a3168bf6 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-04-07T08:08:50.058Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'role_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:107:47)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/624e916264e65dcea163446f 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-07T08:12:48.409Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'role_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:107:47)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/624e916264e65dcea163446f 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-07T08:14:08.598Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'role_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:107:47)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/624e916264e65dcea163446f 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-07T08:15:42.202Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'role_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:92:50)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/624e916264e65dcea163446f 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-07T08:16:05.067Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'role_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:107:47)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/624e916264e65dcea163446f 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-07T08:17:40.852Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-07T08:21:26.003Z"}
+info: Connected to the database. {"timestamp":"2022-04-07T08:21:26.018Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-07T08:22:49.837Z"}
+info: Connected to the database. {"timestamp":"2022-04-07T08:22:49.854Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'role_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:107:47)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/624e916264e65dcea163446f 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-07T08:23:21.744Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-07T08:25:30.044Z"}
+info: Connected to the database. {"timestamp":"2022-04-07T08:25:30.065Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'role_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:107:47)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/624e9869d5cc0800a3168bf6 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-04-07T08:25:49.716Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'role_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:107:47)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/624e9869d5cc0800a3168bf6 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-04-07T08:27:40.362Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'role_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:107:47)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/624e9869d5cc0800a3168bf6 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-04-07T08:31:50.918Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'role_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:107:47)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/624e9869d5cc0800a3168bf6 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-04-07T08:34:47.155Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'role_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:107:47)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/624e9869d5cc0800a3168bf6 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-04-07T08:37:30.866Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'role_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:107:47)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/624e9869d5cc0800a3168bf6 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-04-07T08:37:56.690Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'role_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:107:47)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/624e9869d5cc0800a3168bf6 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-04-07T08:42:26.267Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-07T11:48:49.278Z"}
+info: Connected to the database. {"timestamp":"2022-04-07T11:48:49.303Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'role_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:35:35)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-07T11:49:02.491Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-07T11:55:18.570Z"}
+info: Connected to the database. {"timestamp":"2022-04-07T11:55:18.589Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-07T15:14:41.618Z"}
+info: Connected to the database. {"timestamp":"2022-04-07T15:14:41.634Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-07T15:35:52.611Z"}
+info: Connected to the database. {"timestamp":"2022-04-07T15:35:52.629Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-08T12:47:45.271Z"}
+info: Connected to the database. {"timestamp":"2022-04-08T12:47:45.301Z"}
+error: uncaughtException: Missing default value
+Error: Missing default value
+    at new module.exports (C:\Projects\EmpType\node_modules\@hapi\hoek\lib\error.js:23:19)
+    at module.exports (C:\Projects\EmpType\node_modules\@hapi\hoek\lib\assert.js:20:11)
+    at internals.Base._default (C:\Projects\EmpType\node_modules\joi\lib\base.js:830:9)
+    at internals.Base.default (C:\Projects\EmpType\node_modules\joi\lib\base.js:111:21)
+    at Object.<anonymous> (C:\Projects\EmpType\src\validators\EmployeeValidator.ts:27:37)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (C:\Projects\EmpType\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\ANTARA~1.CHO\AppData\Local\Temp\ts-node-dev-hook-4978327702422294.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\ANTARA~1.CHO\AppData\Local\Temp\ts-node-dev-hook-4978327702422294.js:114:20) {"date":"Sat Apr 09 2022 10:44:26 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1291532},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18788490,"external":22354641,"heapTotal":36347904,"heapUsed":25331840,"rss":65888256},"pid":24956,"uid":null,"version":"v16.14.0"},"stack":"Error: Missing default value\n    at new module.exports (C:\\Projects\\EmpType\\node_modules\\@hapi\\hoek\\lib\\error.js:23:19)\n    at module.exports (C:\\Projects\\EmpType\\node_modules\\@hapi\\hoek\\lib\\assert.js:20:11)\n    at internals.Base._default (C:\\Projects\\EmpType\\node_modules\\joi\\lib\\base.js:830:9)\n    at internals.Base.default (C:\\Projects\\EmpType\\node_modules\\joi\\lib\\base.js:111:21)\n    at Object.<anonymous> (C:\\Projects\\EmpType\\src\\validators\\EmployeeValidator.ts:27:37)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Module._compile (C:\\Projects\\EmpType\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js:114:20)","timestamp":"2022-04-09T05:14:26.078Z","trace":[{"column":19,"file":"C:\\Projects\\EmpType\\node_modules\\@hapi\\hoek\\lib\\error.js","function":"new module.exports","line":23,"method":"exports","native":false},{"column":11,"file":"C:\\Projects\\EmpType\\node_modules\\@hapi\\hoek\\lib\\assert.js","function":"module.exports","line":20,"method":"exports","native":false},{"column":9,"file":"C:\\Projects\\EmpType\\node_modules\\joi\\lib\\base.js","function":"internals.Base._default","line":830,"method":"_default","native":false},{"column":21,"file":"C:\\Projects\\EmpType\\node_modules\\joi\\lib\\base.js","function":"internals.Base.default","line":111,"method":"default","native":false},{"column":37,"file":"C:\\Projects\\EmpType\\src\\validators\\EmployeeValidator.ts","function":null,"line":27,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false},{"column":25,"file":"C:\\Projects\\EmpType\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1155,"method":".js","native":false},{"column":20,"file":"C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false}]}
+error: uncaughtException: Missing default value
+Error: Missing default value
+    at new module.exports (C:\Projects\EmpType\node_modules\@hapi\hoek\lib\error.js:23:19)
+    at module.exports (C:\Projects\EmpType\node_modules\@hapi\hoek\lib\assert.js:20:11)
+    at internals.Base._default (C:\Projects\EmpType\node_modules\joi\lib\base.js:830:9)
+    at internals.Base.default (C:\Projects\EmpType\node_modules\joi\lib\base.js:111:21)
+    at Object.<anonymous> (C:\Projects\EmpType\src\validators\EmployeeValidator.ts:27:37)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (C:\Projects\EmpType\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\ANTARA~1.CHO\AppData\Local\Temp\ts-node-dev-hook-4978327702422294.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\ANTARA~1.CHO\AppData\Local\Temp\ts-node-dev-hook-4978327702422294.js:114:20) {"date":"Sat Apr 09 2022 10:45:05 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1291572},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18483119,"external":23315049,"heapTotal":36872192,"heapUsed":22499624,"rss":66097152},"pid":20000,"uid":null,"version":"v16.14.0"},"stack":"Error: Missing default value\n    at new module.exports (C:\\Projects\\EmpType\\node_modules\\@hapi\\hoek\\lib\\error.js:23:19)\n    at module.exports (C:\\Projects\\EmpType\\node_modules\\@hapi\\hoek\\lib\\assert.js:20:11)\n    at internals.Base._default (C:\\Projects\\EmpType\\node_modules\\joi\\lib\\base.js:830:9)\n    at internals.Base.default (C:\\Projects\\EmpType\\node_modules\\joi\\lib\\base.js:111:21)\n    at Object.<anonymous> (C:\\Projects\\EmpType\\src\\validators\\EmployeeValidator.ts:27:37)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Module._compile (C:\\Projects\\EmpType\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js:114:20)","timestamp":"2022-04-09T05:15:05.770Z","trace":[{"column":19,"file":"C:\\Projects\\EmpType\\node_modules\\@hapi\\hoek\\lib\\error.js","function":"new module.exports","line":23,"method":"exports","native":false},{"column":11,"file":"C:\\Projects\\EmpType\\node_modules\\@hapi\\hoek\\lib\\assert.js","function":"module.exports","line":20,"method":"exports","native":false},{"column":9,"file":"C:\\Projects\\EmpType\\node_modules\\joi\\lib\\base.js","function":"internals.Base._default","line":830,"method":"_default","native":false},{"column":21,"file":"C:\\Projects\\EmpType\\node_modules\\joi\\lib\\base.js","function":"internals.Base.default","line":111,"method":"default","native":false},{"column":37,"file":"C:\\Projects\\EmpType\\src\\validators\\EmployeeValidator.ts","function":null,"line":27,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false},{"column":25,"file":"C:\\Projects\\EmpType\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1155,"method":".js","native":false},{"column":20,"file":"C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-09T05:15:11.532Z"}
+info: Connected to the database. {"timestamp":"2022-04-09T05:15:11.555Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-09T05:19:11.100Z"}
+info: Connected to the database. {"timestamp":"2022-04-09T05:19:11.113Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-09T05:25:12.705Z"}
+info: Connected to the database. {"timestamp":"2022-04-09T05:25:12.720Z"}
+error: uncaughtException: Cannot find module '../models/ResponseType'
+Require stack:
+- C:\Projects\EmpType\src\services\EmployeeService.ts
+- C:\Projects\EmpType\src\controllers\EmployeeController.ts
+- C:\Projects\EmpType\src\routes\EmployeeRoutes.ts
+- C:\Projects\EmpType\src\routes\index.ts
+- C:\Projects\EmpType\src\index.ts
+Error: Cannot find module '../models/ResponseType'
+Require stack:
+- C:\Projects\EmpType\src\services\EmployeeService.ts
+- C:\Projects\EmpType\src\controllers\EmployeeController.ts
+- C:\Projects\EmpType\src\routes\EmployeeRoutes.ts
+- C:\Projects\EmpType\src\routes\index.ts
+- C:\Projects\EmpType\src\index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Projects\EmpType\src\services\EmployeeService.ts:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (C:\Projects\EmpType\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\ANTARA~1.CHO\AppData\Local\Temp\ts-node-dev-hook-4978327702422294.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\ANTARA~1.CHO\AppData\Local\Temp\ts-node-dev-hook-4978327702422294.js:114:20) {"date":"Sat Apr 09 2022 11:14:30 GMT+0530 (India Standard Time)","error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Projects\\EmpType\\src\\services\\EmployeeService.ts","C:\\Projects\\EmpType\\src\\controllers\\EmployeeController.ts","C:\\Projects\\EmpType\\src\\routes\\EmployeeRoutes.ts","C:\\Projects\\EmpType\\src\\routes\\index.ts","C:\\Projects\\EmpType\\src\\index.ts"]},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1293337},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18630776,"external":22936944,"heapTotal":34512896,"heapUsed":21594264,"rss":59932672},"pid":32944,"uid":null,"version":"v16.14.0"},"stack":"Error: Cannot find module '../models/ResponseType'\nRequire stack:\n- C:\\Projects\\EmpType\\src\\services\\EmployeeService.ts\n- C:\\Projects\\EmpType\\src\\controllers\\EmployeeController.ts\n- C:\\Projects\\EmpType\\src\\routes\\EmployeeRoutes.ts\n- C:\\Projects\\EmpType\\src\\routes\\index.ts\n- C:\\Projects\\EmpType\\src\\index.ts\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Projects\\EmpType\\src\\services\\EmployeeService.ts:3:1)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Module._compile (C:\\Projects\\EmpType\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js:114:20)","timestamp":"2022-04-09T05:44:30.698Z","trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":933,"method":"_resolveFilename","native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":778,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":1,"file":"C:\\Projects\\EmpType\\src\\services\\EmployeeService.ts","function":null,"line":3,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false},{"column":25,"file":"C:\\Projects\\EmpType\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1155,"method":".js","native":false},{"column":20,"file":"C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false}]}
+error: uncaughtException: Cannot find module '../models/ResponseType'
+Require stack:
+- C:\Projects\EmpType\src\services\DepartmentService.ts
+- C:\Projects\EmpType\src\controllers\DepartmentController.ts
+- C:\Projects\EmpType\src\routes\DepartmentRoutes.ts
+- C:\Projects\EmpType\src\routes\index.ts
+- C:\Projects\EmpType\src\index.ts
+Error: Cannot find module '../models/ResponseType'
+Require stack:
+- C:\Projects\EmpType\src\services\DepartmentService.ts
+- C:\Projects\EmpType\src\controllers\DepartmentController.ts
+- C:\Projects\EmpType\src\routes\DepartmentRoutes.ts
+- C:\Projects\EmpType\src\routes\index.ts
+- C:\Projects\EmpType\src\index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Projects\EmpType\src\services\DepartmentService.ts:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (C:\Projects\EmpType\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\ANTARA~1.CHO\AppData\Local\Temp\ts-node-dev-hook-4978327702422294.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\ANTARA~1.CHO\AppData\Local\Temp\ts-node-dev-hook-4978327702422294.js:114:20) {"date":"Sat Apr 09 2022 11:16:23 GMT+0530 (India Standard Time)","error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Projects\\EmpType\\src\\services\\DepartmentService.ts","C:\\Projects\\EmpType\\src\\controllers\\DepartmentController.ts","C:\\Projects\\EmpType\\src\\routes\\DepartmentRoutes.ts","C:\\Projects\\EmpType\\src\\routes\\index.ts","C:\\Projects\\EmpType\\src\\index.ts"]},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1293449},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18508281,"external":21736856,"heapTotal":37396480,"heapUsed":22513144,"rss":66068480},"pid":13108,"uid":null,"version":"v16.14.0"},"stack":"Error: Cannot find module '../models/ResponseType'\nRequire stack:\n- C:\\Projects\\EmpType\\src\\services\\DepartmentService.ts\n- C:\\Projects\\EmpType\\src\\controllers\\DepartmentController.ts\n- C:\\Projects\\EmpType\\src\\routes\\DepartmentRoutes.ts\n- C:\\Projects\\EmpType\\src\\routes\\index.ts\n- C:\\Projects\\EmpType\\src\\index.ts\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Projects\\EmpType\\src\\services\\DepartmentService.ts:3:1)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Module._compile (C:\\Projects\\EmpType\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js:114:20)","timestamp":"2022-04-09T05:46:23.091Z","trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":933,"method":"_resolveFilename","native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":778,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":1,"file":"C:\\Projects\\EmpType\\src\\services\\DepartmentService.ts","function":null,"line":3,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false},{"column":25,"file":"C:\\Projects\\EmpType\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1155,"method":".js","native":false},{"column":20,"file":"C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false}]}
+error: uncaughtException: Cannot find module '../models/ResponseType'
+Require stack:
+- C:\Projects\EmpType\src\services\DepartmentService.ts
+- C:\Projects\EmpType\src\controllers\DepartmentController.ts
+- C:\Projects\EmpType\src\routes\DepartmentRoutes.ts
+- C:\Projects\EmpType\src\routes\index.ts
+- C:\Projects\EmpType\src\index.ts
+Error: Cannot find module '../models/ResponseType'
+Require stack:
+- C:\Projects\EmpType\src\services\DepartmentService.ts
+- C:\Projects\EmpType\src\controllers\DepartmentController.ts
+- C:\Projects\EmpType\src\routes\DepartmentRoutes.ts
+- C:\Projects\EmpType\src\routes\index.ts
+- C:\Projects\EmpType\src\index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Projects\EmpType\src\services\DepartmentService.ts:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (C:\Projects\EmpType\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\ANTARA~1.CHO\AppData\Local\Temp\ts-node-dev-hook-4978327702422294.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\ANTARA~1.CHO\AppData\Local\Temp\ts-node-dev-hook-4978327702422294.js:114:20) {"date":"Sat Apr 09 2022 11:16:26 GMT+0530 (India Standard Time)","error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Projects\\EmpType\\src\\services\\DepartmentService.ts","C:\\Projects\\EmpType\\src\\controllers\\DepartmentController.ts","C:\\Projects\\EmpType\\src\\routes\\DepartmentRoutes.ts","C:\\Projects\\EmpType\\src\\routes\\index.ts","C:\\Projects\\EmpType\\src\\index.ts"]},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1293453},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18555250,"external":23366704,"heapTotal":36872192,"heapUsed":23106176,"rss":66322432},"pid":32696,"uid":null,"version":"v16.14.0"},"stack":"Error: Cannot find module '../models/ResponseType'\nRequire stack:\n- C:\\Projects\\EmpType\\src\\services\\DepartmentService.ts\n- C:\\Projects\\EmpType\\src\\controllers\\DepartmentController.ts\n- C:\\Projects\\EmpType\\src\\routes\\DepartmentRoutes.ts\n- C:\\Projects\\EmpType\\src\\routes\\index.ts\n- C:\\Projects\\EmpType\\src\\index.ts\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Projects\\EmpType\\src\\services\\DepartmentService.ts:3:1)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Module._compile (C:\\Projects\\EmpType\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js:114:20)","timestamp":"2022-04-09T05:46:26.628Z","trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":933,"method":"_resolveFilename","native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":778,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":1,"file":"C:\\Projects\\EmpType\\src\\services\\DepartmentService.ts","function":null,"line":3,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false},{"column":25,"file":"C:\\Projects\\EmpType\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1155,"method":".js","native":false},{"column":20,"file":"C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false}]}
+error: uncaughtException: Cannot find module '../models/ResponseType'
+Require stack:
+- C:\Projects\EmpType\src\services\DepartmentService.ts
+- C:\Projects\EmpType\src\controllers\DepartmentController.ts
+- C:\Projects\EmpType\src\routes\DepartmentRoutes.ts
+- C:\Projects\EmpType\src\routes\index.ts
+- C:\Projects\EmpType\src\index.ts
+Error: Cannot find module '../models/ResponseType'
+Require stack:
+- C:\Projects\EmpType\src\services\DepartmentService.ts
+- C:\Projects\EmpType\src\controllers\DepartmentController.ts
+- C:\Projects\EmpType\src\routes\DepartmentRoutes.ts
+- C:\Projects\EmpType\src\routes\index.ts
+- C:\Projects\EmpType\src\index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Projects\EmpType\src\services\DepartmentService.ts:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (C:\Projects\EmpType\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\ANTARA~1.CHO\AppData\Local\Temp\ts-node-dev-hook-4978327702422294.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\ANTARA~1.CHO\AppData\Local\Temp\ts-node-dev-hook-4978327702422294.js:114:20) {"date":"Sat Apr 09 2022 11:16:30 GMT+0530 (India Standard Time)","error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Projects\\EmpType\\src\\services\\DepartmentService.ts","C:\\Projects\\EmpType\\src\\controllers\\DepartmentController.ts","C:\\Projects\\EmpType\\src\\routes\\DepartmentRoutes.ts","C:\\Projects\\EmpType\\src\\routes\\index.ts","C:\\Projects\\EmpType\\src\\index.ts"]},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1293456},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18575598,"external":23366700,"heapTotal":36872192,"heapUsed":22875280,"rss":66600960},"pid":5616,"uid":null,"version":"v16.14.0"},"stack":"Error: Cannot find module '../models/ResponseType'\nRequire stack:\n- C:\\Projects\\EmpType\\src\\services\\DepartmentService.ts\n- C:\\Projects\\EmpType\\src\\controllers\\DepartmentController.ts\n- C:\\Projects\\EmpType\\src\\routes\\DepartmentRoutes.ts\n- C:\\Projects\\EmpType\\src\\routes\\index.ts\n- C:\\Projects\\EmpType\\src\\index.ts\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Projects\\EmpType\\src\\services\\DepartmentService.ts:3:1)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Module._compile (C:\\Projects\\EmpType\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js:114:20)","timestamp":"2022-04-09T05:46:30.182Z","trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":933,"method":"_resolveFilename","native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":778,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":1,"file":"C:\\Projects\\EmpType\\src\\services\\DepartmentService.ts","function":null,"line":3,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false},{"column":25,"file":"C:\\Projects\\EmpType\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1155,"method":".js","native":false},{"column":20,"file":"C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-09T05:46:33.922Z"}
+info: Connected to the database. {"timestamp":"2022-04-09T05:46:33.942Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-09T05:51:10.956Z"}
+info: Connected to the database. {"timestamp":"2022-04-09T05:51:10.971Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-09T06:02:42.929Z"}
+info: Connected to the database. {"timestamp":"2022-04-09T06:02:42.943Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-09T07:56:50.962Z"}
+info: Connected to the database. {"timestamp":"2022-04-09T07:56:50.979Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-09T07:57:47.806Z"}
+info: Connected to the database. {"timestamp":"2022-04-09T07:57:47.830Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-09T07:59:38.251Z"}
+info: Connected to the database. {"timestamp":"2022-04-09T07:59:38.272Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-09T08:05:30.846Z"}
+info: Connected to the database. {"timestamp":"2022-04-09T08:05:30.863Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:63:24)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\Dao\Employee.Dao.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:4:12)
+    at UserDao.deleteUser (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:58:47)
+    at EmployeeService.<anonymous> (C:\Projects\EmpType\src\services\EmployeeService.ts:40:31)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\services\EmployeeService.ts:8:71
+    at new Promise (<anonymous>) 
+    url - /api/v1/emps/delete/62513caf489a96382300b3db 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-09T08:06:28.778Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-09T08:09:23.180Z"}
+info: Connected to the database. {"timestamp":"2022-04-09T08:09:23.198Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (C:\Projects\EmpType\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\Projects\EmpType\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Projects\EmpType\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (C:\Projects\EmpType\node_modules\bcrypt\bcrypt.js:204:25)
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:149:48)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-09T08:36:24.876Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNDQ0ODU1YjNiNTVmMDBlN2Y4N2RlMyIsImVtYWlsIjoiQWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NDkzMzk3fQ.sjuEakw5W1gLK31n1NJW0bkW9n4I7uj8JAzPovipN14 {"timestamp":"2022-04-09T08:36:37.746Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-09T08:42:15.414Z"}
+info: Connected to the database. {"timestamp":"2022-04-09T08:42:15.432Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/emps/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-09T08:43:14.305Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/emps/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-09T08:43:15.360Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-09T08:46:26.019Z"}
+info: Connected to the database. {"timestamp":"2022-04-09T08:46:26.043Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/emps/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-09T08:46:37.743Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-09T08:51:57.948Z"}
+info: Connected to the database. {"timestamp":"2022-04-09T08:51:57.974Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/emps/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-09T08:52:01.735Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-09T08:52:27.256Z"}
+info: Connected to the database. {"timestamp":"2022-04-09T08:52:27.275Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/emps/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-09T08:52:40.663Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNDQ0ODU1YjNiNTVmMDBlN2Y4N2RlMyIsImVtYWlsIjoiQWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NDk0NDA5fQ.Olng7v4WaFzfNJA1BKeVjrLUobefezrl9WwGAnrr-Ak {"timestamp":"2022-04-09T08:53:29.390Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-09T08:54:05.774Z"}
+info: Connected to the database. {"timestamp":"2022-04-09T08:54:05.791Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-09T08:54:37.002Z"}
+info: Connected to the database. {"timestamp":"2022-04-09T08:54:37.023Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNDQ0ODU1YjNiNTVmMDBlN2Y4N2RlMyIsImVtYWlsIjoiQWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NDk0NDk0fQ.SvAVGNz2zFL0ueJZxxDJoCfr7mBcPxFnD5CNNfszloM {"timestamp":"2022-04-09T08:54:54.166Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNDQ0ODU1YjNiNTVmMDBlN2Y4N2RlMyIsImVtYWlsIjoiQWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NDk0NTMxfQ.xUs3fNJeEgdF6__p9hiAPaCPRx_y33SC4rDMdKFBs_0 {"timestamp":"2022-04-09T08:55:31.150Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/emps/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-09T08:55:48.065Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE0N2U3ZTk2NDljMWRlNzMzZGNkNSIsImVtYWlsIjoiRW1wM0BnbWFpbC5jb20iLCJyb2xlIjp7InJvbGVfaWQiOjIsInJvbGVfbmFtZSI6IkRldmVsb3BlciJ9LCJpYXQiOjE2NDk0OTQ1NzZ9.GMkoYXTmYYpNlr4TLp2sPPxLrzQCFHA4TIp28q0Ohws {"timestamp":"2022-04-09T08:56:16.564Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE0N2U3ZTk2NDljMWRlNzMzZGNkNSIsImVtYWlsIjoiRW1wM0BnbWFpbC5jb20iLCJyb2xlIjp7InJvbGVfaWQiOjIsInJvbGVfbmFtZSI6IkRldmVsb3BlciJ9LCJpYXQiOjE2NDk0OTQ1OTN9.OuIv4Q_9LtVFrSec_e8-VwlpOi8W7HBZ1nezdA4prfA {"timestamp":"2022-04-09T08:56:33.890Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNDQ0ODU1YjNiNTVmMDBlN2Y4N2RlMyIsImVtYWlsIjoiQWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NTAwMzY0fQ.jHzN07X9PzMIJPPmDsFz-7k3AMYcyhI5IBEB_2ycg-Y {"timestamp":"2022-04-09T10:32:44.435Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE0N2U3ZTk2NDljMWRlNzMzZGNkNSIsImVtYWlsIjoiRW1wM0BnbWFpbC5jb20iLCJyb2xlIjp7InJvbGVfaWQiOjIsInJvbGVfbmFtZSI6IkRldmVsb3BlciJ9LCJpYXQiOjE2NDk1MDA0OTl9.nazoK0RjnTF2x37NrwikFWd0aTt4ysrBa67kJZ4GYbI {"timestamp":"2022-04-09T10:34:59.892Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE0N2U3ZTk2NDljMWRlNzMzZGNkNSIsImVtYWlsIjoiRW1wM0BnbWFpbC5jb20iLCJyb2xlIjp7InJvbGVfaWQiOjIsInJvbGVfbmFtZSI6IkRldmVsb3BlciJ9LCJpYXQiOjE2NDk1MDA3OTh9.cF45Vt4deBSOTM4qFRi6roBaAYPM2l2rnRWaHPD1eR4 {"timestamp":"2022-04-09T10:39:58.335Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNDQ0ODU1YjNiNTVmMDBlN2Y4N2RlMyIsImVtYWlsIjoiQWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NTAwODczfQ.HhKoHbqRxY_g96c--Y7VxcmqedBNFBgwLflwyGtDtxY {"timestamp":"2022-04-09T10:41:13.874Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNDQ0ODU1YjNiNTVmMDBlN2Y4N2RlMyIsImVtYWlsIjoiQWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NTAxMTA2fQ.NST3sm7f55eK5Atp7V3gjWOFRNo4GAUkioIlZo2-Kns {"timestamp":"2022-04-09T10:45:06.093Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNDQ0ODU1YjNiNTVmMDBlN2Y4N2RlMyIsImVtYWlsIjoiQWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NTAxMTQ5fQ.8ue6hbmHrOQ-KW_cSrpG77TSxQrcY-M579lV9BmbZok {"timestamp":"2022-04-09T10:45:49.475Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNDQ0ODU1YjNiNTVmMDBlN2Y4N2RlMyIsImVtYWlsIjoiQWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NTAxMTc4fQ.wJRBHaO4sNRoCWB-QFkYJqycls9ykl0KRF1YuK78Kdg {"timestamp":"2022-04-09T10:46:18.250Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNDQ0ODU1YjNiNTVmMDBlN2Y4N2RlMyIsImVtYWlsIjoiQWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NTAxMjE1fQ.ZAtZXmImDv6G6h5QL_EMa_pC8k3CYjpK0iM5vzCUtKc {"timestamp":"2022-04-09T10:46:55.582Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNDQ0ODU1YjNiNTVmMDBlN2Y4N2RlMyIsImVtYWlsIjoiQWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NTAxMzE1fQ.RJH2bW6FPJLy6QXsUlo5wZHoGWkScbN5eC6OsYq71b4 {"timestamp":"2022-04-09T10:48:35.643Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'dept_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:34:35)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-09T10:55:19.006Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk1MDE4NDN9.Rf0N0-r3eAvCEowocqhcUD_PhXWxbjii8rZgz9mmR7s {"timestamp":"2022-04-09T10:57:23.883Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk1MDE4Nzd9.ZVmD2LStSz34StdfdjzvShoYCcf6QXaWjqTtOpXGvlU {"timestamp":"2022-04-09T10:57:57.367Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk1MDE5MTd9.HkblDOD0gmVRAGko4r-pqIO2JcQy-0GN6TlCfwR9HpI {"timestamp":"2022-04-09T10:58:37.022Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk1MDQyMDZ9.LQR060gb7L1cgkOGtySqetXTlc8IwC8xICV2haRntyk {"timestamp":"2022-04-09T11:36:46.475Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk1MDQzMjd9.S35Gj6VCKXoRhz0PCjECgTPfj8q_w_u_bw7PudVF4yA {"timestamp":"2022-04-09T11:38:47.949Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk1MDQ4ODV9.Wznxwlm0MoRJUpXeK2YligjveYjXapU-GOIXmPbNaec {"timestamp":"2022-04-09T11:48:05.431Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk1MDQ5MTN9.azb2Kd49Q67TACab2L_8ib95RUesAG1GvwIb4uSCiS4 {"timestamp":"2022-04-09T11:48:33.583Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk1MDQ5MjJ9.XT_D_IZoYOdumk9MdXNCa19VNmdY2Su3031xVTjNJMg {"timestamp":"2022-04-09T11:48:42.201Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk1MDQ5MjN9.KsME2R89QurvGzmzpGhzJFL7_V6q6d_rRNy3Bk7FX-0 {"timestamp":"2022-04-09T11:48:43.616Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk1MDUwNTR9.FvzsCjskug8RwPBd-dl7vkl2GNTx2RjQid7h1Vg8Gbg {"timestamp":"2022-04-09T11:50:54.008Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk1MDUwNjJ9.yyfXQUZfDiZKq4e3tofFQNkYMDshBgZ5rQlYDUztFWY {"timestamp":"2022-04-09T11:51:02.036Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk1MDUyNzl9.FU858XE4me1UreH-X8ET79I6zyhMpgIh66qbfi4AdKI {"timestamp":"2022-04-09T11:54:39.428Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk1MDUzNDR9.zs9xANrwBxWnC2-GXNwSrQ-ph1flqJipAHrj-bvMiHI {"timestamp":"2022-04-09T11:55:44.930Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk1MDY1ODN9.yuTtl01zJHlxSaZw9yhqd2fXv_UcbMGzeFwEs1BGwBs {"timestamp":"2022-04-09T12:16:23.341Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk1MDgxMDF9.sVajk3uxC_i53xnyW_iaWNsn0E1iOwPYJfvp0gbzNJY {"timestamp":"2022-04-09T12:41:41.953Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk1MDk5NTR9.M0BeFQMSbmamCVUi3S70l2MKfoILMHZ4xaZ9Q4gXoDI {"timestamp":"2022-04-09T13:12:34.026Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk1MTAxMjd9.j3D7deMmXzeRh6woE1kxUWD-sfRIwh7nOy3uziIxPOI {"timestamp":"2022-04-09T13:15:27.597Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk1MTEyMzl9.Ira0IEB7oEv3yFpvboo-EkFqxT10jXofB-Bq7c9-FKs {"timestamp":"2022-04-09T13:33:59.710Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk1MTM4MDd9.asjgkJ-cQPZbk_k2rVLf9DgWAF8CcWJpynanyNR7Uf0 {"timestamp":"2022-04-09T14:16:47.042Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk1MjE3MTZ9.30zrC-urrr3EL9rW-Ttci0AIXsYk4JhlEM4c8G52uBQ {"timestamp":"2022-04-09T16:28:36.008Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk1MjM5MjN9.cF2BIbXK-hIpZcBTMUJtgQ8Whj6DFwCZLEmKi_r-AtI {"timestamp":"2022-04-09T17:05:23.820Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk1MjUzNDh9.oWH9bqaqvOrzWWQgH1bB7D8SC9GEgwBr3kJU7WPkFY4 {"timestamp":"2022-04-09T17:29:08.146Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-09T17:45:09.049Z"}
+info: Connected to the database. {"timestamp":"2022-04-09T17:45:09.134Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk1MjgwMTZ9.I5YESK3vhPnse_vhhLOgnJZ3aAxYnLtAzXTpuWjVCPc {"timestamp":"2022-04-09T18:13:36.223Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk1MjgxMTJ9.N3gsH0zcDU2yPvCXAVX0Exi4DaEUb0D1gWanwzBDpQo {"timestamp":"2022-04-09T18:15:12.234Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk1MjgxNzB9.d60-QiJHjBJ29h9MOGY0OvuUgF40lDBTW01WuSmOMCw {"timestamp":"2022-04-09T18:16:10.718Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk1MjgyMTZ9.qYztBHGaWNDaePqleR_NBQsmSPsITXys066CmkQ6JCo {"timestamp":"2022-04-09T18:16:56.813Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/emps/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-09T18:27:28.590Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/emps/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-09T18:27:30.367Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk1Mjg4NTd9.5KcewNorfR1LmLnhFoM1f2mLLFW8jfPV-kQRG0QR5N4 {"timestamp":"2022-04-09T18:27:37.187Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk1MjkzNjh9.1D7w5sGtrC3LggCOA5qPx-F5yOWtbYDR8FJBiXELLEw {"timestamp":"2022-04-09T18:36:08.711Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk1Mjk0MTZ9.8FFbvutO2LQKLjX6O9fCUHBA1--7O4UkSyUr_ueHsRQ {"timestamp":"2022-04-09T18:36:56.437Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk1Mjk5MjV9.wTSxhoBtZvs0gXO4tEFABZuTEzfBTMF55Z3rZ-sd_Ts {"timestamp":"2022-04-09T18:45:25.974Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/emps/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-09T18:45:46.663Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE0N2U3ZTk2NDljMWRlNzMzZGNkNSIsImVtYWlsIjoiRW1wM0BnbWFpbC5jb20iLCJyb2xlIjp7InJvbGVfaWQiOjIsInJvbGVfbmFtZSI6IkRldmVsb3BlciJ9LCJpYXQiOjE2NDk1Mjk5Njh9.GeWiGrPEvwOvi-nlPe2fmRK4krkSDlZo1WvtOvuWa9g {"timestamp":"2022-04-09T18:46:08.723Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/emps/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-09T18:48:21.366Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/emps/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-09T18:48:27.480Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE0N2U3ZTk2NDljMWRlNzMzZGNkNSIsImVtYWlsIjoiRW1wM0BnbWFpbC5jb20iLCJyb2xlIjp7InJvbGVfaWQiOjIsInJvbGVfbmFtZSI6IkRldmVsb3BlciJ9LCJpYXQiOjE2NDk1MzAxMTN9.h2ZN-hU1al0VX-2PnDs5gNAlkaweN7VGcidrel8wcB8 {"timestamp":"2022-04-09T18:48:33.034Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk1MzAxMzV9.jlDUs9YPjYjdLacdkGuu8BaBGyE5C-lq6dLnYZYep8s {"timestamp":"2022-04-09T18:48:55.326Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk1MzAyMzl9.KCsjcIaHpla4tLsy9n8uUn93otqnCPcMW-tsda8ZvrU {"timestamp":"2022-04-09T18:50:39.135Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk1MzAyNzh9.Nd9S_SrNiQIaY3Cqn01CoQVv4ucSQri-FAXWoFBnFww {"timestamp":"2022-04-09T18:51:18.058Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE0N2U3ZTk2NDljMWRlNzMzZGNkNSIsImVtYWlsIjoiRW1wM0BnbWFpbC5jb20iLCJyb2xlIjp7InJvbGVfaWQiOjIsInJvbGVfbmFtZSI6IkRldmVsb3BlciJ9LCJpYXQiOjE2NDk1MzAzMDd9.HsveqOvY3uEBviabD0BL2i_QbTFgXKBnP44tum1EpWk {"timestamp":"2022-04-09T18:51:47.548Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-10T16:34:58.276Z"}
+info: Connected to the database. {"timestamp":"2022-04-10T16:34:58.301Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE0N2U3ZTk2NDljMWRlNzMzZGNkNSIsImVtYWlsIjoiRW1wM0BnbWFpbC5jb20iLCJyb2xlIjp7InJvbGVfaWQiOjIsInJvbGVfbmFtZSI6IkRldmVsb3BlciJ9LCJpYXQiOjE2NDk2MDg1MDh9.m7wvZT2zVANI0Y2sAZP_bc4EHeI4FCGhVKzk9xgiavo {"timestamp":"2022-04-10T16:35:08.352Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk2MDg1NDZ9.7KhhNyiTuT2IFhQqyZGuLrSWBt48S801aVSsr8xiAHw {"timestamp":"2022-04-10T16:35:46.529Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk2MDg1ODd9.nC2tbZM7LZyxQ7BO7duIkvEK3eHvbAfST3lcE5gdv-8 {"timestamp":"2022-04-10T16:36:27.949Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk2MDg2MjR9.N_H-GJ2XF2jd_t8isyh0l9i-_ZkT03C1T6bNrjeJkMk {"timestamp":"2022-04-10T16:37:04.028Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/emps/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-10T16:42:52.118Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk2MDg5Nzh9.b23svDYa9AlzBvg68ju-Z-ZMNmJ0WsWSIl9Mh8t0wCI {"timestamp":"2022-04-10T16:42:58.179Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk2MDkwMTd9.juVCLIQwiQqwRFSYqAOfPxX_EgFbQ7AMdkTgS-xHwsQ {"timestamp":"2022-04-10T16:43:37.836Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk2MDkyOTB9.Dcis6DHRsMHBzr9htuQvdVIfoFs8b1YrFStkeycebD4 {"timestamp":"2022-04-10T16:48:10.074Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk2MDkzNjB9.-iz0ljGctqJeUijSbPX5vDWcON27qDwPfirfee0DgZE {"timestamp":"2022-04-10T16:49:20.940Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk2MDk1MzV9.mHI-6PWfXkxz9HZgsXCgLXo0dLWpgv5_Dzd3KtDEojk {"timestamp":"2022-04-10T16:52:15.486Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk2MDk2ODl9.vNY-nXyeJ8huJflnZ4bx_6XM6JfKTHCTVZV6zPhMEIg {"timestamp":"2022-04-10T16:54:49.682Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk2MDk3MzF9.Kuw9VTBMFQGYzT1mTxclL4GbulFYr6efZaQ4l2sqP_8 {"timestamp":"2022-04-10T16:55:31.653Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk2MDk3NzB9.Lwitvp1CMIOqYE2hXNZouQavRJh6Evi-i-rjtsFLB2I {"timestamp":"2022-04-10T16:56:10.564Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk2MDk3OTh9.-_PTxSfkEsxwwr3ZZfOAksTE6ec-y2JgW5RvpHIEYO0 {"timestamp":"2022-04-10T16:56:38.368Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk2MDk5ODV9.nwI7V9FtWpci0Gp_ccldzGoZcHYB5vSHcV4M2X_CdYo {"timestamp":"2022-04-10T16:59:45.588Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk2MTAzMzB9.DLmKEvvfcVQ-iSna3xwQhAib0a6CDc3lADbKe2E3W7M {"timestamp":"2022-04-10T17:05:30.860Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-11T05:19:25.173Z"}
+info: Connected to the database. {"timestamp":"2022-04-11T05:19:25.199Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-11T05:21:36.443Z"}
+info: Connected to the database. {"timestamp":"2022-04-11T05:21:36.463Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-11T05:21:54.797Z"}
+info: Connected to the database. {"timestamp":"2022-04-11T05:21:54.815Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-11T05:24:03.062Z"}
+info: Connected to the database. {"timestamp":"2022-04-11T05:24:03.089Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-11T05:24:21.141Z"}
+info: Connected to the database. {"timestamp":"2022-04-11T05:24:21.161Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-11T05:27:55.833Z"}
+info: Connected to the database. {"timestamp":"2022-04-11T05:27:55.855Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE0N2U3ZTk2NDljMWRlNzMzZGNkNSIsImVtYWlsIjoiRW1wM0BnbWFpbC5jb20iLCJyb2xlIjp7InJvbGVfaWQiOjIsInJvbGVfbmFtZSI6IkRldmVsb3BlciJ9LCJpYXQiOjE2NDk2NjMyOTR9.zFKxhZ4K_UbU9AkvIsePbcLIisa6TX1EN_YvKsAOLC0 {"timestamp":"2022-04-11T07:48:14.013Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk2Njc0MTd9.nsCWiyjuHnKELLQUVeLV6XQqGlHCoWMlWH0D0frQxPY {"timestamp":"2022-04-11T08:56:57.435Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE0N2U3ZTk2NDljMWRlNzMzZGNkNSIsImVtYWlsIjoiRW1wM0BnbWFpbC5jb20iLCJyb2xlIjp7InJvbGVfaWQiOjIsInJvbGVfbmFtZSI6IkRldmVsb3BlciJ9LCJpYXQiOjE2NDk2NzA0NDZ9.LPooEPvvWQbByXhQw9Xs4PRQeuQGCeKxYB6frgitoJ0 {"timestamp":"2022-04-11T09:47:26.763Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk2NzA2NzN9.Z-BeUJ7mikHomPw1shPL_QMkF4mjYZBH_iwoOyZtOAw {"timestamp":"2022-04-11T09:51:13.211Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk2NzA2OTR9.vXulc5oyJaKO6uqcz-r9FTqw7_wlOUoA4KSvVXkLm0w {"timestamp":"2022-04-11T09:51:34.041Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE0N2U3ZTk2NDljMWRlNzMzZGNkNSIsImVtYWlsIjoiRW1wM0BnbWFpbC5jb20iLCJyb2xlIjp7InJvbGVfaWQiOjIsInJvbGVfbmFtZSI6IkRldmVsb3BlciJ9LCJpYXQiOjE2NDk2NzA3OTV9.pWof4lB2m84wH2YNSudnjv7MSFU21wCX4iKbmyr0Nec {"timestamp":"2022-04-11T09:53:15.623Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk2NzA4NzN9.WsrXRb8-TN98bakksWWDawYbxZVgDH4bjD1KhAoWcrE {"timestamp":"2022-04-11T09:54:33.840Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk2NzA5MDR9.zgLvE4IF_mIekM0L2CKCpK7n22kCogQntU2BIrxKin0 {"timestamp":"2022-04-11T09:55:04.444Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk2NzIxMzN9.Xzp2XnmJgB4ttXwJBXVRfXtAIiMZzWoaV-Z2Sl7ujQ0 {"timestamp":"2022-04-11T10:15:33.677Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk2NzIxNTF9.QC7vbC21qc7Lvu2dLjpeAzb37NjC_2CK5K9W74-1H1c {"timestamp":"2022-04-11T10:15:51.072Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk2NzIzODh9.yOAMx8a6owusNZtTo0ZCSr77GwxxF17H3zVAFF5AgxY {"timestamp":"2022-04-11T10:19:48.851Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk2NzI2NzZ9.NQXsvDzut9UTfigTQYgbOztqOJN78fTuZyb55JxVe9M {"timestamp":"2022-04-11T10:24:36.010Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk2NzI2OTl9.ng-C0tQ75OOhQgp0_cEr9cZwE76VcKd5zWB1EGD3Tg0 {"timestamp":"2022-04-11T10:24:59.682Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk2NzM3MTR9.wcifqAq4d_KO2fIR2Ii1B_y731kUU16A4j_xwlBqnZ4 {"timestamp":"2022-04-11T10:41:54.845Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk2Nzg3ODF9.h5VIHqDE__uEkduSGl25MKhB9CmFuIa6mTS2ZU-QvQI {"timestamp":"2022-04-11T12:06:21.602Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk2Nzg4MDV9.GiWkFFF3D-n5WATFDHcT2oX43jXbd3eh8rujnQUbGJ0 {"timestamp":"2022-04-11T12:06:45.978Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk2NzkyMzJ9.7BBx7sf7uszDWVT8rtPO0lstNlNCyu8mA-getZSCnbY {"timestamp":"2022-04-11T12:13:52.877Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6eyJyb2xlX2lkIjowLCJyb2xlX25hbWUiOiJBZG1pbiJ9LCJpYXQiOjE2NDk2Nzk4MDF9.oQUtRaxpO2jCioqC6GAI1btGT0vaPAkBznaXru99vw0 {"timestamp":"2022-04-11T12:23:21.856Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-11T12:26:12.057Z"}
+info: Connected to the database. {"timestamp":"2022-04-11T12:26:12.078Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (C:\Projects\EmpType\node_modules\bcrypt\bcrypt.js:137:17)
+    at C:\Projects\EmpType\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Projects\EmpType\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (C:\Projects\EmpType\node_modules\bcrypt\bcrypt.js:133:25)
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:26:45)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-11T12:26:16.120Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-11T12:28:06.714Z"}
+info: Connected to the database. {"timestamp":"2022-04-11T12:28:06.750Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (C:\Projects\EmpType\node_modules\bcrypt\bcrypt.js:137:17)
+    at C:\Projects\EmpType\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Projects\EmpType\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (C:\Projects\EmpType\node_modules\bcrypt\bcrypt.js:133:25)
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:26:45)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-11T12:28:15.189Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-11T12:29:06.461Z"}
+info: Connected to the database. {"timestamp":"2022-04-11T12:29:06.478Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (C:\Projects\EmpType\node_modules\bcrypt\bcrypt.js:137:17)
+    at C:\Projects\EmpType\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Projects\EmpType\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (C:\Projects\EmpType\node_modules\bcrypt\bcrypt.js:133:25)
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:26:45)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-11T12:29:09.614Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NjgxMjI5fQ.1J5B_UY5CBRPuAm-uXF1mSrW2sT1AfuSIYXTNwmos1s {"timestamp":"2022-04-11T12:47:09.550Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-11T12:50:47.938Z"}
+info: Connected to the database. {"timestamp":"2022-04-11T12:50:47.951Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-11T12:51:39.805Z"}
+info: Connected to the database. {"timestamp":"2022-04-11T12:51:39.819Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-11T12:57:04.870Z"}
+info: Connected to the database. {"timestamp":"2022-04-11T12:57:04.886Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (C:\Projects\EmpType\node_modules\bcrypt\bcrypt.js:137:17)
+    at C:\Projects\EmpType\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Projects\EmpType\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (C:\Projects\EmpType\node_modules\bcrypt\bcrypt.js:133:25)
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:26:45)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-11T12:57:07.956Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-11T12:57:43.531Z"}
+info: Connected to the database. {"timestamp":"2022-04-11T12:57:43.549Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (C:\Projects\EmpType\node_modules\bcrypt\bcrypt.js:137:17)
+    at C:\Projects\EmpType\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Projects\EmpType\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (C:\Projects\EmpType\node_modules\bcrypt\bcrypt.js:133:25)
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:26:45)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-11T12:57:46.471Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required404
+    at C:\Projects\EmpType\src\middlewares\auth.middleware.ts:22:13
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\middlewares\auth.middleware.ts:4:12)
+    at adminAuth (C:\Projects\EmpType\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (C:\Projects\EmpType\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\EmpType\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\EmpType\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\EmpType\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-11T13:10:12.515Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-11T13:14:00.768Z"}
+info: Connected to the database. {"timestamp":"2022-04-11T13:14:00.788Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (C:\Projects\EmpType\node_modules\bcrypt\bcrypt.js:137:17)
+    at C:\Projects\EmpType\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Projects\EmpType\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (C:\Projects\EmpType\node_modules\bcrypt\bcrypt.js:133:25)
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:26:45)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-11T13:14:05.978Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-11T13:22:50.112Z"}
+info: Connected to the database. {"timestamp":"2022-04-11T13:22:50.129Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-11T13:34:17.489Z"}
+info: Connected to the database. {"timestamp":"2022-04-11T13:34:17.510Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-11T13:36:32.192Z"}
+info: Connected to the database. {"timestamp":"2022-04-11T13:36:32.207Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-11T13:37:29.879Z"}
+info: Connected to the database. {"timestamp":"2022-04-11T13:37:29.895Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-11T13:45:21.810Z"}
+info: Connected to the database. {"timestamp":"2022-04-11T13:45:21.833Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5Njg4NTk3fQ.cniSH8j6pQO9qehY4_lbvU0NRB6YdL0QknyXB-EJ170 {"timestamp":"2022-04-11T14:49:57.259Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5Njg4NzU3fQ.kXqHq4SoxUVPHEFprCuuZvwjVdtOOAE2JKfft1PqH-4 {"timestamp":"2022-04-11T14:52:37.198Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5Njg4ODY4fQ.w8T_BNcLhWxFqhHTSY-rIiONnJz-UQvqZi5-dVHlJwI {"timestamp":"2022-04-11T14:54:28.181Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5Njg4ODg2fQ.dxDmtRHRk9oz2ZZ8GgB6GB4M5LC2Lq3eLpZme1pLWHA {"timestamp":"2022-04-11T14:54:46.481Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5Njg4OTA3fQ.UEUxT95ycOMFWScZHGz_28QZf4ZEvdnlDXerm9FjMOQ {"timestamp":"2022-04-11T14:55:07.257Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5Njg4OTc3fQ.xsaJWpmvyxPYAfE0C4B9hejd2AuGmrWSChuvfO1VZsk {"timestamp":"2022-04-11T14:56:17.466Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5Njg5MDkzfQ.S0m2SmnKoM_k8VQR8f0oyJdi-VJ_ANXMXuzcIsq045Q {"timestamp":"2022-04-11T14:58:13.151Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5Njg5MTEzfQ.Vo3Y9TVfYtbxKVDifyrIBdHvOrKL9S0jgomDkG8pU1I {"timestamp":"2022-04-11T14:58:33.355Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5Njg5MjQ1fQ.cRvGJiCtBxxbGrTlXSC2ZU4PMJznqjwXZYWeLe0pOSY {"timestamp":"2022-04-11T15:00:45.578Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5Njg5MjU5fQ.-42-Af1rgQ5e5dShBR6ciUyIDLsM_DeAzjLNf_5Wzqw {"timestamp":"2022-04-11T15:00:59.182Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NjkwMzEzfQ.pk4DNpS957Utg23esWUutxrzrNmCTXibCE0eXM36hgE {"timestamp":"2022-04-11T15:18:33.816Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NjkwMzMwfQ.zBw0h-moD6JawW5OqAtkCOEaNciaso-ZSXJWWDqo4Vs {"timestamp":"2022-04-11T15:18:50.368Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NjkwNTk2fQ._MbqwnAjYnigZ3nO06IITUuN1RLSxr1hj3KmU5oIUxc {"timestamp":"2022-04-11T15:23:16.059Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NjkwODYxfQ.0Q2n8zJ2oVMUx04bq2aZMLNQ0Eo4_U6SawzHpAxkuoY {"timestamp":"2022-04-11T15:27:41.763Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NjkxMzE3fQ.fmlxt_Ym8iScRG6akAqUHSB6Rt8gJG4Tbb3z8QZYHes {"timestamp":"2022-04-11T15:35:17.725Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NjkxNTgwfQ.QQzNx67tN_8nt2zKlwpD_cuuWzDmMZW82xJ55HZfbVI {"timestamp":"2022-04-11T15:39:40.034Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NjkxOTQ2fQ.X4BDPNSHNuj-m88Uov6zNwCCif7d1elVjzoJTl2q9f0 {"timestamp":"2022-04-11T15:45:46.899Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NjkyMTc0fQ.9848LYdAJW4BdWZWQuJFytS9JencgkXI_EYx6ICKJOw {"timestamp":"2022-04-11T15:49:34.864Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NjkyMTg5fQ.oiEa1r_3fSPVW8rG3C8gLpW091XO-S7BcyJGY1-Y518 {"timestamp":"2022-04-11T15:49:49.804Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NjkyMjcyfQ.f3Sn-7l-uSmwtYj7-rZG81a3O_3V50lA7Nv6DyEQb1U {"timestamp":"2022-04-11T15:51:12.055Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NjkyMjk1fQ.ScUPobfPrb64ebLZcj7Etuu-CvRo9sol1XaCYtqX5LA {"timestamp":"2022-04-11T15:51:35.137Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NjkyMzQwfQ.t95gX9eCbjAHV50ylkC3rjgwwgNSty7kxqAqef4ffQQ {"timestamp":"2022-04-11T15:52:20.064Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NjkyMzQ0fQ.-onO9rMOdVksmcuqPGuGI5u2DykDx5xCbk7Vxp1u97c {"timestamp":"2022-04-11T15:52:24.194Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NjkyNDU1fQ.HzYn4rccLxbt3Zdzz-sCtt5QYx1vx7neaYIqV9aoXW8 {"timestamp":"2022-04-11T15:54:15.367Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NjkyNDcwfQ.xeeoav9mJ9vMIKz8R_m_4oHWP_nuh8rgR2tBNCG4COE {"timestamp":"2022-04-11T15:54:30.821Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NjkyNDgyfQ.ypX6_4MU3BXwN7YjuLGEx5-ZjztWiAHpyguyxTLNP4Q {"timestamp":"2022-04-11T15:54:42.989Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NjkyNTg0fQ.2-01qic1rNjZMR6duEPN_0yV5yV8Z10FlFqOAXyxirk {"timestamp":"2022-04-11T15:56:24.474Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NjkyNjUyfQ.I4x21X_wenRI_Dyi3hpWJwBZoUD6CyJbD1KTJllquTI {"timestamp":"2022-04-11T15:57:32.792Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NjkyNzA4fQ.SRNd0A5X-TWPjEi3k7Etz48EO5_jPBHKwo3jmqDxzbs {"timestamp":"2022-04-11T15:58:28.336Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NjkzNDkyfQ.Ek4uKkKMmsIr19xlUZgS6pWpu4dNxlqJ8uUg1RIEYiA {"timestamp":"2022-04-11T16:11:32.021Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NjkzNTI1fQ.nF3Dy-sx5XRoMYdCl_1FJjMNkJvAI8x9oj6bt5XEBsc {"timestamp":"2022-04-11T16:12:05.025Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE0N2U3ZTk2NDljMWRlNzMzZGNkNSIsImVtYWlsIjoiRW1wM0BnbWFpbC5jb20iLCJyb2xlIjoiRGV2ZWxvcGVyIiwiaWF0IjoxNjQ5NjkzNTQwfQ.FVkCF-xQ7-QaA7jI6anW7FB_kPPSB1tUJs91SfbhxVs {"timestamp":"2022-04-11T16:12:20.049Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE0N2U3ZTk2NDljMWRlNzMzZGNkNSIsImVtYWlsIjoiRW1wM0BnbWFpbC5jb20iLCJyb2xlIjoiRGV2ZWxvcGVyIiwiaWF0IjoxNjQ5NjkzODQ5fQ.FICE6WeMdJ6pOk98FRCab3JpDfw03R4U5DKdHsiLcus {"timestamp":"2022-04-11T16:17:29.922Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE0N2U3ZTk2NDljMWRlNzMzZGNkNSIsImVtYWlsIjoiRW1wM0BnbWFpbC5jb20iLCJyb2xlIjoiRGV2ZWxvcGVyIiwiaWF0IjoxNjQ5NjkzODUxfQ.mCiW8fay3J84NEuxUS_XXhce1kd0RyzTsmrVN_Hjdds {"timestamp":"2022-04-11T16:17:31.966Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE0N2U3ZTk2NDljMWRlNzMzZGNkNSIsImVtYWlsIjoiRW1wM0BnbWFpbC5jb20iLCJyb2xlIjoiRGV2ZWxvcGVyIiwiaWF0IjoxNjQ5NjkzODU3fQ.tRSmh3xMKgesa5IxbfGEcrCf-DnT2yzSOw6fsnaLlho {"timestamp":"2022-04-11T16:17:37.551Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE0N2U3ZTk2NDljMWRlNzMzZGNkNSIsImVtYWlsIjoiRW1wM0BnbWFpbC5jb20iLCJyb2xlIjoiRGV2ZWxvcGVyIiwiaWF0IjoxNjQ5NjkzODU4fQ.-Dl8190M-W30g1Y-ZJ_nGBGS-Tk-0RKqo5jSPDttM4A {"timestamp":"2022-04-11T16:17:38.181Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE0N2U3ZTk2NDljMWRlNzMzZGNkNSIsImVtYWlsIjoiRW1wM0BnbWFpbC5jb20iLCJyb2xlIjoiRGV2ZWxvcGVyIiwiaWF0IjoxNjQ5NjkzOTAwfQ.WJrNZCEq45-eMESYedzQ9Ab50KXh6DUwi-ISF1AR8yQ {"timestamp":"2022-04-11T16:18:20.047Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE0N2U3ZTk2NDljMWRlNzMzZGNkNSIsImVtYWlsIjoiRW1wM0BnbWFpbC5jb20iLCJyb2xlIjoiRGV2ZWxvcGVyIiwiaWF0IjoxNjQ5Njk0MDk4fQ.Wvh5GDXrRNdzlDoMhXCo2BLogqlq7CF_7gRkWcCeZbA {"timestamp":"2022-04-11T16:21:38.191Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-12T06:42:59.460Z"}
+info: Connected to the database. {"timestamp":"2022-04-12T06:42:59.508Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NzQ5OTYzfQ.qBM6yHhn1CVle-iWLYGdIlVail_7LI221Z3X_rvtAIc {"timestamp":"2022-04-12T07:52:43.180Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NzUwMDI0fQ.lzyCDPNe3NANVl5QKdGxYGeJREYbPjUy0LzEaw25O7M {"timestamp":"2022-04-12T07:53:44.718Z"}
+error: 
+    status - 500 
+    message - BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters
+    at new BSONTypeError (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\error.ts:16:5)
+    at new ObjectId (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\objectid.ts:86:15)
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:51:85)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\Dao\Employee.Dao.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:4:12)
+    at UserDao.findById (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:50:45)
+    at EmployeeService.<anonymous> (C:\Projects\EmpType\src\services\EmployeeService.ts:30:31)
+    at Generator.next (<anonymous>) 
+    url - /api/v1/emps/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-04-12T07:53:46.188Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE0N2U3ZTk2NDljMWRlNzMzZGNkNSIsImVtYWlsIjoiRW1wM0BnbWFpbC5jb20iLCJyb2xlIjoiRGV2ZWxvcGVyIiwiaWF0IjoxNjQ5NzUwMDUxfQ.ukIE5GKIolepDqxauzwPWL4Cp7K-lHl3Yl7rH5c_LoQ {"timestamp":"2022-04-12T07:54:11.831Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NzUwMTg3fQ.stO1D0eikYdlS4IX90COX8Iy0lIFT5Ip0O1ZrVS3Cjc {"timestamp":"2022-04-12T07:56:27.154Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NzUwMzA5fQ.hZxQFV8Nl7J5IXrA6iXA6U_Hf6EYGkDD5kfluVoK7eE {"timestamp":"2022-04-12T07:58:29.859Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NzUwMzg5fQ.DW0EvhY1s9VYsaTj6emRWkOw6MMv-f8GqEc0pTWKo-Y {"timestamp":"2022-04-12T07:59:49.395Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NzUzMjI0fQ.nyaCTrThI9RuzfD1Vn6-SIEf4KXjVkZOj-17yYNZ5A4 {"timestamp":"2022-04-12T08:47:04.557Z"}
+error: 
+    status - 500 
+    message - BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters
+    at new BSONTypeError (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\error.ts:16:5)
+    at new ObjectId (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\objectid.ts:86:15)
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:51:85)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\Dao\Employee.Dao.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:4:12)
+    at UserDao.findById (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:50:45)
+    at EmployeeService.<anonymous> (C:\Projects\EmpType\src\services\EmployeeService.ts:30:31)
+    at Generator.next (<anonymous>) 
+    url - /api/v1/emps/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-04-12T08:47:06.254Z"}
+error: 
+    status - 500 
+    message - BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters
+    at new BSONTypeError (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\error.ts:16:5)
+    at new ObjectId (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\objectid.ts:86:15)
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:51:85)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\Dao\Employee.Dao.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:4:12)
+    at UserDao.findById (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:50:45)
+    at EmployeeService.<anonymous> (C:\Projects\EmpType\src\services\EmployeeService.ts:30:31)
+    at Generator.next (<anonymous>) 
+    url - /api/v1/emps/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-04-12T10:24:56.940Z"}
+error: 
+    status - 500 
+    message - BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters
+    at new BSONTypeError (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\error.ts:16:5)
+    at new ObjectId (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\objectid.ts:86:15)
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:51:85)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\Dao\Employee.Dao.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:4:12)
+    at UserDao.findById (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:50:45)
+    at EmployeeService.<anonymous> (C:\Projects\EmpType\src\services\EmployeeService.ts:30:31)
+    at Generator.next (<anonymous>) 
+    url - /api/v1/emps/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-04-12T10:28:05.289Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NzU5Mjk4fQ.3flmI9w0xYNEFpjigKbqz4Enl3aga3vHl0EJFXhmMn0 {"timestamp":"2022-04-12T10:28:18.526Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NzU5NzIzfQ.N_ryeHnIRh4E1_aYGrVb1L4DhP9GUWORjArlecQqdJI {"timestamp":"2022-04-12T10:35:23.101Z"}
+error: 
+    status - 500 
+    message - BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters
+    at new BSONTypeError (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\error.ts:16:5)
+    at new ObjectId (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\objectid.ts:86:15)
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:51:85)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\Dao\Employee.Dao.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:4:12)
+    at UserDao.findById (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:50:45)
+    at EmployeeService.<anonymous> (C:\Projects\EmpType\src\services\EmployeeService.ts:30:31)
+    at Generator.next (<anonymous>) 
+    url - /api/v1/emps/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-04-12T10:35:25.226Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NzYzOTc4fQ.b1iFTgfyIX8DpTzmCQS7BD1wtUmRwGYPe_UFGyEKTOU {"timestamp":"2022-04-12T11:46:18.282Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NzY0NzkyfQ.BMj6QNbk0xy94enhWb3O2z6SkD-b_ftYo36ala3dYpE {"timestamp":"2022-04-12T11:59:52.971Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NzY1Mjk3fQ.4I-UIL4QMDZ18ny2-oTHSeKARw7n7KX2n0jh5nZv4IU {"timestamp":"2022-04-12T12:08:17.767Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NzY1MzgwfQ.KreXa2mbYZSibk5yNSeP0rIGHwq21wEixpwV_EK0Rac {"timestamp":"2022-04-12T12:09:40.002Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NzY1NzAzfQ.SZFVAf5mTV9ndMhD4trw7IfS6OA0wZlxOw9SsRdxFDM {"timestamp":"2022-04-12T12:15:03.779Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NzY1OTY5fQ.1z9e-31PTz1uNz-8r1FmPkSGRDm8rX4VjuM0a70qktU {"timestamp":"2022-04-12T12:19:29.564Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NzY2MDY2fQ.t_KkHTMwLE7opcUmVwvAJFO6J2XO0E6RXeSt8Ul51Ec {"timestamp":"2022-04-12T12:21:06.221Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NzY2MzI4fQ.stnXDhn3eoxUBN_KwNuXf9STYRmVSyDsMSn7WtuaGZk {"timestamp":"2022-04-12T12:25:28.340Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NzY2NjAyfQ.ezTdbJSaSLhutA5bxJA6hD6AxaAAQPscuJUtPyELH9A {"timestamp":"2022-04-12T12:30:02.745Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NzY2NjM0fQ.3tf451GsEgpwiGZ0147X55AEavCaSR9QWzCk6RG0ntY {"timestamp":"2022-04-12T12:30:34.119Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NzY2NzQ3fQ.AM2MA5jiL9XeD0lzeqKsaTNG4XsjjIvRS1BSyICViE4 {"timestamp":"2022-04-12T12:32:27.988Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NzY2OTM0fQ.Kr5TlL2xXCCxDr-gI_UQitDQr9wt3U1A06_Fcshu2nE {"timestamp":"2022-04-12T12:35:34.181Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NzY2OTgwfQ._EyhrLzXtXerFGuzgmHV0JRXcVAdipdcB9QzzRrQayA {"timestamp":"2022-04-12T12:36:20.084Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-12T12:45:48.217Z"}
+error: uncaughtException: connection <monitor> to 15.206.99.111:27017 closed
+MongoServerSelectionError: connection <monitor> to 15.206.99.111:27017 closed
+    at Timeout._onTimeout (C:\Projects\EmpType\node_modules\mongodb\src\sdam\topology.ts:618:30)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7) {"date":"Tue Apr 12 2022 18:16:19 GMT+0530 (India Standard Time)","error":{"reason":{"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"servers":{},"setName":"atlas-1olttc-shard-0","stale":false,"type":"ReplicaSetNoPrimary"}},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1577845},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18295137,"external":19535938,"heapTotal":24027136,"heapUsed":22325952,"rss":58486784},"pid":18816,"uid":null,"version":"v16.14.0"},"stack":"MongoServerSelectionError: connection <monitor> to 15.206.99.111:27017 closed\n    at Timeout._onTimeout (C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\sdam\\topology.ts:618:30)\n    at listOnTimeout (node:internal/timers:559:17)\n    at processTimers (node:internal/timers:502:7)","timestamp":"2022-04-12T12:46:19.151Z","trace":[{"column":30,"file":"C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\sdam\\topology.ts","function":"Timeout._onTimeout","line":618,"method":"_onTimeout","native":false},{"column":17,"file":"node:internal/timers","function":"listOnTimeout","line":559,"method":null,"native":false},{"column":7,"file":"node:internal/timers","function":"processTimers","line":502,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-12T12:51:07.285Z"}
+error: uncaughtException: connection <monitor> to 15.206.99.111:27017 closed
+MongoServerSelectionError: connection <monitor> to 15.206.99.111:27017 closed
+    at Timeout._onTimeout (C:\Projects\EmpType\node_modules\mongodb\src\sdam\topology.ts:618:30)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7) {"date":"Tue Apr 12 2022 18:21:38 GMT+0530 (India Standard Time)","error":{"reason":{"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"servers":{},"setName":"atlas-1olttc-shard-0","stale":false,"type":"ReplicaSetNoPrimary"}},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1578164},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18286945,"external":19521704,"heapTotal":24027136,"heapUsed":22537024,"rss":59121664},"pid":29888,"uid":null,"version":"v16.14.0"},"stack":"MongoServerSelectionError: connection <monitor> to 15.206.99.111:27017 closed\n    at Timeout._onTimeout (C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\sdam\\topology.ts:618:30)\n    at listOnTimeout (node:internal/timers:559:17)\n    at processTimers (node:internal/timers:502:7)","timestamp":"2022-04-12T12:51:38.221Z","trace":[{"column":30,"file":"C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\sdam\\topology.ts","function":"Timeout._onTimeout","line":618,"method":"_onTimeout","native":false},{"column":17,"file":"node:internal/timers","function":"listOnTimeout","line":559,"method":null,"native":false},{"column":7,"file":"node:internal/timers","function":"processTimers","line":502,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-12T12:56:21.446Z"}
+error: uncaughtException: connection <monitor> to 15.206.99.111:27017 closed
+MongoServerSelectionError: connection <monitor> to 15.206.99.111:27017 closed
+    at Timeout._onTimeout (C:\Projects\EmpType\node_modules\mongodb\src\sdam\topology.ts:618:30)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7) {"date":"Tue Apr 12 2022 18:26:51 GMT+0530 (India Standard Time)","error":{"reason":{"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"servers":{},"setName":"atlas-1olttc-shard-0","stale":false,"type":"ReplicaSetNoPrimary"}},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1578478},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18286945,"external":19515662,"heapTotal":24027136,"heapUsed":22429160,"rss":58093568},"pid":3292,"uid":null,"version":"v16.14.0"},"stack":"MongoServerSelectionError: connection <monitor> to 15.206.99.111:27017 closed\n    at Timeout._onTimeout (C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\sdam\\topology.ts:618:30)\n    at listOnTimeout (node:internal/timers:559:17)\n    at processTimers (node:internal/timers:502:7)","timestamp":"2022-04-12T12:56:51.621Z","trace":[{"column":30,"file":"C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\sdam\\topology.ts","function":"Timeout._onTimeout","line":618,"method":"_onTimeout","native":false},{"column":17,"file":"node:internal/timers","function":"listOnTimeout","line":559,"method":null,"native":false},{"column":7,"file":"node:internal/timers","function":"processTimers","line":502,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-12T13:00:01.378Z"}
+error: uncaughtException: URI must include hostname, domain name, and tld
+MongoAPIError: URI must include hostname, domain name, and tld
+    at resolveSRVRecord (C:\Projects\EmpType\node_modules\mongodb\src\connection_string.ts:76:21)
+    at connect (C:\Projects\EmpType\node_modules\mongodb\src\operations\connect.ts:42:28)
+    at C:\Projects\EmpType\node_modules\mongodb\src\mongo_client.ts:432:14
+    at maybePromise (C:\Projects\EmpType\node_modules\mongodb\src\utils.ts:609:3)
+    at MongoClient.connect (C:\Projects\EmpType\node_modules\mongodb\src\mongo_client.ts:431:24)
+    at C:\Projects\EmpType\src\config\database.ts:17:29
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\config\database.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\config\database.ts:4:12) {"date":"Tue Apr 12 2022 18:30:01 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1578667},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18631989,"external":23534133,"heapTotal":37396480,"heapUsed":26974432,"rss":70799360},"pid":22012,"uid":null,"version":"v16.14.0"},"stack":"MongoAPIError: URI must include hostname, domain name, and tld\n    at resolveSRVRecord (C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\connection_string.ts:76:21)\n    at connect (C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\operations\\connect.ts:42:28)\n    at C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\mongo_client.ts:432:14\n    at maybePromise (C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\utils.ts:609:3)\n    at MongoClient.connect (C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\mongo_client.ts:431:24)\n    at C:\\Projects\\EmpType\\src\\config\\database.ts:17:29\n    at Generator.next (<anonymous>)\n    at C:\\Projects\\EmpType\\src\\config\\database.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Projects\\EmpType\\src\\config\\database.ts:4:12)","timestamp":"2022-04-12T13:00:01.447Z","trace":[{"column":21,"file":"C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\connection_string.ts","function":"resolveSRVRecord","line":76,"method":null,"native":false},{"column":28,"file":"C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\operations\\connect.ts","function":"connect","line":42,"method":null,"native":false},{"column":14,"file":"C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\mongo_client.ts","function":null,"line":432,"method":null,"native":false},{"column":3,"file":"C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\utils.ts","function":"maybePromise","line":609,"method":null,"native":false},{"column":24,"file":"C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\mongo_client.ts","function":"MongoClient.connect","line":431,"method":"connect","native":false},{"column":29,"file":"C:\\Projects\\EmpType\\src\\config\\database.ts","function":null,"line":17,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":71,"file":"C:\\Projects\\EmpType\\src\\config\\database.ts","function":null,"line":8,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"C:\\Projects\\EmpType\\src\\config\\database.ts","function":"__awaiter","line":4,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-12T13:00:13.547Z"}
+error: uncaughtException: querySrv ESERVFAIL _mongodb._tcp.cluster0.zmufp.mongodb.net
+Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.zmufp.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19) {"date":"Tue Apr 12 2022 18:30:17 GMT+0530 (India Standard Time)","error":{"code":"ESERVFAIL","hostname":"_mongodb._tcp.cluster0.zmufp.mongodb.net","syscall":"querySrv"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1578683},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18513848,"external":23465105,"heapTotal":36872192,"heapUsed":23638856,"rss":69636096},"pid":1844,"uid":null,"version":"v16.14.0"},"stack":"Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.zmufp.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","timestamp":"2022-04-12T13:00:17.039Z","trace":[{"column":19,"file":"node:dns","function":"QueryReqWrap.onresolve [as oncomplete]","line":213,"method":"onresolve [as oncomplete]","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-12T13:10:43.381Z"}
+error: uncaughtException: connection <monitor> to 15.206.99.111:27017 closed
+MongoServerSelectionError: connection <monitor> to 15.206.99.111:27017 closed
+    at Timeout._onTimeout (C:\Projects\EmpType\node_modules\mongodb\src\sdam\topology.ts:618:30)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7) {"date":"Tue Apr 12 2022 18:41:13 GMT+0530 (India Standard Time)","error":{"reason":{"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"servers":{},"setName":"atlas-1olttc-shard-0","stale":false,"type":"ReplicaSetNoPrimary"}},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1579340},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18286945,"external":19425032,"heapTotal":24289280,"heapUsed":22210864,"rss":58773504},"pid":7752,"uid":null,"version":"v16.14.0"},"stack":"MongoServerSelectionError: connection <monitor> to 15.206.99.111:27017 closed\n    at Timeout._onTimeout (C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\sdam\\topology.ts:618:30)\n    at listOnTimeout (node:internal/timers:559:17)\n    at processTimers (node:internal/timers:502:7)","timestamp":"2022-04-12T13:11:13.558Z","trace":[{"column":30,"file":"C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\sdam\\topology.ts","function":"Timeout._onTimeout","line":618,"method":"_onTimeout","native":false},{"column":17,"file":"node:internal/timers","function":"listOnTimeout","line":559,"method":null,"native":false},{"column":7,"file":"node:internal/timers","function":"processTimers","line":502,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-12T13:13:56.593Z"}
+error: uncaughtException: connection <monitor> to 15.206.99.111:27017 closed
+MongoServerSelectionError: connection <monitor> to 15.206.99.111:27017 closed
+    at Timeout._onTimeout (C:\Projects\EmpType\node_modules\mongodb\src\sdam\topology.ts:618:30)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7) {"date":"Tue Apr 12 2022 18:44:26 GMT+0530 (India Standard Time)","error":{"reason":{"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"servers":{},"setName":"atlas-1olttc-shard-0","stale":false,"type":"ReplicaSetNoPrimary"}},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1579533},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18286945,"external":19509620,"heapTotal":24027136,"heapUsed":22230832,"rss":58257408},"pid":32776,"uid":null,"version":"v16.14.0"},"stack":"MongoServerSelectionError: connection <monitor> to 15.206.99.111:27017 closed\n    at Timeout._onTimeout (C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\sdam\\topology.ts:618:30)\n    at listOnTimeout (node:internal/timers:559:17)\n    at processTimers (node:internal/timers:502:7)","timestamp":"2022-04-12T13:14:26.748Z","trace":[{"column":30,"file":"C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\sdam\\topology.ts","function":"Timeout._onTimeout","line":618,"method":"_onTimeout","native":false},{"column":17,"file":"node:internal/timers","function":"listOnTimeout","line":559,"method":null,"native":false},{"column":7,"file":"node:internal/timers","function":"processTimers","line":502,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-12T13:16:17.717Z"}
+info: Connected to the database. {"timestamp":"2022-04-12T13:16:17.734Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-12T13:28:50.745Z"}
+error: uncaughtException: bad auth : Authentication failed.
+MongoServerError: bad auth : Authentication failed.
+    at MessageStream.messageHandler (C:\Projects\EmpType\node_modules\mongodb\src\cmap\connection.ts:753:20)
+    at MessageStream.emit (node:events:520:28)
+    at processIncomingData (C:\Projects\EmpType\node_modules\mongodb\src\cmap\message_stream.ts:168:12)
+    at MessageStream._write (C:\Projects\EmpType\node_modules\mongodb\src\cmap\message_stream.ts:65:5)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10)
+    at TLSSocket.ondata (node:internal/streams/readable:754:22)
+    at TLSSocket.emit (node:events:520:28)
+    at addChunk (node:internal/streams/readable:315:12) {"date":"Tue Apr 12 2022 18:58:51 GMT+0530 (India Standard Time)","error":{"code":8000,"codeName":"AtlasError","ok":0},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1580397},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18522702,"external":20333514,"heapTotal":37920768,"heapUsed":26212696,"rss":72830976},"pid":972,"uid":null,"version":"v16.14.0"},"stack":"MongoServerError: bad auth : Authentication failed.\n    at MessageStream.messageHandler (C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\cmap\\connection.ts:753:20)\n    at MessageStream.emit (node:events:520:28)\n    at processIncomingData (C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:168:12)\n    at MessageStream._write (C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:65:5)\n    at writeOrBuffer (node:internal/streams/writable:389:12)\n    at _write (node:internal/streams/writable:330:10)\n    at MessageStream.Writable.write (node:internal/streams/writable:334:10)\n    at TLSSocket.ondata (node:internal/streams/readable:754:22)\n    at TLSSocket.emit (node:events:520:28)\n    at addChunk (node:internal/streams/readable:315:12)","timestamp":"2022-04-12T13:28:51.335Z","trace":[{"column":20,"file":"C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\cmap\\connection.ts","function":"MessageStream.messageHandler","line":753,"method":"messageHandler","native":false},{"column":28,"file":"node:events","function":"MessageStream.emit","line":520,"method":"emit","native":false},{"column":12,"file":"C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\cmap\\message_stream.ts","function":"processIncomingData","line":168,"method":null,"native":false},{"column":5,"file":"C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\cmap\\message_stream.ts","function":"MessageStream._write","line":65,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":389,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":330,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"MessageStream.Writable.write","line":334,"method":"write","native":false},{"column":22,"file":"node:internal/streams/readable","function":"TLSSocket.ondata","line":754,"method":"ondata","native":false},{"column":28,"file":"node:events","function":"TLSSocket.emit","line":520,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"addChunk","line":315,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-12T13:29:14.150Z"}
+error: uncaughtException: bad auth : Authentication failed.
+MongoServerError: bad auth : Authentication failed.
+    at MessageStream.messageHandler (C:\Projects\EmpType\node_modules\mongodb\src\cmap\connection.ts:753:20)
+    at MessageStream.emit (node:events:520:28)
+    at processIncomingData (C:\Projects\EmpType\node_modules\mongodb\src\cmap\message_stream.ts:168:12)
+    at MessageStream._write (C:\Projects\EmpType\node_modules\mongodb\src\cmap\message_stream.ts:65:5)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10)
+    at TLSSocket.ondata (node:internal/streams/readable:754:22)
+    at TLSSocket.emit (node:events:520:28)
+    at addChunk (node:internal/streams/readable:315:12) {"date":"Tue Apr 12 2022 18:59:14 GMT+0530 (India Standard Time)","error":{"code":8000,"codeName":"AtlasError","ok":0},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1580421},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18518553,"external":21857804,"heapTotal":37920768,"heapUsed":26055592,"rss":73347072},"pid":17976,"uid":null,"version":"v16.14.0"},"stack":"MongoServerError: bad auth : Authentication failed.\n    at MessageStream.messageHandler (C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\cmap\\connection.ts:753:20)\n    at MessageStream.emit (node:events:520:28)\n    at processIncomingData (C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:168:12)\n    at MessageStream._write (C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:65:5)\n    at writeOrBuffer (node:internal/streams/writable:389:12)\n    at _write (node:internal/streams/writable:330:10)\n    at MessageStream.Writable.write (node:internal/streams/writable:334:10)\n    at TLSSocket.ondata (node:internal/streams/readable:754:22)\n    at TLSSocket.emit (node:events:520:28)\n    at addChunk (node:internal/streams/readable:315:12)","timestamp":"2022-04-12T13:29:14.522Z","trace":[{"column":20,"file":"C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\cmap\\connection.ts","function":"MessageStream.messageHandler","line":753,"method":"messageHandler","native":false},{"column":28,"file":"node:events","function":"MessageStream.emit","line":520,"method":"emit","native":false},{"column":12,"file":"C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\cmap\\message_stream.ts","function":"processIncomingData","line":168,"method":null,"native":false},{"column":5,"file":"C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\cmap\\message_stream.ts","function":"MessageStream._write","line":65,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":389,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":330,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"MessageStream.Writable.write","line":334,"method":"write","native":false},{"column":22,"file":"node:internal/streams/readable","function":"TLSSocket.ondata","line":754,"method":"ondata","native":false},{"column":28,"file":"node:events","function":"TLSSocket.emit","line":520,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"addChunk","line":315,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-12T13:29:35.221Z"}
+info: Connected to the database. {"timestamp":"2022-04-12T13:29:35.577Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-12T13:30:41.891Z"}
+info: Connected to the database. {"timestamp":"2022-04-12T13:30:42.407Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'dept_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:34:35)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-12T13:31:25.692Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-12T13:34:35.325Z"}
+info: Connected to the database. {"timestamp":"2022-04-12T13:34:36.531Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-12T13:37:59.817Z"}
+info: Connected to the database. {"timestamp":"2022-04-12T13:38:00.344Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTU4MTdkZDAxZTI1MGIwOTI1MjJkYiIsImVtYWlsIjoiQWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NzcwOTI1fQ._fVIrpuGzKOXRx94lm6-m90kGqdT8v3Rajd7_EoeJWE {"timestamp":"2022-04-12T13:42:05.706Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-12T13:42:37.655Z"}
+info: Connected to the database. {"timestamp":"2022-04-12T13:42:38.179Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-12T13:42:46.642Z"}
+info: Connected to the database. {"timestamp":"2022-04-12T13:42:46.985Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-12T13:43:55.832Z"}
+info: Connected to the database. {"timestamp":"2022-04-12T13:43:56.254Z"}

@@ -903,3 +903,754 @@ error:
     method - PUT 
     IP - ::ffff:127.0.0.1
    {"timestamp":"2022-04-06T14:34:13.147Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'dept_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:29:35)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-07T06:24:14.165Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'role_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:33:35)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-07T07:18:50.744Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'dept_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:29:35)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-07T07:52:09.681Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'role_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:107:47)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/624e9869d5cc0800a3168bf6 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-04-07T08:01:14.203Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'role_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:107:47)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/624e9869d5cc0800a3168bf6 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-04-07T08:04:12.795Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'dept_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:109:53)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/624e9869d5cc0800a3168bf6 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-04-07T08:04:34.490Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'role_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:107:47)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/624e9869d5cc0800a3168bf6 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-04-07T08:08:50.058Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'role_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:107:47)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/624e916264e65dcea163446f 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-07T08:12:48.409Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'role_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:107:47)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/624e916264e65dcea163446f 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-07T08:14:08.598Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'role_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:107:47)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/624e916264e65dcea163446f 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-07T08:15:42.202Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'role_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:92:50)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/624e916264e65dcea163446f 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-07T08:16:05.067Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'role_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:107:47)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/624e916264e65dcea163446f 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-07T08:17:40.852Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'role_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:107:47)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/624e916264e65dcea163446f 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-07T08:23:21.744Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'role_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:107:47)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/624e9869d5cc0800a3168bf6 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-04-07T08:25:49.716Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'role_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:107:47)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/624e9869d5cc0800a3168bf6 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-04-07T08:27:40.362Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'role_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:107:47)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/624e9869d5cc0800a3168bf6 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-04-07T08:31:50.918Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'role_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:107:47)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/624e9869d5cc0800a3168bf6 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-04-07T08:34:47.155Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'role_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:107:47)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/624e9869d5cc0800a3168bf6 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-04-07T08:37:30.866Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'role_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:107:47)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/624e9869d5cc0800a3168bf6 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-04-07T08:37:56.690Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'role_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:107:47)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/624e9869d5cc0800a3168bf6 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-04-07T08:42:26.267Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'role_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:35:35)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-07T11:49:02.491Z"}
+error: uncaughtException: Missing default value
+Error: Missing default value
+    at new module.exports (C:\Projects\EmpType\node_modules\@hapi\hoek\lib\error.js:23:19)
+    at module.exports (C:\Projects\EmpType\node_modules\@hapi\hoek\lib\assert.js:20:11)
+    at internals.Base._default (C:\Projects\EmpType\node_modules\joi\lib\base.js:830:9)
+    at internals.Base.default (C:\Projects\EmpType\node_modules\joi\lib\base.js:111:21)
+    at Object.<anonymous> (C:\Projects\EmpType\src\validators\EmployeeValidator.ts:27:37)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (C:\Projects\EmpType\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\ANTARA~1.CHO\AppData\Local\Temp\ts-node-dev-hook-4978327702422294.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\ANTARA~1.CHO\AppData\Local\Temp\ts-node-dev-hook-4978327702422294.js:114:20) {"date":"Sat Apr 09 2022 10:44:26 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1291532},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18788490,"external":22354641,"heapTotal":36347904,"heapUsed":25331840,"rss":65888256},"pid":24956,"uid":null,"version":"v16.14.0"},"stack":"Error: Missing default value\n    at new module.exports (C:\\Projects\\EmpType\\node_modules\\@hapi\\hoek\\lib\\error.js:23:19)\n    at module.exports (C:\\Projects\\EmpType\\node_modules\\@hapi\\hoek\\lib\\assert.js:20:11)\n    at internals.Base._default (C:\\Projects\\EmpType\\node_modules\\joi\\lib\\base.js:830:9)\n    at internals.Base.default (C:\\Projects\\EmpType\\node_modules\\joi\\lib\\base.js:111:21)\n    at Object.<anonymous> (C:\\Projects\\EmpType\\src\\validators\\EmployeeValidator.ts:27:37)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Module._compile (C:\\Projects\\EmpType\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js:114:20)","timestamp":"2022-04-09T05:14:26.078Z","trace":[{"column":19,"file":"C:\\Projects\\EmpType\\node_modules\\@hapi\\hoek\\lib\\error.js","function":"new module.exports","line":23,"method":"exports","native":false},{"column":11,"file":"C:\\Projects\\EmpType\\node_modules\\@hapi\\hoek\\lib\\assert.js","function":"module.exports","line":20,"method":"exports","native":false},{"column":9,"file":"C:\\Projects\\EmpType\\node_modules\\joi\\lib\\base.js","function":"internals.Base._default","line":830,"method":"_default","native":false},{"column":21,"file":"C:\\Projects\\EmpType\\node_modules\\joi\\lib\\base.js","function":"internals.Base.default","line":111,"method":"default","native":false},{"column":37,"file":"C:\\Projects\\EmpType\\src\\validators\\EmployeeValidator.ts","function":null,"line":27,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false},{"column":25,"file":"C:\\Projects\\EmpType\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1155,"method":".js","native":false},{"column":20,"file":"C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false}]}
+error: uncaughtException: Missing default value
+Error: Missing default value
+    at new module.exports (C:\Projects\EmpType\node_modules\@hapi\hoek\lib\error.js:23:19)
+    at module.exports (C:\Projects\EmpType\node_modules\@hapi\hoek\lib\assert.js:20:11)
+    at internals.Base._default (C:\Projects\EmpType\node_modules\joi\lib\base.js:830:9)
+    at internals.Base.default (C:\Projects\EmpType\node_modules\joi\lib\base.js:111:21)
+    at Object.<anonymous> (C:\Projects\EmpType\src\validators\EmployeeValidator.ts:27:37)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (C:\Projects\EmpType\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\ANTARA~1.CHO\AppData\Local\Temp\ts-node-dev-hook-4978327702422294.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\ANTARA~1.CHO\AppData\Local\Temp\ts-node-dev-hook-4978327702422294.js:114:20) {"date":"Sat Apr 09 2022 10:45:05 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1291572},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18483119,"external":23315049,"heapTotal":36872192,"heapUsed":22499624,"rss":66097152},"pid":20000,"uid":null,"version":"v16.14.0"},"stack":"Error: Missing default value\n    at new module.exports (C:\\Projects\\EmpType\\node_modules\\@hapi\\hoek\\lib\\error.js:23:19)\n    at module.exports (C:\\Projects\\EmpType\\node_modules\\@hapi\\hoek\\lib\\assert.js:20:11)\n    at internals.Base._default (C:\\Projects\\EmpType\\node_modules\\joi\\lib\\base.js:830:9)\n    at internals.Base.default (C:\\Projects\\EmpType\\node_modules\\joi\\lib\\base.js:111:21)\n    at Object.<anonymous> (C:\\Projects\\EmpType\\src\\validators\\EmployeeValidator.ts:27:37)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Module._compile (C:\\Projects\\EmpType\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js:114:20)","timestamp":"2022-04-09T05:15:05.770Z","trace":[{"column":19,"file":"C:\\Projects\\EmpType\\node_modules\\@hapi\\hoek\\lib\\error.js","function":"new module.exports","line":23,"method":"exports","native":false},{"column":11,"file":"C:\\Projects\\EmpType\\node_modules\\@hapi\\hoek\\lib\\assert.js","function":"module.exports","line":20,"method":"exports","native":false},{"column":9,"file":"C:\\Projects\\EmpType\\node_modules\\joi\\lib\\base.js","function":"internals.Base._default","line":830,"method":"_default","native":false},{"column":21,"file":"C:\\Projects\\EmpType\\node_modules\\joi\\lib\\base.js","function":"internals.Base.default","line":111,"method":"default","native":false},{"column":37,"file":"C:\\Projects\\EmpType\\src\\validators\\EmployeeValidator.ts","function":null,"line":27,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false},{"column":25,"file":"C:\\Projects\\EmpType\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1155,"method":".js","native":false},{"column":20,"file":"C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false}]}
+error: uncaughtException: Cannot find module '../models/ResponseType'
+Require stack:
+- C:\Projects\EmpType\src\services\EmployeeService.ts
+- C:\Projects\EmpType\src\controllers\EmployeeController.ts
+- C:\Projects\EmpType\src\routes\EmployeeRoutes.ts
+- C:\Projects\EmpType\src\routes\index.ts
+- C:\Projects\EmpType\src\index.ts
+Error: Cannot find module '../models/ResponseType'
+Require stack:
+- C:\Projects\EmpType\src\services\EmployeeService.ts
+- C:\Projects\EmpType\src\controllers\EmployeeController.ts
+- C:\Projects\EmpType\src\routes\EmployeeRoutes.ts
+- C:\Projects\EmpType\src\routes\index.ts
+- C:\Projects\EmpType\src\index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Projects\EmpType\src\services\EmployeeService.ts:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (C:\Projects\EmpType\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\ANTARA~1.CHO\AppData\Local\Temp\ts-node-dev-hook-4978327702422294.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\ANTARA~1.CHO\AppData\Local\Temp\ts-node-dev-hook-4978327702422294.js:114:20) {"date":"Sat Apr 09 2022 11:14:30 GMT+0530 (India Standard Time)","error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Projects\\EmpType\\src\\services\\EmployeeService.ts","C:\\Projects\\EmpType\\src\\controllers\\EmployeeController.ts","C:\\Projects\\EmpType\\src\\routes\\EmployeeRoutes.ts","C:\\Projects\\EmpType\\src\\routes\\index.ts","C:\\Projects\\EmpType\\src\\index.ts"]},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1293337},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18630776,"external":22936944,"heapTotal":34512896,"heapUsed":21594264,"rss":59932672},"pid":32944,"uid":null,"version":"v16.14.0"},"stack":"Error: Cannot find module '../models/ResponseType'\nRequire stack:\n- C:\\Projects\\EmpType\\src\\services\\EmployeeService.ts\n- C:\\Projects\\EmpType\\src\\controllers\\EmployeeController.ts\n- C:\\Projects\\EmpType\\src\\routes\\EmployeeRoutes.ts\n- C:\\Projects\\EmpType\\src\\routes\\index.ts\n- C:\\Projects\\EmpType\\src\\index.ts\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Projects\\EmpType\\src\\services\\EmployeeService.ts:3:1)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Module._compile (C:\\Projects\\EmpType\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js:114:20)","timestamp":"2022-04-09T05:44:30.698Z","trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":933,"method":"_resolveFilename","native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":778,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":1,"file":"C:\\Projects\\EmpType\\src\\services\\EmployeeService.ts","function":null,"line":3,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false},{"column":25,"file":"C:\\Projects\\EmpType\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1155,"method":".js","native":false},{"column":20,"file":"C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false}]}
+error: uncaughtException: Cannot find module '../models/ResponseType'
+Require stack:
+- C:\Projects\EmpType\src\services\DepartmentService.ts
+- C:\Projects\EmpType\src\controllers\DepartmentController.ts
+- C:\Projects\EmpType\src\routes\DepartmentRoutes.ts
+- C:\Projects\EmpType\src\routes\index.ts
+- C:\Projects\EmpType\src\index.ts
+Error: Cannot find module '../models/ResponseType'
+Require stack:
+- C:\Projects\EmpType\src\services\DepartmentService.ts
+- C:\Projects\EmpType\src\controllers\DepartmentController.ts
+- C:\Projects\EmpType\src\routes\DepartmentRoutes.ts
+- C:\Projects\EmpType\src\routes\index.ts
+- C:\Projects\EmpType\src\index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Projects\EmpType\src\services\DepartmentService.ts:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (C:\Projects\EmpType\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\ANTARA~1.CHO\AppData\Local\Temp\ts-node-dev-hook-4978327702422294.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\ANTARA~1.CHO\AppData\Local\Temp\ts-node-dev-hook-4978327702422294.js:114:20) {"date":"Sat Apr 09 2022 11:16:23 GMT+0530 (India Standard Time)","error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Projects\\EmpType\\src\\services\\DepartmentService.ts","C:\\Projects\\EmpType\\src\\controllers\\DepartmentController.ts","C:\\Projects\\EmpType\\src\\routes\\DepartmentRoutes.ts","C:\\Projects\\EmpType\\src\\routes\\index.ts","C:\\Projects\\EmpType\\src\\index.ts"]},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1293449},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18508281,"external":21736856,"heapTotal":37396480,"heapUsed":22513144,"rss":66068480},"pid":13108,"uid":null,"version":"v16.14.0"},"stack":"Error: Cannot find module '../models/ResponseType'\nRequire stack:\n- C:\\Projects\\EmpType\\src\\services\\DepartmentService.ts\n- C:\\Projects\\EmpType\\src\\controllers\\DepartmentController.ts\n- C:\\Projects\\EmpType\\src\\routes\\DepartmentRoutes.ts\n- C:\\Projects\\EmpType\\src\\routes\\index.ts\n- C:\\Projects\\EmpType\\src\\index.ts\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Projects\\EmpType\\src\\services\\DepartmentService.ts:3:1)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Module._compile (C:\\Projects\\EmpType\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js:114:20)","timestamp":"2022-04-09T05:46:23.091Z","trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":933,"method":"_resolveFilename","native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":778,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":1,"file":"C:\\Projects\\EmpType\\src\\services\\DepartmentService.ts","function":null,"line":3,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false},{"column":25,"file":"C:\\Projects\\EmpType\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1155,"method":".js","native":false},{"column":20,"file":"C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false}]}
+error: uncaughtException: Cannot find module '../models/ResponseType'
+Require stack:
+- C:\Projects\EmpType\src\services\DepartmentService.ts
+- C:\Projects\EmpType\src\controllers\DepartmentController.ts
+- C:\Projects\EmpType\src\routes\DepartmentRoutes.ts
+- C:\Projects\EmpType\src\routes\index.ts
+- C:\Projects\EmpType\src\index.ts
+Error: Cannot find module '../models/ResponseType'
+Require stack:
+- C:\Projects\EmpType\src\services\DepartmentService.ts
+- C:\Projects\EmpType\src\controllers\DepartmentController.ts
+- C:\Projects\EmpType\src\routes\DepartmentRoutes.ts
+- C:\Projects\EmpType\src\routes\index.ts
+- C:\Projects\EmpType\src\index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Projects\EmpType\src\services\DepartmentService.ts:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (C:\Projects\EmpType\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\ANTARA~1.CHO\AppData\Local\Temp\ts-node-dev-hook-4978327702422294.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\ANTARA~1.CHO\AppData\Local\Temp\ts-node-dev-hook-4978327702422294.js:114:20) {"date":"Sat Apr 09 2022 11:16:26 GMT+0530 (India Standard Time)","error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Projects\\EmpType\\src\\services\\DepartmentService.ts","C:\\Projects\\EmpType\\src\\controllers\\DepartmentController.ts","C:\\Projects\\EmpType\\src\\routes\\DepartmentRoutes.ts","C:\\Projects\\EmpType\\src\\routes\\index.ts","C:\\Projects\\EmpType\\src\\index.ts"]},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1293453},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18555250,"external":23366704,"heapTotal":36872192,"heapUsed":23106176,"rss":66322432},"pid":32696,"uid":null,"version":"v16.14.0"},"stack":"Error: Cannot find module '../models/ResponseType'\nRequire stack:\n- C:\\Projects\\EmpType\\src\\services\\DepartmentService.ts\n- C:\\Projects\\EmpType\\src\\controllers\\DepartmentController.ts\n- C:\\Projects\\EmpType\\src\\routes\\DepartmentRoutes.ts\n- C:\\Projects\\EmpType\\src\\routes\\index.ts\n- C:\\Projects\\EmpType\\src\\index.ts\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Projects\\EmpType\\src\\services\\DepartmentService.ts:3:1)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Module._compile (C:\\Projects\\EmpType\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js:114:20)","timestamp":"2022-04-09T05:46:26.628Z","trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":933,"method":"_resolveFilename","native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":778,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":1,"file":"C:\\Projects\\EmpType\\src\\services\\DepartmentService.ts","function":null,"line":3,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false},{"column":25,"file":"C:\\Projects\\EmpType\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1155,"method":".js","native":false},{"column":20,"file":"C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false}]}
+error: uncaughtException: Cannot find module '../models/ResponseType'
+Require stack:
+- C:\Projects\EmpType\src\services\DepartmentService.ts
+- C:\Projects\EmpType\src\controllers\DepartmentController.ts
+- C:\Projects\EmpType\src\routes\DepartmentRoutes.ts
+- C:\Projects\EmpType\src\routes\index.ts
+- C:\Projects\EmpType\src\index.ts
+Error: Cannot find module '../models/ResponseType'
+Require stack:
+- C:\Projects\EmpType\src\services\DepartmentService.ts
+- C:\Projects\EmpType\src\controllers\DepartmentController.ts
+- C:\Projects\EmpType\src\routes\DepartmentRoutes.ts
+- C:\Projects\EmpType\src\routes\index.ts
+- C:\Projects\EmpType\src\index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Projects\EmpType\src\services\DepartmentService.ts:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (C:\Projects\EmpType\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\ANTARA~1.CHO\AppData\Local\Temp\ts-node-dev-hook-4978327702422294.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\ANTARA~1.CHO\AppData\Local\Temp\ts-node-dev-hook-4978327702422294.js:114:20) {"date":"Sat Apr 09 2022 11:16:30 GMT+0530 (India Standard Time)","error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Projects\\EmpType\\src\\services\\DepartmentService.ts","C:\\Projects\\EmpType\\src\\controllers\\DepartmentController.ts","C:\\Projects\\EmpType\\src\\routes\\DepartmentRoutes.ts","C:\\Projects\\EmpType\\src\\routes\\index.ts","C:\\Projects\\EmpType\\src\\index.ts"]},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1293456},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18575598,"external":23366700,"heapTotal":36872192,"heapUsed":22875280,"rss":66600960},"pid":5616,"uid":null,"version":"v16.14.0"},"stack":"Error: Cannot find module '../models/ResponseType'\nRequire stack:\n- C:\\Projects\\EmpType\\src\\services\\DepartmentService.ts\n- C:\\Projects\\EmpType\\src\\controllers\\DepartmentController.ts\n- C:\\Projects\\EmpType\\src\\routes\\DepartmentRoutes.ts\n- C:\\Projects\\EmpType\\src\\routes\\index.ts\n- C:\\Projects\\EmpType\\src\\index.ts\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Projects\\EmpType\\src\\services\\DepartmentService.ts:3:1)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Module._compile (C:\\Projects\\EmpType\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1155:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js:114:20)","timestamp":"2022-04-09T05:46:30.182Z","trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":933,"method":"_resolveFilename","native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":778,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":1,"file":"C:\\Projects\\EmpType\\src\\services\\DepartmentService.ts","function":null,"line":3,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false},{"column":25,"file":"C:\\Projects\\EmpType\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1155,"method":".js","native":false},{"column":20,"file":"C:\\Users\\ANTARA~1.CHO\\AppData\\Local\\Temp\\ts-node-dev-hook-4978327702422294.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false}]}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:63:24)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\Dao\Employee.Dao.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:4:12)
+    at UserDao.deleteUser (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:58:47)
+    at EmployeeService.<anonymous> (C:\Projects\EmpType\src\services\EmployeeService.ts:40:31)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\services\EmployeeService.ts:8:71
+    at new Promise (<anonymous>) 
+    url - /api/v1/emps/delete/62513caf489a96382300b3db 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-09T08:06:28.778Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (C:\Projects\EmpType\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\Projects\EmpType\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Projects\EmpType\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (C:\Projects\EmpType\node_modules\bcrypt\bcrypt.js:204:25)
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:149:48)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-09T08:36:24.876Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/emps/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-09T08:43:14.305Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/emps/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-09T08:43:15.360Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/emps/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-09T08:46:37.743Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/emps/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-09T08:52:01.735Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/emps/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-09T08:52:40.663Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/emps/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-09T08:55:48.065Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'dept_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:34:35)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-09T10:55:19.006Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/emps/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-09T18:27:28.590Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/emps/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-09T18:27:30.367Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/emps/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-09T18:45:46.663Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/emps/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-09T18:48:21.366Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/emps/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-09T18:48:27.480Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/emps/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-10T16:42:52.118Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (C:\Projects\EmpType\node_modules\bcrypt\bcrypt.js:137:17)
+    at C:\Projects\EmpType\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Projects\EmpType\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (C:\Projects\EmpType\node_modules\bcrypt\bcrypt.js:133:25)
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:26:45)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-11T12:26:16.120Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (C:\Projects\EmpType\node_modules\bcrypt\bcrypt.js:137:17)
+    at C:\Projects\EmpType\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Projects\EmpType\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (C:\Projects\EmpType\node_modules\bcrypt\bcrypt.js:133:25)
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:26:45)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-11T12:28:15.189Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (C:\Projects\EmpType\node_modules\bcrypt\bcrypt.js:137:17)
+    at C:\Projects\EmpType\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Projects\EmpType\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (C:\Projects\EmpType\node_modules\bcrypt\bcrypt.js:133:25)
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:26:45)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-11T12:29:09.614Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (C:\Projects\EmpType\node_modules\bcrypt\bcrypt.js:137:17)
+    at C:\Projects\EmpType\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Projects\EmpType\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (C:\Projects\EmpType\node_modules\bcrypt\bcrypt.js:133:25)
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:26:45)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-11T12:57:07.956Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (C:\Projects\EmpType\node_modules\bcrypt\bcrypt.js:137:17)
+    at C:\Projects\EmpType\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Projects\EmpType\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (C:\Projects\EmpType\node_modules\bcrypt\bcrypt.js:133:25)
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:26:45)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-11T12:57:46.471Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required404
+    at C:\Projects\EmpType\src\middlewares\auth.middleware.ts:22:13
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\middlewares\auth.middleware.ts:4:12)
+    at adminAuth (C:\Projects\EmpType\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (C:\Projects\EmpType\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\EmpType\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\EmpType\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\EmpType\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-11T13:10:12.515Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (C:\Projects\EmpType\node_modules\bcrypt\bcrypt.js:137:17)
+    at C:\Projects\EmpType\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Projects\EmpType\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (C:\Projects\EmpType\node_modules\bcrypt\bcrypt.js:133:25)
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:26:45)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-11T13:14:05.978Z"}
+error: 
+    status - 500 
+    message - BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters
+    at new BSONTypeError (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\error.ts:16:5)
+    at new ObjectId (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\objectid.ts:86:15)
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:51:85)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\Dao\Employee.Dao.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:4:12)
+    at UserDao.findById (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:50:45)
+    at EmployeeService.<anonymous> (C:\Projects\EmpType\src\services\EmployeeService.ts:30:31)
+    at Generator.next (<anonymous>) 
+    url - /api/v1/emps/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-04-12T07:53:46.188Z"}
+error: 
+    status - 500 
+    message - BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters
+    at new BSONTypeError (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\error.ts:16:5)
+    at new ObjectId (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\objectid.ts:86:15)
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:51:85)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\Dao\Employee.Dao.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:4:12)
+    at UserDao.findById (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:50:45)
+    at EmployeeService.<anonymous> (C:\Projects\EmpType\src\services\EmployeeService.ts:30:31)
+    at Generator.next (<anonymous>) 
+    url - /api/v1/emps/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-04-12T08:47:06.254Z"}
+error: 
+    status - 500 
+    message - BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters
+    at new BSONTypeError (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\error.ts:16:5)
+    at new ObjectId (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\objectid.ts:86:15)
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:51:85)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\Dao\Employee.Dao.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:4:12)
+    at UserDao.findById (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:50:45)
+    at EmployeeService.<anonymous> (C:\Projects\EmpType\src\services\EmployeeService.ts:30:31)
+    at Generator.next (<anonymous>) 
+    url - /api/v1/emps/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-04-12T10:24:56.940Z"}
+error: 
+    status - 500 
+    message - BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters
+    at new BSONTypeError (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\error.ts:16:5)
+    at new ObjectId (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\objectid.ts:86:15)
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:51:85)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\Dao\Employee.Dao.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:4:12)
+    at UserDao.findById (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:50:45)
+    at EmployeeService.<anonymous> (C:\Projects\EmpType\src\services\EmployeeService.ts:30:31)
+    at Generator.next (<anonymous>) 
+    url - /api/v1/emps/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-04-12T10:28:05.289Z"}
+error: 
+    status - 500 
+    message - BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters
+    at new BSONTypeError (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\error.ts:16:5)
+    at new ObjectId (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\objectid.ts:86:15)
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:51:85)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\Dao\Employee.Dao.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:4:12)
+    at UserDao.findById (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:50:45)
+    at EmployeeService.<anonymous> (C:\Projects\EmpType\src\services\EmployeeService.ts:30:31)
+    at Generator.next (<anonymous>) 
+    url - /api/v1/emps/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-04-12T10:35:25.226Z"}
+error: uncaughtException: connection <monitor> to 15.206.99.111:27017 closed
+MongoServerSelectionError: connection <monitor> to 15.206.99.111:27017 closed
+    at Timeout._onTimeout (C:\Projects\EmpType\node_modules\mongodb\src\sdam\topology.ts:618:30)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7) {"date":"Tue Apr 12 2022 18:16:19 GMT+0530 (India Standard Time)","error":{"reason":{"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"servers":{},"setName":"atlas-1olttc-shard-0","stale":false,"type":"ReplicaSetNoPrimary"}},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1577845},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18295137,"external":19535938,"heapTotal":24027136,"heapUsed":22325952,"rss":58486784},"pid":18816,"uid":null,"version":"v16.14.0"},"stack":"MongoServerSelectionError: connection <monitor> to 15.206.99.111:27017 closed\n    at Timeout._onTimeout (C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\sdam\\topology.ts:618:30)\n    at listOnTimeout (node:internal/timers:559:17)\n    at processTimers (node:internal/timers:502:7)","timestamp":"2022-04-12T12:46:19.151Z","trace":[{"column":30,"file":"C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\sdam\\topology.ts","function":"Timeout._onTimeout","line":618,"method":"_onTimeout","native":false},{"column":17,"file":"node:internal/timers","function":"listOnTimeout","line":559,"method":null,"native":false},{"column":7,"file":"node:internal/timers","function":"processTimers","line":502,"method":null,"native":false}]}
+error: uncaughtException: connection <monitor> to 15.206.99.111:27017 closed
+MongoServerSelectionError: connection <monitor> to 15.206.99.111:27017 closed
+    at Timeout._onTimeout (C:\Projects\EmpType\node_modules\mongodb\src\sdam\topology.ts:618:30)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7) {"date":"Tue Apr 12 2022 18:21:38 GMT+0530 (India Standard Time)","error":{"reason":{"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"servers":{},"setName":"atlas-1olttc-shard-0","stale":false,"type":"ReplicaSetNoPrimary"}},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1578164},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18286945,"external":19521704,"heapTotal":24027136,"heapUsed":22537024,"rss":59121664},"pid":29888,"uid":null,"version":"v16.14.0"},"stack":"MongoServerSelectionError: connection <monitor> to 15.206.99.111:27017 closed\n    at Timeout._onTimeout (C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\sdam\\topology.ts:618:30)\n    at listOnTimeout (node:internal/timers:559:17)\n    at processTimers (node:internal/timers:502:7)","timestamp":"2022-04-12T12:51:38.221Z","trace":[{"column":30,"file":"C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\sdam\\topology.ts","function":"Timeout._onTimeout","line":618,"method":"_onTimeout","native":false},{"column":17,"file":"node:internal/timers","function":"listOnTimeout","line":559,"method":null,"native":false},{"column":7,"file":"node:internal/timers","function":"processTimers","line":502,"method":null,"native":false}]}
+error: uncaughtException: connection <monitor> to 15.206.99.111:27017 closed
+MongoServerSelectionError: connection <monitor> to 15.206.99.111:27017 closed
+    at Timeout._onTimeout (C:\Projects\EmpType\node_modules\mongodb\src\sdam\topology.ts:618:30)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7) {"date":"Tue Apr 12 2022 18:26:51 GMT+0530 (India Standard Time)","error":{"reason":{"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"servers":{},"setName":"atlas-1olttc-shard-0","stale":false,"type":"ReplicaSetNoPrimary"}},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1578478},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18286945,"external":19515662,"heapTotal":24027136,"heapUsed":22429160,"rss":58093568},"pid":3292,"uid":null,"version":"v16.14.0"},"stack":"MongoServerSelectionError: connection <monitor> to 15.206.99.111:27017 closed\n    at Timeout._onTimeout (C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\sdam\\topology.ts:618:30)\n    at listOnTimeout (node:internal/timers:559:17)\n    at processTimers (node:internal/timers:502:7)","timestamp":"2022-04-12T12:56:51.621Z","trace":[{"column":30,"file":"C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\sdam\\topology.ts","function":"Timeout._onTimeout","line":618,"method":"_onTimeout","native":false},{"column":17,"file":"node:internal/timers","function":"listOnTimeout","line":559,"method":null,"native":false},{"column":7,"file":"node:internal/timers","function":"processTimers","line":502,"method":null,"native":false}]}
+error: uncaughtException: URI must include hostname, domain name, and tld
+MongoAPIError: URI must include hostname, domain name, and tld
+    at resolveSRVRecord (C:\Projects\EmpType\node_modules\mongodb\src\connection_string.ts:76:21)
+    at connect (C:\Projects\EmpType\node_modules\mongodb\src\operations\connect.ts:42:28)
+    at C:\Projects\EmpType\node_modules\mongodb\src\mongo_client.ts:432:14
+    at maybePromise (C:\Projects\EmpType\node_modules\mongodb\src\utils.ts:609:3)
+    at MongoClient.connect (C:\Projects\EmpType\node_modules\mongodb\src\mongo_client.ts:431:24)
+    at C:\Projects\EmpType\src\config\database.ts:17:29
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\config\database.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\config\database.ts:4:12) {"date":"Tue Apr 12 2022 18:30:01 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1578667},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18631989,"external":23534133,"heapTotal":37396480,"heapUsed":26974432,"rss":70799360},"pid":22012,"uid":null,"version":"v16.14.0"},"stack":"MongoAPIError: URI must include hostname, domain name, and tld\n    at resolveSRVRecord (C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\connection_string.ts:76:21)\n    at connect (C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\operations\\connect.ts:42:28)\n    at C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\mongo_client.ts:432:14\n    at maybePromise (C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\utils.ts:609:3)\n    at MongoClient.connect (C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\mongo_client.ts:431:24)\n    at C:\\Projects\\EmpType\\src\\config\\database.ts:17:29\n    at Generator.next (<anonymous>)\n    at C:\\Projects\\EmpType\\src\\config\\database.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Projects\\EmpType\\src\\config\\database.ts:4:12)","timestamp":"2022-04-12T13:00:01.447Z","trace":[{"column":21,"file":"C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\connection_string.ts","function":"resolveSRVRecord","line":76,"method":null,"native":false},{"column":28,"file":"C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\operations\\connect.ts","function":"connect","line":42,"method":null,"native":false},{"column":14,"file":"C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\mongo_client.ts","function":null,"line":432,"method":null,"native":false},{"column":3,"file":"C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\utils.ts","function":"maybePromise","line":609,"method":null,"native":false},{"column":24,"file":"C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\mongo_client.ts","function":"MongoClient.connect","line":431,"method":"connect","native":false},{"column":29,"file":"C:\\Projects\\EmpType\\src\\config\\database.ts","function":null,"line":17,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":71,"file":"C:\\Projects\\EmpType\\src\\config\\database.ts","function":null,"line":8,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"C:\\Projects\\EmpType\\src\\config\\database.ts","function":"__awaiter","line":4,"method":null,"native":false}]}
+error: uncaughtException: querySrv ESERVFAIL _mongodb._tcp.cluster0.zmufp.mongodb.net
+Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.zmufp.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19) {"date":"Tue Apr 12 2022 18:30:17 GMT+0530 (India Standard Time)","error":{"code":"ESERVFAIL","hostname":"_mongodb._tcp.cluster0.zmufp.mongodb.net","syscall":"querySrv"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1578683},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18513848,"external":23465105,"heapTotal":36872192,"heapUsed":23638856,"rss":69636096},"pid":1844,"uid":null,"version":"v16.14.0"},"stack":"Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.zmufp.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","timestamp":"2022-04-12T13:00:17.039Z","trace":[{"column":19,"file":"node:dns","function":"QueryReqWrap.onresolve [as oncomplete]","line":213,"method":"onresolve [as oncomplete]","native":false}]}
+error: uncaughtException: connection <monitor> to 15.206.99.111:27017 closed
+MongoServerSelectionError: connection <monitor> to 15.206.99.111:27017 closed
+    at Timeout._onTimeout (C:\Projects\EmpType\node_modules\mongodb\src\sdam\topology.ts:618:30)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7) {"date":"Tue Apr 12 2022 18:41:13 GMT+0530 (India Standard Time)","error":{"reason":{"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"servers":{},"setName":"atlas-1olttc-shard-0","stale":false,"type":"ReplicaSetNoPrimary"}},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1579340},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18286945,"external":19425032,"heapTotal":24289280,"heapUsed":22210864,"rss":58773504},"pid":7752,"uid":null,"version":"v16.14.0"},"stack":"MongoServerSelectionError: connection <monitor> to 15.206.99.111:27017 closed\n    at Timeout._onTimeout (C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\sdam\\topology.ts:618:30)\n    at listOnTimeout (node:internal/timers:559:17)\n    at processTimers (node:internal/timers:502:7)","timestamp":"2022-04-12T13:11:13.558Z","trace":[{"column":30,"file":"C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\sdam\\topology.ts","function":"Timeout._onTimeout","line":618,"method":"_onTimeout","native":false},{"column":17,"file":"node:internal/timers","function":"listOnTimeout","line":559,"method":null,"native":false},{"column":7,"file":"node:internal/timers","function":"processTimers","line":502,"method":null,"native":false}]}
+error: uncaughtException: connection <monitor> to 15.206.99.111:27017 closed
+MongoServerSelectionError: connection <monitor> to 15.206.99.111:27017 closed
+    at Timeout._onTimeout (C:\Projects\EmpType\node_modules\mongodb\src\sdam\topology.ts:618:30)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7) {"date":"Tue Apr 12 2022 18:44:26 GMT+0530 (India Standard Time)","error":{"reason":{"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"servers":{},"setName":"atlas-1olttc-shard-0","stale":false,"type":"ReplicaSetNoPrimary"}},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1579533},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18286945,"external":19509620,"heapTotal":24027136,"heapUsed":22230832,"rss":58257408},"pid":32776,"uid":null,"version":"v16.14.0"},"stack":"MongoServerSelectionError: connection <monitor> to 15.206.99.111:27017 closed\n    at Timeout._onTimeout (C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\sdam\\topology.ts:618:30)\n    at listOnTimeout (node:internal/timers:559:17)\n    at processTimers (node:internal/timers:502:7)","timestamp":"2022-04-12T13:14:26.748Z","trace":[{"column":30,"file":"C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\sdam\\topology.ts","function":"Timeout._onTimeout","line":618,"method":"_onTimeout","native":false},{"column":17,"file":"node:internal/timers","function":"listOnTimeout","line":559,"method":null,"native":false},{"column":7,"file":"node:internal/timers","function":"processTimers","line":502,"method":null,"native":false}]}
+error: uncaughtException: bad auth : Authentication failed.
+MongoServerError: bad auth : Authentication failed.
+    at MessageStream.messageHandler (C:\Projects\EmpType\node_modules\mongodb\src\cmap\connection.ts:753:20)
+    at MessageStream.emit (node:events:520:28)
+    at processIncomingData (C:\Projects\EmpType\node_modules\mongodb\src\cmap\message_stream.ts:168:12)
+    at MessageStream._write (C:\Projects\EmpType\node_modules\mongodb\src\cmap\message_stream.ts:65:5)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10)
+    at TLSSocket.ondata (node:internal/streams/readable:754:22)
+    at TLSSocket.emit (node:events:520:28)
+    at addChunk (node:internal/streams/readable:315:12) {"date":"Tue Apr 12 2022 18:58:51 GMT+0530 (India Standard Time)","error":{"code":8000,"codeName":"AtlasError","ok":0},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1580397},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18522702,"external":20333514,"heapTotal":37920768,"heapUsed":26212696,"rss":72830976},"pid":972,"uid":null,"version":"v16.14.0"},"stack":"MongoServerError: bad auth : Authentication failed.\n    at MessageStream.messageHandler (C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\cmap\\connection.ts:753:20)\n    at MessageStream.emit (node:events:520:28)\n    at processIncomingData (C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:168:12)\n    at MessageStream._write (C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:65:5)\n    at writeOrBuffer (node:internal/streams/writable:389:12)\n    at _write (node:internal/streams/writable:330:10)\n    at MessageStream.Writable.write (node:internal/streams/writable:334:10)\n    at TLSSocket.ondata (node:internal/streams/readable:754:22)\n    at TLSSocket.emit (node:events:520:28)\n    at addChunk (node:internal/streams/readable:315:12)","timestamp":"2022-04-12T13:28:51.335Z","trace":[{"column":20,"file":"C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\cmap\\connection.ts","function":"MessageStream.messageHandler","line":753,"method":"messageHandler","native":false},{"column":28,"file":"node:events","function":"MessageStream.emit","line":520,"method":"emit","native":false},{"column":12,"file":"C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\cmap\\message_stream.ts","function":"processIncomingData","line":168,"method":null,"native":false},{"column":5,"file":"C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\cmap\\message_stream.ts","function":"MessageStream._write","line":65,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":389,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":330,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"MessageStream.Writable.write","line":334,"method":"write","native":false},{"column":22,"file":"node:internal/streams/readable","function":"TLSSocket.ondata","line":754,"method":"ondata","native":false},{"column":28,"file":"node:events","function":"TLSSocket.emit","line":520,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"addChunk","line":315,"method":null,"native":false}]}
+error: uncaughtException: bad auth : Authentication failed.
+MongoServerError: bad auth : Authentication failed.
+    at MessageStream.messageHandler (C:\Projects\EmpType\node_modules\mongodb\src\cmap\connection.ts:753:20)
+    at MessageStream.emit (node:events:520:28)
+    at processIncomingData (C:\Projects\EmpType\node_modules\mongodb\src\cmap\message_stream.ts:168:12)
+    at MessageStream._write (C:\Projects\EmpType\node_modules\mongodb\src\cmap\message_stream.ts:65:5)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10)
+    at TLSSocket.ondata (node:internal/streams/readable:754:22)
+    at TLSSocket.emit (node:events:520:28)
+    at addChunk (node:internal/streams/readable:315:12) {"date":"Tue Apr 12 2022 18:59:14 GMT+0530 (India Standard Time)","error":{"code":8000,"codeName":"AtlasError","ok":0},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1580421},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18518553,"external":21857804,"heapTotal":37920768,"heapUsed":26055592,"rss":73347072},"pid":17976,"uid":null,"version":"v16.14.0"},"stack":"MongoServerError: bad auth : Authentication failed.\n    at MessageStream.messageHandler (C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\cmap\\connection.ts:753:20)\n    at MessageStream.emit (node:events:520:28)\n    at processIncomingData (C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:168:12)\n    at MessageStream._write (C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:65:5)\n    at writeOrBuffer (node:internal/streams/writable:389:12)\n    at _write (node:internal/streams/writable:330:10)\n    at MessageStream.Writable.write (node:internal/streams/writable:334:10)\n    at TLSSocket.ondata (node:internal/streams/readable:754:22)\n    at TLSSocket.emit (node:events:520:28)\n    at addChunk (node:internal/streams/readable:315:12)","timestamp":"2022-04-12T13:29:14.522Z","trace":[{"column":20,"file":"C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\cmap\\connection.ts","function":"MessageStream.messageHandler","line":753,"method":"messageHandler","native":false},{"column":28,"file":"node:events","function":"MessageStream.emit","line":520,"method":"emit","native":false},{"column":12,"file":"C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\cmap\\message_stream.ts","function":"processIncomingData","line":168,"method":null,"native":false},{"column":5,"file":"C:\\Projects\\EmpType\\node_modules\\mongodb\\src\\cmap\\message_stream.ts","function":"MessageStream._write","line":65,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":389,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":330,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"MessageStream.Writable.write","line":334,"method":"write","native":false},{"column":22,"file":"node:internal/streams/readable","function":"TLSSocket.ondata","line":754,"method":"ondata","native":false},{"column":28,"file":"node:events","function":"TLSSocket.emit","line":520,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"addChunk","line":315,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'dept_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:34:35)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-12T13:31:25.692Z"}

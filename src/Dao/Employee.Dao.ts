@@ -1,6 +1,8 @@
-import { ObjectId } from "mongodb";
+import { Admin, ObjectId } from "mongodb";
 import { db } from "../config/database";
-import { Employee } from "../models/employee.model";
+import { Employee } from "../DTO/employee.dto";
+import { Department } from "../DTO/department.dto";
+import { Role } from "../DTO/role.dto";
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 import Logger from "../config/logger";
@@ -19,12 +21,15 @@ export interface IUserDao {
 }
 export class UserDao implements IUserDao {
     public saveUser = async (user: Employee) => {
-        let deptData = await db.collection<Employee>(deptCol).findOne({ dept_id: user.department.dept_id });
-        let roleData = await db.collection<Employee>(roleCol).findOne({ role_id: user.role.role_id });
+        let deptData = await db.collection<Department>(deptCol).findOne({ dept_name: user.department.dept_name });
+        let roleData = await db.collection<Role>(roleCol).findOne({ role_name: user.role.role_name });
+        const hashedPassWord = await bcrypt.hash(user.password, 10);
+        //body.password = hashedPassWord;
 
         let empData = {
             "name": user.name,
             "email": user.email,
+            "password":hashedPassWord,
             "department": {
                 dept_id: deptData.dept_id,
                 dept_name: deptData.dept_name,
@@ -32,7 +37,11 @@ export class UserDao implements IUserDao {
             "role": {
                 role_id: roleData.role_id,
                 role_name: roleData.role_name,
-            }
+            },
+            "createAt":new Date(),
+            "updateAt":new Date(),
+            "isActive": true,
+            "isDelete": false
         }
 
         return db.collection<Employee>(collectionName).insertOne(empData);
@@ -45,15 +54,25 @@ export class UserDao implements IUserDao {
     }
 
     public getAllUser = async () => {
-        const cursor = db.collection<Employee>(collectionName).find({});
+        const cursor = db.collection<Employee>(collectionName).find({isDelete: false});
         return cursor.toArray();
     }
 
     public deleteUser = async (_id: string) => {
-        let result = await db.collection<Employee>(collectionName).deleteOne({ "_id": new ObjectId(_id) });
+        let findData = await db.collection<Employee>(collectionName).findOne({ "_id": new ObjectId(_id) });
+        let result = await db.collection<Employee>(collectionName).updateOne(
+            { "_id": new ObjectId(_id) },
+            {
+                $set:{
+                    ...findData,
+                    "isDelete":true
+                }
+            }
+            );
         console.log(result);
         return result;
     }
+
 
     public Update = async (_id: string, body: Employee) => {
         if (!body.department && !body.role) {
@@ -61,14 +80,15 @@ export class UserDao implements IUserDao {
                 { _id: new ObjectId(_id) },
                 {
                     $set: {
-                        ...body
+                        ...body,
+                        "updateAt": new Date(),
                     }
                 }
             )
             return result;
         }
         else if(!body.role && body.department){
-            let deptData = await db.collection<Employee>(deptCol).findOne({ dept_id: body.department.dept_id });
+            let deptData = await db.collection<Department>(deptCol).findOne({ dept_name: body.department.dept_name });
             return db.collection<Employee>(collectionName).findOneAndUpdate(
                 { _id: new ObjectId(_id) },
                 {
@@ -76,13 +96,14 @@ export class UserDao implements IUserDao {
                         "name": body.name,
                         "email": body.email,
                         "department.dept_id": deptData.dept_id,
-                        "department.dept_name": deptData.dept_name
+                        "department.dept_name": deptData.dept_name,
+                        "updateAt": new Date(),
                     }
                 }
             )
         }
         else if(!body.department && body.role){
-            let roleData = await db.collection<Employee>(roleCol).findOne({ role_id: body.role.role_id });
+            let roleData = await db.collection<Role>(roleCol).findOne({ role_name: body.role.role_name });
             return db.collection<Employee>(collectionName).findOneAndUpdate(
                 { _id: new ObjectId(_id) },
                 {
@@ -90,14 +111,15 @@ export class UserDao implements IUserDao {
                         "name": body.name,
                         "email": body.email,
                         "role.role_id": roleData.role_id,
-                        "role.role_name": roleData.role_name
+                        "role.role_name": roleData.role_name,
+                        "updateAt": new Date(),
                     }
                 }
             )
         }
         else{
-            let roleD = await db.collection<Employee>(roleCol).findOne({ role_id: body.role.role_id });
-            let deptD = await db.collection<Employee>(deptCol).findOne({ dept_id: body.department.dept_id });
+            let roleD = await db.collection<Role>(roleCol).findOne({ role_name: body.role.role_name });
+            let deptD = await db.collection<Department>(deptCol).findOne({ dept_name: body.department.dept_name });
             return db.collection<Employee>(collectionName).findOneAndUpdate(
                 { _id: new ObjectId(_id) },
                 {
@@ -107,7 +129,8 @@ export class UserDao implements IUserDao {
                         "role.role_id": roleD.role_id,
                         "role.role_name": roleD.role_name,
                         "department.dept_id": deptD.dept_id,
-                        "department.dept_name": deptD.dept_name
+                        "department.dept_name": deptD.dept_name,
+                        "updateAt": new Date(),
                     }
                 }
             )
@@ -129,14 +152,14 @@ export class UserDao implements IUserDao {
             const passworkCheck = await bcrypt.compare(body.password, findData.password)
             if (passworkCheck) {
                 const secretKey = 'antara';
-                const payload = { id: findData._id, email: findData.email, role: findData.role };
+                const payload = { id: findData._id, email: findData.email, role: findData.role.role_name };
                 const token = jwt.sign(payload, secretKey)
                 Logger.logger.info(`Login token  ${token}`);
                 return Promise.resolve({
                     UserDetails: {
                         userId: findData._id,
                         email: findData.email,
-                        role: findData.role,
+                        role: findData.role.role_name,
                         token: token
                     }
                 });

@@ -1,0 +1,145 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-12T06:42:59.460Z"}
+info: Connected to the database. {"timestamp":"2022-04-12T06:42:59.508Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NzQ5OTYzfQ.qBM6yHhn1CVle-iWLYGdIlVail_7LI221Z3X_rvtAIc {"timestamp":"2022-04-12T07:52:43.180Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NzUwMDI0fQ.lzyCDPNe3NANVl5QKdGxYGeJREYbPjUy0LzEaw25O7M {"timestamp":"2022-04-12T07:53:44.718Z"}
+error: 
+    status - 500 
+    message - BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters
+    at new BSONTypeError (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\error.ts:16:5)
+    at new ObjectId (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\objectid.ts:86:15)
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:51:85)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\Dao\Employee.Dao.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:4:12)
+    at UserDao.findById (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:50:45)
+    at EmployeeService.<anonymous> (C:\Projects\EmpType\src\services\EmployeeService.ts:30:31)
+    at Generator.next (<anonymous>) 
+    url - /api/v1/emps/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-04-12T07:53:46.188Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE0N2U3ZTk2NDljMWRlNzMzZGNkNSIsImVtYWlsIjoiRW1wM0BnbWFpbC5jb20iLCJyb2xlIjoiRGV2ZWxvcGVyIiwiaWF0IjoxNjQ5NzUwMDUxfQ.ukIE5GKIolepDqxauzwPWL4Cp7K-lHl3Yl7rH5c_LoQ {"timestamp":"2022-04-12T07:54:11.831Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NzUwMTg3fQ.stO1D0eikYdlS4IX90COX8Iy0lIFT5Ip0O1ZrVS3Cjc {"timestamp":"2022-04-12T07:56:27.154Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NzUwMzA5fQ.hZxQFV8Nl7J5IXrA6iXA6U_Hf6EYGkDD5kfluVoK7eE {"timestamp":"2022-04-12T07:58:29.859Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NzUwMzg5fQ.DW0EvhY1s9VYsaTj6emRWkOw6MMv-f8GqEc0pTWKo-Y {"timestamp":"2022-04-12T07:59:49.395Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NzUzMjI0fQ.nyaCTrThI9RuzfD1Vn6-SIEf4KXjVkZOj-17yYNZ5A4 {"timestamp":"2022-04-12T08:47:04.557Z"}
+error: 
+    status - 500 
+    message - BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters
+    at new BSONTypeError (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\error.ts:16:5)
+    at new ObjectId (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\objectid.ts:86:15)
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:51:85)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\Dao\Employee.Dao.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:4:12)
+    at UserDao.findById (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:50:45)
+    at EmployeeService.<anonymous> (C:\Projects\EmpType\src\services\EmployeeService.ts:30:31)
+    at Generator.next (<anonymous>) 
+    url - /api/v1/emps/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-04-12T08:47:06.254Z"}
+error: 
+    status - 500 
+    message - BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters
+    at new BSONTypeError (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\error.ts:16:5)
+    at new ObjectId (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\objectid.ts:86:15)
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:51:85)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\Dao\Employee.Dao.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:4:12)
+    at UserDao.findById (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:50:45)
+    at EmployeeService.<anonymous> (C:\Projects\EmpType\src\services\EmployeeService.ts:30:31)
+    at Generator.next (<anonymous>) 
+    url - /api/v1/emps/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-04-12T10:24:56.940Z"}
+error: 
+    status - 500 
+    message - BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters
+    at new BSONTypeError (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\error.ts:16:5)
+    at new ObjectId (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\objectid.ts:86:15)
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:51:85)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\Dao\Employee.Dao.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:4:12)
+    at UserDao.findById (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:50:45)
+    at EmployeeService.<anonymous> (C:\Projects\EmpType\src\services\EmployeeService.ts:30:31)
+    at Generator.next (<anonymous>) 
+    url - /api/v1/emps/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-04-12T10:28:05.289Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NzU5Mjk4fQ.3flmI9w0xYNEFpjigKbqz4Enl3aga3vHl0EJFXhmMn0 {"timestamp":"2022-04-12T10:28:18.526Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NzU5NzIzfQ.N_ryeHnIRh4E1_aYGrVb1L4DhP9GUWORjArlecQqdJI {"timestamp":"2022-04-12T10:35:23.101Z"}
+error: 
+    status - 500 
+    message - BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters
+    at new BSONTypeError (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\error.ts:16:5)
+    at new ObjectId (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\objectid.ts:86:15)
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:51:85)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\Dao\Employee.Dao.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:4:12)
+    at UserDao.findById (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:50:45)
+    at EmployeeService.<anonymous> (C:\Projects\EmpType\src\services\EmployeeService.ts:30:31)
+    at Generator.next (<anonymous>) 
+    url - /api/v1/emps/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-04-12T10:35:25.226Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NzYzOTc4fQ.b1iFTgfyIX8DpTzmCQS7BD1wtUmRwGYPe_UFGyEKTOU {"timestamp":"2022-04-12T11:46:18.282Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NzY0NzkyfQ.BMj6QNbk0xy94enhWb3O2z6SkD-b_ftYo36ala3dYpE {"timestamp":"2022-04-12T11:59:52.971Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NzY1Mjk3fQ.4I-UIL4QMDZ18ny2-oTHSeKARw7n7KX2n0jh5nZv4IU {"timestamp":"2022-04-12T12:08:17.767Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NzY1MzgwfQ.KreXa2mbYZSibk5yNSeP0rIGHwq21wEixpwV_EK0Rac {"timestamp":"2022-04-12T12:09:40.002Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NzY1NzAzfQ.SZFVAf5mTV9ndMhD4trw7IfS6OA0wZlxOw9SsRdxFDM {"timestamp":"2022-04-12T12:15:03.779Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NzY1OTY5fQ.1z9e-31PTz1uNz-8r1FmPkSGRDm8rX4VjuM0a70qktU {"timestamp":"2022-04-12T12:19:29.564Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NzY2MDY2fQ.t_KkHTMwLE7opcUmVwvAJFO6J2XO0E6RXeSt8Ul51Ec {"timestamp":"2022-04-12T12:21:06.221Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NzY2MzI4fQ.stnXDhn3eoxUBN_KwNuXf9STYRmVSyDsMSn7WtuaGZk {"timestamp":"2022-04-12T12:25:28.340Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NzY2NjAyfQ.ezTdbJSaSLhutA5bxJA6hD6AxaAAQPscuJUtPyELH9A {"timestamp":"2022-04-12T12:30:02.745Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NzY2NjM0fQ.3tf451GsEgpwiGZ0147X55AEavCaSR9QWzCk6RG0ntY {"timestamp":"2022-04-12T12:30:34.119Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NzY2NzQ3fQ.AM2MA5jiL9XeD0lzeqKsaTNG4XsjjIvRS1BSyICViE4 {"timestamp":"2022-04-12T12:32:27.988Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NzY2OTM0fQ.Kr5TlL2xXCCxDr-gI_UQitDQr9wt3U1A06_Fcshu2nE {"timestamp":"2022-04-12T12:35:34.181Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTE2NjU5YzM5OTI3NGE2NzcwNjMwZCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NzY2OTgwfQ._EyhrLzXtXerFGuzgmHV0JRXcVAdipdcB9QzzRrQayA {"timestamp":"2022-04-12T12:36:20.084Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-12T12:45:48.217Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-12T12:51:07.285Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-12T12:56:21.446Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-12T13:00:01.378Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-12T13:00:13.547Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-12T13:10:43.381Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-12T13:13:56.593Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-12T13:16:17.717Z"}
+info: Connected to the database. {"timestamp":"2022-04-12T13:16:17.734Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-12T13:28:50.745Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-12T13:29:14.150Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-12T13:29:35.221Z"}
+info: Connected to the database. {"timestamp":"2022-04-12T13:29:35.577Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-12T13:30:41.891Z"}
+info: Connected to the database. {"timestamp":"2022-04-12T13:30:42.407Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'dept_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:34:35)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-12T13:31:25.692Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-12T13:34:35.325Z"}
+info: Connected to the database. {"timestamp":"2022-04-12T13:34:36.531Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-12T13:37:59.817Z"}
+info: Connected to the database. {"timestamp":"2022-04-12T13:38:00.344Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTU4MTdkZDAxZTI1MGIwOTI1MjJkYiIsImVtYWlsIjoiQWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5NzcwOTI1fQ._fVIrpuGzKOXRx94lm6-m90kGqdT8v3Rajd7_EoeJWE {"timestamp":"2022-04-12T13:42:05.706Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-12T13:42:37.655Z"}
+info: Connected to the database. {"timestamp":"2022-04-12T13:42:38.179Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-12T13:42:46.642Z"}
+info: Connected to the database. {"timestamp":"2022-04-12T13:42:46.985Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-12T13:43:55.832Z"}
+info: Connected to the database. {"timestamp":"2022-04-12T13:43:56.254Z"}

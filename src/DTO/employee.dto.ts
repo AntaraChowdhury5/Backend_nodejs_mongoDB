@@ -12,5 +12,8 @@ export class Employee  {
     role_name : string
   };
   YOJ?: number;
+  public createAt: Date; 
+  public updateAt: Date;
+  public isActive: boolean;
+  public isDelete: boolean;
 }
-

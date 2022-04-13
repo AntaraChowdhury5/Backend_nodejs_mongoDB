@@ -26,7 +26,7 @@ class EmployeeRoutes {
     this.router.put('/:_id', this.empController.updateEmp); 
 
     //route to delete a single employee
-    this.router.delete('/:_id', this.empController.deleteEmp); 
+    this.router.put('/delete/:_id', this.empController.deleteEmp); 
 
     //register for admin
     this.router.post('/registrationAdmin',this.empController.registration)

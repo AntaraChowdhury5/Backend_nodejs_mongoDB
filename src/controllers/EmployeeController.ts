@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import HttpStatus from 'http-status-codes';
 import employeeService from '../services/EmployeeService';
-import ResponseType from '../models/ResponseType';
+import ResponseType from '../DTO/ResponseType.dto';
 import { Request, Response, NextFunction } from 'express';
 
 

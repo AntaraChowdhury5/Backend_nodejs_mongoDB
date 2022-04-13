@@ -140,3 +140,5 @@ info: ::ffff:127.0.0.1 - - [06/Apr/2022:15:08:29 +0000] "PUT /api/v1/emps/624d9f
 
 info: ::ffff:127.0.0.1 - - [06/Apr/2022:15:09:27 +0000] "PUT /api/v1/emps/624d9f87a46362d6881722b0 HTTP/1.1" 202 302 "-" "Thunder Client (https://www.thunderclient.com)"
 
+info: ::ffff:127.0.0.1 - - [06/Apr/2022:15:10:57 +0000] "PUT /api/v1/emps/624d9f87a46362d6881722b0 HTTP/1.1" 202 301 "-" "Thunder Client (https://www.thunderclient.com)"
+

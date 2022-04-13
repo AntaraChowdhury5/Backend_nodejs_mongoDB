@@ -1,6 +1,6 @@
 import { DepartmentDao } from '../Dao/Department.Dao';
-import {Department } from '../models/department.model';
-import ResponseType from '../models/ResponseType';
+import {Department } from '../DTO/department.dto';
+import ResponseType from '../DTO/ResponseType.dto';
 
 class DepartmentService {
   public responseType = new ResponseType();
@@ -8,9 +8,7 @@ class DepartmentService {
   public getAllDepts = async (): Promise<any> => {
     const deptDao = new DepartmentDao()
     const res = await deptDao.getAllDepartment();
-    this.responseType.code = 200;
-    this.responseType.data = res;
-    this.responseType.message = "all Department fetched succesfully";
+    this.responseType={code:200,data:res,message:"Department fetched succesfully"}
     return this.responseType;
   };
 
@@ -18,9 +16,7 @@ class DepartmentService {
   public newDept = async (body: Department): Promise<any> => {
     const deptDao = new DepartmentDao()
     const res = await deptDao.saveDepartment(body);
-    this.responseType.code = 201;
-    this.responseType.data = res;
-    this.responseType.message = "created";
+    this.responseType={code:201,data:res,message:"Department created succesfully"}
     return this.responseType;
   };
 
@@ -28,9 +24,7 @@ class DepartmentService {
   public getDept = async (_id: string): Promise<any> => {
     const deptDao = new DepartmentDao();
     const res = await deptDao.findById(_id);
-    this.responseType.code = 200;
-    this.responseType.data = res;
-    this.responseType.message = "Department fetched succesfully";
+    this.responseType={code:200,data:res,message:"Department fetched succesfully"}
     return this.responseType;
   };
 
@@ -38,9 +32,7 @@ class DepartmentService {
   public deleteDept = async (_id: string): Promise<any> => {
     const deptDao = new DepartmentDao;
     const res = await deptDao.deleteDepartment(_id);
-    this.responseType.code = 200;
-    this.responseType.data = res;
-    this.responseType.message = "Department deleted succesfully";
+    this.responseType={code:200,data:res,message:"Department deleted succesfully"}
     return this.responseType;
 
   };
@@ -49,9 +41,7 @@ class DepartmentService {
   public updateDept = async (_id: string, body: Department): Promise<any> => {
     const deptDao = new DepartmentDao();
     const res = await deptDao.updateDepartment(_id, body);
-    this.responseType.code = 202;
-    this.responseType.data = res;
-    this.responseType.message = "Deptartment updated succesfully";
+    this.responseType={code:202,data:res,message:"Department updated succesfully"}
     return this.responseType;
   };
 }
