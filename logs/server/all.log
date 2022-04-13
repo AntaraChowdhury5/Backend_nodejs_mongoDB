@@ -2282,3 +2282,51 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-12T1
 info: Connected to the database. {"timestamp":"2022-04-12T13:42:46.985Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-12T13:43:55.832Z"}
 info: Connected to the database. {"timestamp":"2022-04-12T13:43:56.254Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-13T06:13:07.426Z"}
+info: Connected to the database. {"timestamp":"2022-04-13T06:13:09.713Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/emps/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-13T06:13:23.558Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTU4MTdkZDAxZTI1MGIwOTI1MjJkYiIsImVtYWlsIjoiQWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5ODMwNDcxfQ.z0BV05nrrz7Ehm_oTvrrS0ksIVh_ae9zcszAyFQD0Rw {"timestamp":"2022-04-13T06:14:31.917Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTU4MTdkZDAxZTI1MGIwOTI1MjJkYiIsImVtYWlsIjoiQWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5ODMwNjA3fQ.ta0wH21nZlcuElNQr_uzY1VydXdHyJyxKmZivA0MTcg {"timestamp":"2022-04-13T06:16:47.877Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/emps/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-13T06:20:28.475Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTU4MGZkZDAxZTI1MGIwOTI1MjJkOSIsImVtYWlsIjoiRW1wMkBnbWFpbC5jb20iLCJyb2xlIjoiUUEiLCJpYXQiOjE2NDk4MzA4NDh9.i1_lp9qKJJak0309FxzmC_uDj6Ww1tmLW_hxAp3u9vs {"timestamp":"2022-04-13T06:20:48.109Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTU4MTdkZDAxZTI1MGIwOTI1MjJkYiIsImVtYWlsIjoiQWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5ODMwODczfQ.SN4Y6RvE0qjFoJz-4wq1LCS7ZDdKJ3b6tmg0jIzfxlM {"timestamp":"2022-04-13T06:21:13.959Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'dept_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:34:35)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-13T06:33:41.377Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/emps/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-13T06:37:25.181Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTU4MTdkZDAxZTI1MGIwOTI1MjJkYiIsImVtYWlsIjoiQWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5ODMxODQ4fQ.fp3yU4JqN8Fe9rTP3HfV-WYXw1ksLYRmStS_Qd7bXB4 {"timestamp":"2022-04-13T06:37:28.560Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTU4MTdkZDAxZTI1MGIwOTI1MjJkYiIsImVtYWlsIjoiQWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5ODMyMjU0fQ.fhTAlP7mW0yo276iYRtBTMMWgTxu6fgAZUOW7TeoTEo {"timestamp":"2022-04-13T06:44:14.331Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTU4MTdkZDAxZTI1MGIwOTI1MjJkYiIsImVtYWlsIjoiQWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5ODMyNTM1fQ.LtLXbKlA1RCVO8RioJJz7AkCNiVjKsQURcdkNRGvOEY {"timestamp":"2022-04-13T06:48:55.305Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTY2ZjA1NWE2YjhlNThkNzE0MTljZCIsImVtYWlsIjoiRW1wM0BnbWFpbC5jb20iLCJyb2xlIjoiTWFuYWdlciIsImlhdCI6MTY0OTgzMjU1OH0.PE4rt6RkozwMvLoXTEJkAvMz8kOEI7V1mfYRhbt4IZg {"timestamp":"2022-04-13T06:49:18.574Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTU4MTdkZDAxZTI1MGIwOTI1MjJkYiIsImVtYWlsIjoiQWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjQ5ODMyNjUxfQ.H3-crqGM84aZ1CxNE28OdvSkKFb9kQnOESrpAQS3XGk {"timestamp":"2022-04-13T06:50:51.787Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-13T08:19:55.737Z"}
+info: Connected to the database. {"timestamp":"2022-04-13T08:19:58.865Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-13T08:22:15.062Z"}
+info: Connected to the database. {"timestamp":"2022-04-13T08:22:15.689Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-13T08:28:34.712Z"}
+info: Connected to the database. {"timestamp":"2022-04-13T08:28:35.992Z"}
