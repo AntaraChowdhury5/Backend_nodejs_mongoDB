@@ -16,8 +16,7 @@ export class RoleDao implements IRoleDao {
     }
 
     public findById = async (_id: string) => {
-        let result = await db.collection<Role>(collectionName).findOne({ "_id": new ObjectId(_id) });
-        console.log(result);
+        let result = db.collection<Role>(collectionName).findOne({ "_id": new ObjectId(_id) });
         return result;
     }
 

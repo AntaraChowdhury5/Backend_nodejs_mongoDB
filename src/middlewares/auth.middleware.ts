@@ -23,7 +23,6 @@ export const adminAuth = async (
     }
    jwt.verify(adminToken, 'antara', ((err, decode) => {
       if (err) {
-        console.log(err)
         return res.status(401).send({
           status: false,
           message: "Authentication declined"
@@ -33,8 +32,6 @@ export const adminAuth = async (
         console.log(decode);
         
         if (decode.role == "Admin")  {
-          console.log("Hiiii");
-          
           next();
         } else {
           return res.status(401).send({

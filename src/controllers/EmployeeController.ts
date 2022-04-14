@@ -21,7 +21,6 @@ class EmployeeController {
   ): Promise<any> => {
     try {
       const reqdata:ResponseType = await this.employeeService.newEmp(req.body);
-      console.log(reqdata);
       res.status(reqdata.code).json({
         code: reqdata.code,
         data: reqdata.data,
@@ -68,8 +67,6 @@ class EmployeeController {
     next: NextFunction
   ): Promise<any> => {
     try {
-      console.log("hii");
-      
       const data:ResponseType = await this.employeeService.getEmp(req.params._id);
       res.status(HttpStatus.OK).json({
         code: data.code,
@@ -140,7 +137,6 @@ class EmployeeController {
   ): Promise<any> => {
     try {
       const data:ResponseType = await this.employeeService.registration(req.body);
-      console.log(data);
       res.status(data.code).json({
         code: data.code,
         data: data.data,

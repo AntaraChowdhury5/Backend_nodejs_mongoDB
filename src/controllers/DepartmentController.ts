@@ -21,7 +21,6 @@ class DepartmentController {
   ): Promise<any> => {
     try {
       const reqdata:ResponseType = await this.departmentService.newDept(req.body);
-      console.log(reqdata);
       res.status(reqdata.code).json({
         code: reqdata.code,
         data: reqdata.data,

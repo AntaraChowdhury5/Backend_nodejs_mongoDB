@@ -16,8 +16,7 @@ export class DepartmentDao implements IDepartmentDao {
     }
 
     public findById = async (_id: string) => {
-        let result = await db.collection<Department>(collectionName).findOne({ "_id": new ObjectId(_id) });
-        console.log(result);
+        let result =  db.collection<Department>(collectionName).findOne({ "_id": new ObjectId(_id) });
         return result;
     }
 

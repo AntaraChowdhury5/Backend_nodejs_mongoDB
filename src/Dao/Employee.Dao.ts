@@ -24,8 +24,7 @@ export class UserDao implements IUserDao {
         let deptData = await db.collection<Department>(deptCol).findOne({ dept_name: user.department.dept_name });
         let roleData = await db.collection<Role>(roleCol).findOne({ role_name: user.role.role_name });
         const hashedPassWord = await bcrypt.hash(user.password, 10);
-        //body.password = hashedPassWord;
-
+    
         let empData = {
             "name": user.name,
             "email": user.email,
@@ -48,8 +47,7 @@ export class UserDao implements IUserDao {
     }
 
     public findById = async (_id: string) => {
-        let result = await db.collection<Employee>(collectionName).findOne({ "_id": new ObjectId(_id) });
-        console.log(result);
+        let result = db.collection<Employee>(collectionName).findOne({ "_id": new ObjectId(_id) });
         return result;
     }
 
@@ -59,7 +57,7 @@ export class UserDao implements IUserDao {
     }
 
     public deleteUser = async (_id: string) => {
-        let findData = await db.collection<Employee>(collectionName).findOne({ "_id": new ObjectId(_id) });
+        let findData =  db.collection<Employee>(collectionName).findOne({ "_id": new ObjectId(_id) });
         let result = await db.collection<Employee>(collectionName).updateOne(
             { "_id": new ObjectId(_id) },
             {

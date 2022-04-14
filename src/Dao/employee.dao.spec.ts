@@ -4,7 +4,6 @@ import { UserDao } from './Employee.Dao'
 describe("sava new employee data", () => {
     it("should return a object", async () => {
         let req = {
-            "_id":"1649374",
             "name": "test",
             "email": "test@gmail.com",
             "department": { "dept_name": "Account" },

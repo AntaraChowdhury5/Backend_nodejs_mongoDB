@@ -1,6 +1,8 @@
+import { Employee } from "./employee.dto";
+
 class ResponseType{
     public  message : string;
-	public  data:Object;
+	public  data: Employee;
 	public  code:number;
 }
 export default ResponseType;

@@ -1,6 +1,7 @@
 import Joi, { ObjectSchema } from 'joi';
 import { NextFunction, Request, Response } from 'express';
 import { Employee } from '../DTO/employee.dto';
+import Logger from '../config/logger';
 
 export const validateJoi = (schema: ObjectSchema) => {
     return async (req: Request, res: Response, next: NextFunction) => {
@@ -9,8 +10,7 @@ export const validateJoi = (schema: ObjectSchema) => {
 
             next();
         } catch (error) {
-            console.error(error);
-
+            Logger.logger.info(error)
             return res.status(422).json({ error });
         }
     };

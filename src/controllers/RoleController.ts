@@ -21,7 +21,6 @@ class RoleController {
   ): Promise<any> => {
     try {
       const reqdata:ResponseType = await this.roleService.newRole(req.body);
-      console.log(reqdata);
       res.status(reqdata.code).json({
         code: reqdata.code,
         data: reqdata.data,
