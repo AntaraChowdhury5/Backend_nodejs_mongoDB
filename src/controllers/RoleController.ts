@@ -1,12 +1,15 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import HttpStatus from 'http-status-codes';
-import roleService from '../services/RoleService';
+import RoleService from '../services/RoleService';
 import ResponseType from '../DTO/ResponseType.dto';
 import { Request, Response, NextFunction } from 'express';
 
 
 class RoleController {
-  public roleService = new roleService();
+  public roleService;
+  constructor (roleService?:RoleService){
+    this.roleService=roleService?roleService: new RoleService();
+}
 
   /**
    * Controller to create new user
@@ -67,8 +70,6 @@ class RoleController {
     next: NextFunction
   ): Promise<any> => {
     try {
-      console.log("hii");
-      
       const data:ResponseType = await this.roleService.getRole(req.params._id);
       res.status(HttpStatus.OK).json({
         code: data.code,

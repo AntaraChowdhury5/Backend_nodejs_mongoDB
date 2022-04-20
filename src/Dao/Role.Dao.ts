@@ -11,8 +11,13 @@ export interface IRoleDao {
     updateRole(_id: string, body: Role): Promise<any>;
 }
 export class RoleDao implements IRoleDao {
-    public saveRole = async (dept: Role) => {
-        return db.collection<Role>(collectionName).insertOne(dept);
+    public saveRole = async (role: Role) => {
+        let newRole={
+            ...role,
+            "createAt": new Date(),
+            "updateAt": new Date()
+        }
+        return db.collection<Role>(collectionName).insertOne(newRole);
     }
 
     public findById = async (_id: string) => {
@@ -36,7 +41,8 @@ export class RoleDao implements IRoleDao {
             { _id: new ObjectId(_id) },
             {
                 $set: {
-                    ...body
+                    ...body,
+                    "updateAt": new Date()
                 }
             }
         )

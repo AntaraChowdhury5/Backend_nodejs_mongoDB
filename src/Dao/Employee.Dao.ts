@@ -1,4 +1,4 @@
-import { Admin, ObjectId } from "mongodb";
+import { ObjectId } from "mongodb";
 import { db } from "../config/database";
 import { Employee } from "../DTO/employee.dto";
 import { Department } from "../DTO/department.dto";
@@ -11,7 +11,7 @@ const deptCol = "departments";
 const roleCol = "role";
 
 export interface IUserDao {
-    saveUser(user: Employee): Promise<any>;
+    saveUser(user?:Employee,file?:any): Promise<any>;
     findById(_id: ObjectId | string): Promise<any>;
     getAllUser(): Promise<any>;
     deleteUser(_id: ObjectId | string): Promise<any>;
@@ -20,14 +20,14 @@ export interface IUserDao {
     loggedin(body: Employee): Promise<any>;
 }
 export class UserDao implements IUserDao {
-    public saveUser = async (user: Employee) => {
+    public saveUser = async (user?:Employee, file?:any) => {
         let deptData = await db.collection<Department>(deptCol).findOne({ dept_name: user.department.dept_name });
         let roleData = await db.collection<Role>(roleCol).findOne({ role_name: user.role.role_name });
-        const hashedPassWord = await bcrypt.hash(user.password, 10);
+        const hashedPassWord = await bcrypt.hash(user.password, 10);  
     
         let empData = {
             "name": user.name,
-            "email": user.email,
+            "email": user.email, 
             "password":hashedPassWord,
             "department": {
                 dept_id: deptData.dept_id,
@@ -36,14 +36,18 @@ export class UserDao implements IUserDao {
             "role": {
                 role_id: roleData.role_id,
                 role_name: roleData.role_name,
-            },
+            }, 
+            "address":user.address,
+            "mobile":user.mobile,
+            "image":file.path,
             "createAt":new Date(),
             "updateAt":new Date(),
             "isActive": true,
             "isDelete": false
         }
-
-        return db.collection<Employee>(collectionName).insertOne(empData);
+        
+        const data=await db.collection<Employee>(collectionName).insertOne(empData);
+        return data;
     }
 
     public findById = async (_id: string) => {

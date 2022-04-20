@@ -14,14 +14,14 @@ class EmployeeService {
 
   //get all users
   public getAllEmps = async (): Promise<any> => {
-    const res = await this.userDao.getAllUser();
+    const res:Employee = await this.userDao.getAllUser();
     this.responseType={code:200,data:res,message:"All Employees fetched succesfully"}
     return this.responseType;
   };
 
   //create new user
-  public newEmp = async (body: Employee): Promise<any> => {
-    const res = await this.userDao.saveUser(body);
+  public newEmp = async (body: Employee, file:string): Promise<any> => {
+    const res = await this.userDao.saveUser(body,file);
     this.responseType={code:201,data:res,message:"Employee created succesfully"}
     return this.responseType;
   };

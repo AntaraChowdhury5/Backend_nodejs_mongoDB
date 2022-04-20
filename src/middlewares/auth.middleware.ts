@@ -29,8 +29,6 @@ export const adminAuth = async (
         });
       }
       else {
-        console.log(decode);
-        
         if (decode.role == "Admin")  {
           next();
         } else {

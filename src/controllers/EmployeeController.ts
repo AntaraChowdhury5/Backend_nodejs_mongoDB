@@ -1,12 +1,15 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import HttpStatus from 'http-status-codes';
-import employeeService from '../services/EmployeeService';
+import EmployeeService from '../services/EmployeeService';
 import ResponseType from '../DTO/ResponseType.dto';
 import { Request, Response, NextFunction } from 'express';
 
 
 class EmployeeController {
-  public employeeService = new employeeService();
+  public employeeService;
+  constructor(employeeService?:EmployeeService){
+    this.employeeService=employeeService?employeeService: new EmployeeService();
+  }
 
   /**
    * Controller to create new user
@@ -15,12 +18,12 @@ class EmployeeController {
    * @param {Function} NextFunction
    */
    public newEmp = async (
-    req: Request,
+    req: any,
     res: Response,
     next: NextFunction
   ): Promise<any> => {
-    try {
-      const reqdata:ResponseType = await this.employeeService.newEmp(req.body);
+    try {     
+      const reqdata:ResponseType = await this.employeeService.newEmp(req.body,req.file);
       res.status(reqdata.code).json({
         code: reqdata.code,
         data: reqdata.data,

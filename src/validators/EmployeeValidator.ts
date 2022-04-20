@@ -7,7 +7,6 @@ export const validateJoi = (schema: ObjectSchema) => {
     return async (req: Request, res: Response, next: NextFunction) => {
         try {
             await schema.validateAsync(req.body);
-
             next();
         } catch (error) {
             Logger.logger.info(error)
@@ -24,6 +23,9 @@ export const schemas = {
         department: Joi.object().required(),
         role: Joi.object().required(),
         YOJ: Joi.number().integer().min(2010).max(2022),
+        address: Joi.string(),
+        mobile: Joi.number(),
+        image:Joi.string(),
         createAt: Joi.date(),
         updateAt: Joi.date(),
         isActive: Joi.boolean(),

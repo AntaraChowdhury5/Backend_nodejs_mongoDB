@@ -4,15 +4,22 @@ import { Department } from "../DTO/department.dto";
 const collectionName = "departments";
 
 export interface IDepartmentDao {
-    saveDepartment(dept: Department): Promise<any>;
+    saveDepartment(dept:Department): Promise<any>;
     findById(_id: ObjectId | string): Promise<any>;
     getAllDepartment(): Promise<any>;
     deleteDepartment(_id: ObjectId | string): Promise<any>;
     updateDepartment(_id: string, body: Department): Promise<any>;
 }
 export class DepartmentDao implements IDepartmentDao {
-    public saveDepartment = async (dept: Department) => {
-        return db.collection<Department>(collectionName).insertOne(dept);
+    public saveDepartment = async (dept:Department) => {
+        let newDept={
+            ...dept,
+            "createAt": new Date(),
+            "updateAt": new Date()
+        }
+        const data=await db.collection<Department>(collectionName).insertOne(newDept);
+        console.log(data);
+        return data
     }
 
     public findById = async (_id: string) => {
@@ -36,7 +43,8 @@ export class DepartmentDao implements IDepartmentDao {
             { _id: new ObjectId(_id) },
             {
                 $set: {
-                    ...body
+                    ...body,
+                    "updateAt": new Date(),
                 }
             }
         )

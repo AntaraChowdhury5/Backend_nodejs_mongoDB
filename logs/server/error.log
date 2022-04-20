@@ -1697,3 +1697,883 @@ error: uncaughtException: EMFILE: too many open files, open 'C:\Projects\EmpType
 Error: EMFILE: too many open files, open 'C:\Projects\EmpType\logs\requests\daily\2022-04-13.log' {"date":"Wed Apr 13 2022 18:26:56 GMT+0530 (India Standard Time)","error":{"code":"EMFILE","errno":-4066,"path":"C:\\Projects\\EmpType\\logs\\requests\\daily\\2022-04-13.log","syscall":"open"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1664882},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":26730932,"external":28752909,"heapTotal":279617536,"heapUsed":255878208,"rss":356696064},"pid":35108,"uid":null,"version":"v16.14.0"},"stack":"Error: EMFILE: too many open files, open 'C:\\Projects\\EmpType\\logs\\requests\\daily\\2022-04-13.log'","timestamp":"2022-04-13T12:56:56.486Z","trace":[]}
 error: uncaughtException: EMFILE: too many open files, open 'C:\Projects\EmpType\logs\requests\daily\2022-04-13.log'
 Error: EMFILE: too many open files, open 'C:\Projects\EmpType\logs\requests\daily\2022-04-13.log' {"date":"Wed Apr 13 2022 18:29:42 GMT+0530 (India Standard Time)","error":{"code":"EMFILE","errno":-4066,"path":"C:\\Projects\\EmpType\\logs\\requests\\daily\\2022-04-13.log","syscall":"open"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1665048},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":22050675,"external":24282766,"heapTotal":246325248,"heapUsed":221950824,"rss":321925120},"pid":41880,"uid":null,"version":"v16.14.0"},"stack":"Error: EMFILE: too many open files, open 'C:\\Projects\\EmpType\\logs\\requests\\daily\\2022-04-13.log'","timestamp":"2022-04-13T12:59:42.306Z","trace":[]}
+error: 
+    status - 500 
+    message - MulterError: Unexpected field
+    at wrappedFileFilter (C:\Projects\EmpType\node_modules\multer\index.js:40:19)
+    at Busboy.<anonymous> (C:\Projects\EmpType\node_modules\multer\lib\make-middleware.js:115:7)
+    at Busboy.emit (node:events:520:28)
+    at Busboy.emit (C:\Projects\EmpType\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (C:\Projects\EmpType\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (node:events:520:28)
+    at HeaderParser.<anonymous> (C:\Projects\EmpType\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (node:events:520:28)
+    at HeaderParser._finish (C:\Projects\EmpType\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (C:\Projects\EmpType\node_modules\dicer\lib\HeaderParser.js:40:12) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-14T13:25:47.249Z"}
+error: 
+    status - 500 
+    message - MulterError: Unexpected field
+    at wrappedFileFilter (C:\Projects\EmpType\node_modules\multer\index.js:40:19)
+    at Busboy.<anonymous> (C:\Projects\EmpType\node_modules\multer\lib\make-middleware.js:115:7)
+    at Busboy.emit (node:events:520:28)
+    at Busboy.emit (C:\Projects\EmpType\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (C:\Projects\EmpType\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (node:events:520:28)
+    at HeaderParser.<anonymous> (C:\Projects\EmpType\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (node:events:520:28)
+    at HeaderParser._finish (C:\Projects\EmpType\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (C:\Projects\EmpType\node_modules\dicer\lib\HeaderParser.js:40:12) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-14T13:30:44.466Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'dept_name')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:24:102)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\Dao\Employee.Dao.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:4:12)
+    at UserDao.saveUser (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:23:48)
+    at EmployeeService.<anonymous> (C:\Projects\EmpType\src\services\EmployeeService.ts:24:36)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\services\EmployeeService.ts:8:71
+    at new Promise (<anonymous>) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-14T13:31:12.983Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'path')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:40:31)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-14T13:33:24.759Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'path')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:40:31)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-14T13:33:44.785Z"}
+error: 
+    status - 500 
+    message - MulterError: Unexpected field
+    at wrappedFileFilter (C:\Projects\EmpType\node_modules\multer\index.js:40:19)
+    at Busboy.<anonymous> (C:\Projects\EmpType\node_modules\multer\lib\make-middleware.js:115:7)
+    at Busboy.emit (node:events:520:28)
+    at Busboy.emit (C:\Projects\EmpType\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (C:\Projects\EmpType\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (node:events:520:28)
+    at HeaderParser.<anonymous> (C:\Projects\EmpType\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (node:events:520:28)
+    at HeaderParser._finish (C:\Projects\EmpType\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (C:\Projects\EmpType\node_modules\dicer\lib\HeaderParser.js:40:12) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-14T13:34:03.701Z"}
+error: 
+    status - 500 
+    message - MulterError: Unexpected field
+    at wrappedFileFilter (C:\Projects\EmpType\node_modules\multer\index.js:40:19)
+    at Busboy.<anonymous> (C:\Projects\EmpType\node_modules\multer\lib\make-middleware.js:115:7)
+    at Busboy.emit (node:events:520:28)
+    at Busboy.emit (C:\Projects\EmpType\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (C:\Projects\EmpType\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (node:events:520:28)
+    at HeaderParser.<anonymous> (C:\Projects\EmpType\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (node:events:520:28)
+    at HeaderParser._finish (C:\Projects\EmpType\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (C:\Projects\EmpType\node_modules\dicer\lib\HeaderParser.js:40:12) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-14T13:36:14.528Z"}
+error: 
+    status - 500 
+    message - MulterError: Unexpected field
+    at wrappedFileFilter (C:\Projects\EmpType\node_modules\multer\index.js:40:19)
+    at Busboy.<anonymous> (C:\Projects\EmpType\node_modules\multer\lib\make-middleware.js:115:7)
+    at Busboy.emit (node:events:520:28)
+    at Busboy.emit (C:\Projects\EmpType\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (C:\Projects\EmpType\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (node:events:520:28)
+    at HeaderParser.<anonymous> (C:\Projects\EmpType\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (node:events:520:28)
+    at HeaderParser._finish (C:\Projects\EmpType\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (C:\Projects\EmpType\node_modules\dicer\lib\HeaderParser.js:40:12) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-14T13:47:27.245Z"}
+error: 
+    status - 500 
+    message - MulterError: Unexpected field
+    at wrappedFileFilter (C:\Projects\EmpType\node_modules\multer\index.js:40:19)
+    at Busboy.<anonymous> (C:\Projects\EmpType\node_modules\multer\lib\make-middleware.js:115:7)
+    at Busboy.emit (node:events:520:28)
+    at Busboy.emit (C:\Projects\EmpType\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (C:\Projects\EmpType\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (node:events:520:28)
+    at HeaderParser.<anonymous> (C:\Projects\EmpType\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (node:events:520:28)
+    at HeaderParser._finish (C:\Projects\EmpType\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (C:\Projects\EmpType\node_modules\dicer\lib\HeaderParser.js:40:12) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-14T13:51:49.697Z"}
+error: 
+    status - 500 
+    message - MulterError: Unexpected field
+    at wrappedFileFilter (C:\Projects\EmpType\node_modules\multer\index.js:40:19)
+    at Busboy.<anonymous> (C:\Projects\EmpType\node_modules\multer\lib\make-middleware.js:115:7)
+    at Busboy.emit (node:events:520:28)
+    at Busboy.emit (C:\Projects\EmpType\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (C:\Projects\EmpType\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (node:events:520:28)
+    at HeaderParser.<anonymous> (C:\Projects\EmpType\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (node:events:520:28)
+    at HeaderParser._finish (C:\Projects\EmpType\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (C:\Projects\EmpType\node_modules\dicer\lib\HeaderParser.js:40:12) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-14T13:59:26.858Z"}
+error: uncaughtException: Function not implemented.
+Error: Function not implemented.
+    at mkdirp (C:\Projects\EmpType\src\routes\EmployeeRoutes.ts:72:9)
+    at DiskStorage.destination [as getDestination] (C:\Projects\EmpType\src\routes\EmployeeRoutes.ts:10:7)
+    at DiskStorage._handleFile (C:\Projects\EmpType\node_modules\multer\storage\disk.js:31:8)
+    at C:\Projects\EmpType\node_modules\multer\lib\make-middleware.js:145:17
+    at allowAll (C:\Projects\EmpType\node_modules\multer\index.js:8:3)
+    at wrappedFileFilter (C:\Projects\EmpType\node_modules\multer\index.js:44:7)
+    at Busboy.<anonymous> (C:\Projects\EmpType\node_modules\multer\lib\make-middleware.js:115:7)
+    at Busboy.emit (node:events:520:28)
+    at Busboy.emit (C:\Projects\EmpType\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (C:\Projects\EmpType\node_modules\busboy\lib\types\multipart.js:213:13) {"date":"Thu Apr 14 2022 19:32:52 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1755239},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18407951,"external":19607272,"heapTotal":26669056,"heapUsed":24045792,"rss":57569280},"pid":31592,"uid":null,"version":"v16.14.0"},"stack":"Error: Function not implemented.\n    at mkdirp (C:\\Projects\\EmpType\\src\\routes\\EmployeeRoutes.ts:72:9)\n    at DiskStorage.destination [as getDestination] (C:\\Projects\\EmpType\\src\\routes\\EmployeeRoutes.ts:10:7)\n    at DiskStorage._handleFile (C:\\Projects\\EmpType\\node_modules\\multer\\storage\\disk.js:31:8)\n    at C:\\Projects\\EmpType\\node_modules\\multer\\lib\\make-middleware.js:145:17\n    at allowAll (C:\\Projects\\EmpType\\node_modules\\multer\\index.js:8:3)\n    at wrappedFileFilter (C:\\Projects\\EmpType\\node_modules\\multer\\index.js:44:7)\n    at Busboy.<anonymous> (C:\\Projects\\EmpType\\node_modules\\multer\\lib\\make-middleware.js:115:7)\n    at Busboy.emit (node:events:520:28)\n    at Busboy.emit (C:\\Projects\\EmpType\\node_modules\\busboy\\lib\\main.js:38:33)\n    at PartStream.<anonymous> (C:\\Projects\\EmpType\\node_modules\\busboy\\lib\\types\\multipart.js:213:13)","timestamp":"2022-04-14T14:02:52.804Z","trace":[{"column":9,"file":"C:\\Projects\\EmpType\\src\\routes\\EmployeeRoutes.ts","function":"mkdirp","line":72,"method":null,"native":false},{"column":7,"file":"C:\\Projects\\EmpType\\src\\routes\\EmployeeRoutes.ts","function":"DiskStorage.destination [as getDestination]","line":10,"method":"destination [as getDestination]","native":false},{"column":8,"file":"C:\\Projects\\EmpType\\node_modules\\multer\\storage\\disk.js","function":"DiskStorage._handleFile","line":31,"method":"_handleFile","native":false},{"column":17,"file":"C:\\Projects\\EmpType\\node_modules\\multer\\lib\\make-middleware.js","function":null,"line":145,"method":null,"native":false},{"column":3,"file":"C:\\Projects\\EmpType\\node_modules\\multer\\index.js","function":"allowAll","line":8,"method":null,"native":false},{"column":7,"file":"C:\\Projects\\EmpType\\node_modules\\multer\\index.js","function":"wrappedFileFilter","line":44,"method":null,"native":false},{"column":7,"file":"C:\\Projects\\EmpType\\node_modules\\multer\\lib\\make-middleware.js","function":null,"line":115,"method":null,"native":false},{"column":28,"file":"node:events","function":"Busboy.emit","line":520,"method":"emit","native":false},{"column":33,"file":"C:\\Projects\\EmpType\\node_modules\\busboy\\lib\\main.js","function":"Busboy.emit","line":38,"method":"emit","native":false},{"column":13,"file":"C:\\Projects\\EmpType\\node_modules\\busboy\\lib\\types\\multipart.js","function":null,"line":213,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'dept_name')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:24:102)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\Dao\Employee.Dao.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:4:12)
+    at UserDao.saveUser (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:23:48)
+    at EmployeeService.<anonymous> (C:\Projects\EmpType\src\services\EmployeeService.ts:24:36)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\services\EmployeeService.ts:8:71
+    at new Promise (<anonymous>) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-14T14:03:59.153Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'path')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:40:31)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-14T14:04:13.597Z"}
+error: uncaughtException: queryTxt ESERVFAIL crm-db.dvzbw.mongodb.net
+Error: queryTxt ESERVFAIL crm-db.dvzbw.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19) {"date":"Sat Apr 16 2022 17:02:19 GMT+0530 (India Standard Time)","error":{"code":"ESERVFAIL","hostname":"crm-db.dvzbw.mongodb.net","syscall":"queryTxt"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1919006},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18286937,"external":24038463,"heapTotal":57602048,"heapUsed":21816648,"rss":71843840},"pid":30812,"uid":null,"version":"v16.14.0"},"stack":"Error: queryTxt ESERVFAIL crm-db.dvzbw.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","timestamp":"2022-04-16T11:32:19.709Z","trace":[{"column":19,"file":"node:dns","function":"QueryReqWrap.onresolve [as oncomplete]","line":213,"method":"onresolve [as oncomplete]","native":false}]}
+error: 
+    status - 500 
+    message - MulterError: Unexpected field
+    at wrappedFileFilter (C:\Projects\EmpType\node_modules\multer\index.js:40:19)
+    at Busboy.<anonymous> (C:\Projects\EmpType\node_modules\multer\lib\make-middleware.js:115:7)
+    at Busboy.emit (node:events:520:28)
+    at Busboy.emit (C:\Projects\EmpType\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (C:\Projects\EmpType\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (node:events:520:28)
+    at HeaderParser.<anonymous> (C:\Projects\EmpType\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (node:events:520:28)
+    at HeaderParser._finish (C:\Projects\EmpType\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (C:\Projects\EmpType\node_modules\dicer\lib\HeaderParser.js:40:12) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-16T11:34:58.486Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'dept_name')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:24:102)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\Dao\Employee.Dao.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:4:12)
+    at UserDao.saveUser (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:23:48)
+    at EmployeeService.<anonymous> (C:\Projects\EmpType\src\services\EmployeeService.ts:24:36)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\services\EmployeeService.ts:8:71
+    at new Promise (<anonymous>) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-16T11:35:07.747Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'dept_id')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:33:35)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-16T11:35:26.664Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'path')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:40:31)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-16T11:37:10.692Z"}
+error: uncaughtException: querySrv ESERVFAIL _mongodb._tcp.crm-db.dvzbw.mongodb.net
+Error: querySrv ESERVFAIL _mongodb._tcp.crm-db.dvzbw.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19) {"date":"Sat Apr 16 2022 17:15:29 GMT+0530 (India Standard Time)","error":{"code":"ESERVFAIL","hostname":"_mongodb._tcp.crm-db.dvzbw.mongodb.net","syscall":"querySrv"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1919795},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18570153,"external":24222871,"heapTotal":38989824,"heapUsed":27437336,"rss":68759552},"pid":23080,"uid":null,"version":"v16.14.0"},"stack":"Error: querySrv ESERVFAIL _mongodb._tcp.crm-db.dvzbw.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","timestamp":"2022-04-16T11:45:29.459Z","trace":[{"column":19,"file":"node:dns","function":"QueryReqWrap.onresolve [as oncomplete]","line":213,"method":"onresolve [as oncomplete]","native":false}]}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'path')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:40:31)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-16T11:46:26.828Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'dept_name')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:24:102)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\Dao\Employee.Dao.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:4:12)
+    at UserDao.saveUser (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:23:48)
+    at EmployeeService.<anonymous> (C:\Projects\EmpType\src\services\EmployeeService.ts:24:36)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\services\EmployeeService.ts:8:71
+    at new Promise (<anonymous>) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-16T12:08:21.121Z"}
+error: uncaughtException: Function not implemented.
+Error: Function not implemented.
+    at mkdirp (C:\Projects\EmpType\src\routes\EmployeeRoutes.ts:65:9)
+    at DiskStorage.destination [as getDestination] (C:\Projects\EmpType\src\routes\EmployeeRoutes.ts:11:7)
+    at DiskStorage._handleFile (C:\Projects\EmpType\node_modules\multer\storage\disk.js:31:8)
+    at C:\Projects\EmpType\node_modules\multer\lib\make-middleware.js:145:17
+    at allowAll (C:\Projects\EmpType\node_modules\multer\index.js:8:3)
+    at wrappedFileFilter (C:\Projects\EmpType\node_modules\multer\index.js:44:7)
+    at Busboy.<anonymous> (C:\Projects\EmpType\node_modules\multer\lib\make-middleware.js:115:7)
+    at Busboy.emit (node:events:520:28)
+    at Busboy.emit (C:\Projects\EmpType\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (C:\Projects\EmpType\node_modules\busboy\lib\types\multipart.js:213:13) {"date":"Sat Apr 16 2022 17:38:39 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1921185},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18397993,"external":20319784,"heapTotal":26931200,"heapUsed":24739952,"rss":59928576},"pid":33488,"uid":null,"version":"v16.14.0"},"stack":"Error: Function not implemented.\n    at mkdirp (C:\\Projects\\EmpType\\src\\routes\\EmployeeRoutes.ts:65:9)\n    at DiskStorage.destination [as getDestination] (C:\\Projects\\EmpType\\src\\routes\\EmployeeRoutes.ts:11:7)\n    at DiskStorage._handleFile (C:\\Projects\\EmpType\\node_modules\\multer\\storage\\disk.js:31:8)\n    at C:\\Projects\\EmpType\\node_modules\\multer\\lib\\make-middleware.js:145:17\n    at allowAll (C:\\Projects\\EmpType\\node_modules\\multer\\index.js:8:3)\n    at wrappedFileFilter (C:\\Projects\\EmpType\\node_modules\\multer\\index.js:44:7)\n    at Busboy.<anonymous> (C:\\Projects\\EmpType\\node_modules\\multer\\lib\\make-middleware.js:115:7)\n    at Busboy.emit (node:events:520:28)\n    at Busboy.emit (C:\\Projects\\EmpType\\node_modules\\busboy\\lib\\main.js:38:33)\n    at PartStream.<anonymous> (C:\\Projects\\EmpType\\node_modules\\busboy\\lib\\types\\multipart.js:213:13)","timestamp":"2022-04-16T12:08:39.274Z","trace":[{"column":9,"file":"C:\\Projects\\EmpType\\src\\routes\\EmployeeRoutes.ts","function":"mkdirp","line":65,"method":null,"native":false},{"column":7,"file":"C:\\Projects\\EmpType\\src\\routes\\EmployeeRoutes.ts","function":"DiskStorage.destination [as getDestination]","line":11,"method":"destination [as getDestination]","native":false},{"column":8,"file":"C:\\Projects\\EmpType\\node_modules\\multer\\storage\\disk.js","function":"DiskStorage._handleFile","line":31,"method":"_handleFile","native":false},{"column":17,"file":"C:\\Projects\\EmpType\\node_modules\\multer\\lib\\make-middleware.js","function":null,"line":145,"method":null,"native":false},{"column":3,"file":"C:\\Projects\\EmpType\\node_modules\\multer\\index.js","function":"allowAll","line":8,"method":null,"native":false},{"column":7,"file":"C:\\Projects\\EmpType\\node_modules\\multer\\index.js","function":"wrappedFileFilter","line":44,"method":null,"native":false},{"column":7,"file":"C:\\Projects\\EmpType\\node_modules\\multer\\lib\\make-middleware.js","function":null,"line":115,"method":null,"native":false},{"column":28,"file":"node:events","function":"Busboy.emit","line":520,"method":"emit","native":false},{"column":33,"file":"C:\\Projects\\EmpType\\node_modules\\busboy\\lib\\main.js","function":"Busboy.emit","line":38,"method":"emit","native":false},{"column":13,"file":"C:\\Projects\\EmpType\\node_modules\\busboy\\lib\\types\\multipart.js","function":null,"line":213,"method":null,"native":false}]}
+error: uncaughtException: Function not implemented.
+Error: Function not implemented.
+    at mkdirp (C:\Projects\EmpType\src\routes\EmployeeRoutes.ts:65:9)
+    at DiskStorage.destination [as getDestination] (C:\Projects\EmpType\src\routes\EmployeeRoutes.ts:11:7)
+    at DiskStorage._handleFile (C:\Projects\EmpType\node_modules\multer\storage\disk.js:31:8)
+    at C:\Projects\EmpType\node_modules\multer\lib\make-middleware.js:145:17
+    at allowAll (C:\Projects\EmpType\node_modules\multer\index.js:8:3)
+    at wrappedFileFilter (C:\Projects\EmpType\node_modules\multer\index.js:44:7)
+    at Busboy.<anonymous> (C:\Projects\EmpType\node_modules\multer\lib\make-middleware.js:115:7)
+    at Busboy.emit (node:events:520:28)
+    at Busboy.emit (C:\Projects\EmpType\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (C:\Projects\EmpType\node_modules\busboy\lib\types\multipart.js:213:13) {"date":"Sat Apr 16 2022 17:39:22 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1921228},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18622403,"external":21170965,"heapTotal":40300544,"heapUsed":29440624,"rss":72335360},"pid":34584,"uid":null,"version":"v16.14.0"},"stack":"Error: Function not implemented.\n    at mkdirp (C:\\Projects\\EmpType\\src\\routes\\EmployeeRoutes.ts:65:9)\n    at DiskStorage.destination [as getDestination] (C:\\Projects\\EmpType\\src\\routes\\EmployeeRoutes.ts:11:7)\n    at DiskStorage._handleFile (C:\\Projects\\EmpType\\node_modules\\multer\\storage\\disk.js:31:8)\n    at C:\\Projects\\EmpType\\node_modules\\multer\\lib\\make-middleware.js:145:17\n    at allowAll (C:\\Projects\\EmpType\\node_modules\\multer\\index.js:8:3)\n    at wrappedFileFilter (C:\\Projects\\EmpType\\node_modules\\multer\\index.js:44:7)\n    at Busboy.<anonymous> (C:\\Projects\\EmpType\\node_modules\\multer\\lib\\make-middleware.js:115:7)\n    at Busboy.emit (node:events:520:28)\n    at Busboy.emit (C:\\Projects\\EmpType\\node_modules\\busboy\\lib\\main.js:38:33)\n    at PartStream.<anonymous> (C:\\Projects\\EmpType\\node_modules\\busboy\\lib\\types\\multipart.js:213:13)","timestamp":"2022-04-16T12:09:22.342Z","trace":[{"column":9,"file":"C:\\Projects\\EmpType\\src\\routes\\EmployeeRoutes.ts","function":"mkdirp","line":65,"method":null,"native":false},{"column":7,"file":"C:\\Projects\\EmpType\\src\\routes\\EmployeeRoutes.ts","function":"DiskStorage.destination [as getDestination]","line":11,"method":"destination [as getDestination]","native":false},{"column":8,"file":"C:\\Projects\\EmpType\\node_modules\\multer\\storage\\disk.js","function":"DiskStorage._handleFile","line":31,"method":"_handleFile","native":false},{"column":17,"file":"C:\\Projects\\EmpType\\node_modules\\multer\\lib\\make-middleware.js","function":null,"line":145,"method":null,"native":false},{"column":3,"file":"C:\\Projects\\EmpType\\node_modules\\multer\\index.js","function":"allowAll","line":8,"method":null,"native":false},{"column":7,"file":"C:\\Projects\\EmpType\\node_modules\\multer\\index.js","function":"wrappedFileFilter","line":44,"method":null,"native":false},{"column":7,"file":"C:\\Projects\\EmpType\\node_modules\\multer\\lib\\make-middleware.js","function":null,"line":115,"method":null,"native":false},{"column":28,"file":"node:events","function":"Busboy.emit","line":520,"method":"emit","native":false},{"column":33,"file":"C:\\Projects\\EmpType\\node_modules\\busboy\\lib\\main.js","function":"Busboy.emit","line":38,"method":"emit","native":false},{"column":13,"file":"C:\\Projects\\EmpType\\node_modules\\busboy\\lib\\types\\multipart.js","function":null,"line":213,"method":null,"native":false}]}
+error: uncaughtException: Function not implemented.
+Error: Function not implemented.
+    at mkdirp (C:\Projects\EmpType\src\routes\EmployeeRoutes.ts:65:9)
+    at DiskStorage.destination [as getDestination] (C:\Projects\EmpType\src\routes\EmployeeRoutes.ts:11:7)
+    at DiskStorage._handleFile (C:\Projects\EmpType\node_modules\multer\storage\disk.js:31:8)
+    at C:\Projects\EmpType\node_modules\multer\lib\make-middleware.js:145:17
+    at allowAll (C:\Projects\EmpType\node_modules\multer\index.js:8:3)
+    at wrappedFileFilter (C:\Projects\EmpType\node_modules\multer\index.js:44:7)
+    at Busboy.<anonymous> (C:\Projects\EmpType\node_modules\multer\lib\make-middleware.js:115:7)
+    at Busboy.emit (node:events:520:28)
+    at Busboy.emit (C:\Projects\EmpType\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (C:\Projects\EmpType\node_modules\busboy\lib\types\multipart.js:213:13) {"date":"Sat Apr 16 2022 17:40:11 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1921277},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18642214,"external":24334912,"heapTotal":40300544,"heapUsed":29729248,"rss":72523776},"pid":28648,"uid":null,"version":"v16.14.0"},"stack":"Error: Function not implemented.\n    at mkdirp (C:\\Projects\\EmpType\\src\\routes\\EmployeeRoutes.ts:65:9)\n    at DiskStorage.destination [as getDestination] (C:\\Projects\\EmpType\\src\\routes\\EmployeeRoutes.ts:11:7)\n    at DiskStorage._handleFile (C:\\Projects\\EmpType\\node_modules\\multer\\storage\\disk.js:31:8)\n    at C:\\Projects\\EmpType\\node_modules\\multer\\lib\\make-middleware.js:145:17\n    at allowAll (C:\\Projects\\EmpType\\node_modules\\multer\\index.js:8:3)\n    at wrappedFileFilter (C:\\Projects\\EmpType\\node_modules\\multer\\index.js:44:7)\n    at Busboy.<anonymous> (C:\\Projects\\EmpType\\node_modules\\multer\\lib\\make-middleware.js:115:7)\n    at Busboy.emit (node:events:520:28)\n    at Busboy.emit (C:\\Projects\\EmpType\\node_modules\\busboy\\lib\\main.js:38:33)\n    at PartStream.<anonymous> (C:\\Projects\\EmpType\\node_modules\\busboy\\lib\\types\\multipart.js:213:13)","timestamp":"2022-04-16T12:10:11.504Z","trace":[{"column":9,"file":"C:\\Projects\\EmpType\\src\\routes\\EmployeeRoutes.ts","function":"mkdirp","line":65,"method":null,"native":false},{"column":7,"file":"C:\\Projects\\EmpType\\src\\routes\\EmployeeRoutes.ts","function":"DiskStorage.destination [as getDestination]","line":11,"method":"destination [as getDestination]","native":false},{"column":8,"file":"C:\\Projects\\EmpType\\node_modules\\multer\\storage\\disk.js","function":"DiskStorage._handleFile","line":31,"method":"_handleFile","native":false},{"column":17,"file":"C:\\Projects\\EmpType\\node_modules\\multer\\lib\\make-middleware.js","function":null,"line":145,"method":null,"native":false},{"column":3,"file":"C:\\Projects\\EmpType\\node_modules\\multer\\index.js","function":"allowAll","line":8,"method":null,"native":false},{"column":7,"file":"C:\\Projects\\EmpType\\node_modules\\multer\\index.js","function":"wrappedFileFilter","line":44,"method":null,"native":false},{"column":7,"file":"C:\\Projects\\EmpType\\node_modules\\multer\\lib\\make-middleware.js","function":null,"line":115,"method":null,"native":false},{"column":28,"file":"node:events","function":"Busboy.emit","line":520,"method":"emit","native":false},{"column":33,"file":"C:\\Projects\\EmpType\\node_modules\\busboy\\lib\\main.js","function":"Busboy.emit","line":38,"method":"emit","native":false},{"column":13,"file":"C:\\Projects\\EmpType\\node_modules\\busboy\\lib\\types\\multipart.js","function":null,"line":213,"method":null,"native":false}]}
+error: uncaughtException: mkdirp is not defined
+ReferenceError: mkdirp is not defined
+    at DiskStorage.destination [as getDestination] (C:\Projects\EmpType\src\routes\EmployeeRoutes.ts:11:7)
+    at DiskStorage._handleFile (C:\Projects\EmpType\node_modules\multer\storage\disk.js:31:8)
+    at C:\Projects\EmpType\node_modules\multer\lib\make-middleware.js:145:17
+    at allowAll (C:\Projects\EmpType\node_modules\multer\index.js:8:3)
+    at wrappedFileFilter (C:\Projects\EmpType\node_modules\multer\index.js:44:7)
+    at Busboy.<anonymous> (C:\Projects\EmpType\node_modules\multer\lib\make-middleware.js:115:7)
+    at Busboy.emit (node:events:520:28)
+    at Busboy.emit (C:\Projects\EmpType\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (C:\Projects\EmpType\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (node:events:520:28) {"date":"Sat Apr 16 2022 17:41:37 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1921363},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18674289,"external":24334859,"heapTotal":40038400,"heapUsed":30137680,"rss":72265728},"pid":20752,"uid":null,"version":"v16.14.0"},"stack":"ReferenceError: mkdirp is not defined\n    at DiskStorage.destination [as getDestination] (C:\\Projects\\EmpType\\src\\routes\\EmployeeRoutes.ts:11:7)\n    at DiskStorage._handleFile (C:\\Projects\\EmpType\\node_modules\\multer\\storage\\disk.js:31:8)\n    at C:\\Projects\\EmpType\\node_modules\\multer\\lib\\make-middleware.js:145:17\n    at allowAll (C:\\Projects\\EmpType\\node_modules\\multer\\index.js:8:3)\n    at wrappedFileFilter (C:\\Projects\\EmpType\\node_modules\\multer\\index.js:44:7)\n    at Busboy.<anonymous> (C:\\Projects\\EmpType\\node_modules\\multer\\lib\\make-middleware.js:115:7)\n    at Busboy.emit (node:events:520:28)\n    at Busboy.emit (C:\\Projects\\EmpType\\node_modules\\busboy\\lib\\main.js:38:33)\n    at PartStream.<anonymous> (C:\\Projects\\EmpType\\node_modules\\busboy\\lib\\types\\multipart.js:213:13)\n    at PartStream.emit (node:events:520:28)","timestamp":"2022-04-16T12:11:37.176Z","trace":[{"column":7,"file":"C:\\Projects\\EmpType\\src\\routes\\EmployeeRoutes.ts","function":"DiskStorage.destination [as getDestination]","line":11,"method":"destination [as getDestination]","native":false},{"column":8,"file":"C:\\Projects\\EmpType\\node_modules\\multer\\storage\\disk.js","function":"DiskStorage._handleFile","line":31,"method":"_handleFile","native":false},{"column":17,"file":"C:\\Projects\\EmpType\\node_modules\\multer\\lib\\make-middleware.js","function":null,"line":145,"method":null,"native":false},{"column":3,"file":"C:\\Projects\\EmpType\\node_modules\\multer\\index.js","function":"allowAll","line":8,"method":null,"native":false},{"column":7,"file":"C:\\Projects\\EmpType\\node_modules\\multer\\index.js","function":"wrappedFileFilter","line":44,"method":null,"native":false},{"column":7,"file":"C:\\Projects\\EmpType\\node_modules\\multer\\lib\\make-middleware.js","function":null,"line":115,"method":null,"native":false},{"column":28,"file":"node:events","function":"Busboy.emit","line":520,"method":"emit","native":false},{"column":33,"file":"C:\\Projects\\EmpType\\node_modules\\busboy\\lib\\main.js","function":"Busboy.emit","line":38,"method":"emit","native":false},{"column":13,"file":"C:\\Projects\\EmpType\\node_modules\\busboy\\lib\\types\\multipart.js","function":null,"line":213,"method":null,"native":false},{"column":28,"file":"node:events","function":"PartStream.emit","line":520,"method":"emit","native":false}]}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'dept_name')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:24:102)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\Dao\Employee.Dao.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:4:12)
+    at UserDao.saveUser (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:23:48)
+    at EmployeeService.<anonymous> (C:\Projects\EmpType\src\services\EmployeeService.ts:24:36)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\services\EmployeeService.ts:8:71
+    at new Promise (<anonymous>) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-16T12:12:44.761Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'dept_name')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:24:102)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\Dao\Employee.Dao.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:4:12)
+    at UserDao.saveUser (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:23:48)
+    at EmployeeService.<anonymous> (C:\Projects\EmpType\src\services\EmployeeService.ts:24:36)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\services\EmployeeService.ts:8:71
+    at new Promise (<anonymous>) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-16T12:13:02.073Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'dept_name')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:24:102)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\Dao\Employee.Dao.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:4:12)
+    at UserDao.saveUser (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:23:48)
+    at EmployeeService.<anonymous> (C:\Projects\EmpType\src\services\EmployeeService.ts:24:36)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\services\EmployeeService.ts:8:71
+    at new Promise (<anonymous>) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-16T12:13:12.750Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'dept_name')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:24:102)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\Dao\Employee.Dao.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:4:12)
+    at UserDao.saveUser (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:23:48)
+    at EmployeeService.<anonymous> (C:\Projects\EmpType\src\services\EmployeeService.ts:24:36)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\services\EmployeeService.ts:8:71
+    at new Promise (<anonymous>) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-16T12:13:31.045Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'dept_name')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:24:102)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\Dao\Employee.Dao.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:4:12)
+    at UserDao.saveUser (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:23:48)
+    at EmployeeService.<anonymous> (C:\Projects\EmpType\src\services\EmployeeService.ts:24:36)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\services\EmployeeService.ts:8:71
+    at new Promise (<anonymous>) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-16T12:13:50.798Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'role_name')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:25:90)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-16T12:32:34.990Z"}
+error: uncaughtException: cb is not a function
+TypeError: cb is not a function
+    at DiskStorage.destination [as getDestination] (C:\Projects\EmpType\src\routes\EmployeeRoutes.ts:27:9)
+    at DiskStorage._handleFile (C:\Projects\EmpType\node_modules\multer\storage\disk.js:31:8)
+    at C:\Projects\EmpType\node_modules\multer\lib\make-middleware.js:145:17
+    at allowAll (C:\Projects\EmpType\node_modules\multer\index.js:8:3)
+    at wrappedFileFilter (C:\Projects\EmpType\node_modules\multer\index.js:44:7)
+    at Busboy.<anonymous> (C:\Projects\EmpType\node_modules\multer\lib\make-middleware.js:115:7)
+    at Busboy.emit (node:events:520:28)
+    at Busboy.emit (C:\Projects\EmpType\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (C:\Projects\EmpType\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (node:events:520:28) {"date":"Sat Apr 16 2022 18:38:07 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1924754},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18615832,"external":22672951,"heapTotal":40300544,"heapUsed":29358888,"rss":72077312},"pid":36744,"uid":null,"version":"v16.14.0"},"stack":"TypeError: cb is not a function\n    at DiskStorage.destination [as getDestination] (C:\\Projects\\EmpType\\src\\routes\\EmployeeRoutes.ts:27:9)\n    at DiskStorage._handleFile (C:\\Projects\\EmpType\\node_modules\\multer\\storage\\disk.js:31:8)\n    at C:\\Projects\\EmpType\\node_modules\\multer\\lib\\make-middleware.js:145:17\n    at allowAll (C:\\Projects\\EmpType\\node_modules\\multer\\index.js:8:3)\n    at wrappedFileFilter (C:\\Projects\\EmpType\\node_modules\\multer\\index.js:44:7)\n    at Busboy.<anonymous> (C:\\Projects\\EmpType\\node_modules\\multer\\lib\\make-middleware.js:115:7)\n    at Busboy.emit (node:events:520:28)\n    at Busboy.emit (C:\\Projects\\EmpType\\node_modules\\busboy\\lib\\main.js:38:33)\n    at PartStream.<anonymous> (C:\\Projects\\EmpType\\node_modules\\busboy\\lib\\types\\multipart.js:213:13)\n    at PartStream.emit (node:events:520:28)","timestamp":"2022-04-16T13:08:07.987Z","trace":[{"column":9,"file":"C:\\Projects\\EmpType\\src\\routes\\EmployeeRoutes.ts","function":"DiskStorage.destination [as getDestination]","line":27,"method":"destination [as getDestination]","native":false},{"column":8,"file":"C:\\Projects\\EmpType\\node_modules\\multer\\storage\\disk.js","function":"DiskStorage._handleFile","line":31,"method":"_handleFile","native":false},{"column":17,"file":"C:\\Projects\\EmpType\\node_modules\\multer\\lib\\make-middleware.js","function":null,"line":145,"method":null,"native":false},{"column":3,"file":"C:\\Projects\\EmpType\\node_modules\\multer\\index.js","function":"allowAll","line":8,"method":null,"native":false},{"column":7,"file":"C:\\Projects\\EmpType\\node_modules\\multer\\index.js","function":"wrappedFileFilter","line":44,"method":null,"native":false},{"column":7,"file":"C:\\Projects\\EmpType\\node_modules\\multer\\lib\\make-middleware.js","function":null,"line":115,"method":null,"native":false},{"column":28,"file":"node:events","function":"Busboy.emit","line":520,"method":"emit","native":false},{"column":33,"file":"C:\\Projects\\EmpType\\node_modules\\busboy\\lib\\main.js","function":"Busboy.emit","line":38,"method":"emit","native":false},{"column":13,"file":"C:\\Projects\\EmpType\\node_modules\\busboy\\lib\\types\\multipart.js","function":null,"line":213,"method":null,"native":false},{"column":28,"file":"node:events","function":"PartStream.emit","line":520,"method":"emit","native":false}]}
+error: uncaughtException: cb is not a function
+TypeError: cb is not a function
+    at DiskStorage.destination [as getDestination] (C:\Projects\EmpType\src\routes\EmployeeRoutes.ts:27:9)
+    at DiskStorage._handleFile (C:\Projects\EmpType\node_modules\multer\storage\disk.js:31:8)
+    at C:\Projects\EmpType\node_modules\multer\lib\make-middleware.js:145:17
+    at allowAll (C:\Projects\EmpType\node_modules\multer\index.js:8:3)
+    at wrappedFileFilter (C:\Projects\EmpType\node_modules\multer\index.js:44:7)
+    at Busboy.<anonymous> (C:\Projects\EmpType\node_modules\multer\lib\make-middleware.js:115:7)
+    at Busboy.emit (node:events:520:28)
+    at Busboy.emit (C:\Projects\EmpType\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (C:\Projects\EmpType\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (node:events:520:28) {"date":"Sat Apr 16 2022 18:40:23 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1924889},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18710185,"external":24327499,"heapTotal":40038400,"heapUsed":30007936,"rss":72077312},"pid":8120,"uid":null,"version":"v16.14.0"},"stack":"TypeError: cb is not a function\n    at DiskStorage.destination [as getDestination] (C:\\Projects\\EmpType\\src\\routes\\EmployeeRoutes.ts:27:9)\n    at DiskStorage._handleFile (C:\\Projects\\EmpType\\node_modules\\multer\\storage\\disk.js:31:8)\n    at C:\\Projects\\EmpType\\node_modules\\multer\\lib\\make-middleware.js:145:17\n    at allowAll (C:\\Projects\\EmpType\\node_modules\\multer\\index.js:8:3)\n    at wrappedFileFilter (C:\\Projects\\EmpType\\node_modules\\multer\\index.js:44:7)\n    at Busboy.<anonymous> (C:\\Projects\\EmpType\\node_modules\\multer\\lib\\make-middleware.js:115:7)\n    at Busboy.emit (node:events:520:28)\n    at Busboy.emit (C:\\Projects\\EmpType\\node_modules\\busboy\\lib\\main.js:38:33)\n    at PartStream.<anonymous> (C:\\Projects\\EmpType\\node_modules\\busboy\\lib\\types\\multipart.js:213:13)\n    at PartStream.emit (node:events:520:28)","timestamp":"2022-04-16T13:10:23.274Z","trace":[{"column":9,"file":"C:\\Projects\\EmpType\\src\\routes\\EmployeeRoutes.ts","function":"DiskStorage.destination [as getDestination]","line":27,"method":"destination [as getDestination]","native":false},{"column":8,"file":"C:\\Projects\\EmpType\\node_modules\\multer\\storage\\disk.js","function":"DiskStorage._handleFile","line":31,"method":"_handleFile","native":false},{"column":17,"file":"C:\\Projects\\EmpType\\node_modules\\multer\\lib\\make-middleware.js","function":null,"line":145,"method":null,"native":false},{"column":3,"file":"C:\\Projects\\EmpType\\node_modules\\multer\\index.js","function":"allowAll","line":8,"method":null,"native":false},{"column":7,"file":"C:\\Projects\\EmpType\\node_modules\\multer\\index.js","function":"wrappedFileFilter","line":44,"method":null,"native":false},{"column":7,"file":"C:\\Projects\\EmpType\\node_modules\\multer\\lib\\make-middleware.js","function":null,"line":115,"method":null,"native":false},{"column":28,"file":"node:events","function":"Busboy.emit","line":520,"method":"emit","native":false},{"column":33,"file":"C:\\Projects\\EmpType\\node_modules\\busboy\\lib\\main.js","function":"Busboy.emit","line":38,"method":"emit","native":false},{"column":13,"file":"C:\\Projects\\EmpType\\node_modules\\busboy\\lib\\types\\multipart.js","function":null,"line":213,"method":null,"native":false},{"column":28,"file":"node:events","function":"PartStream.emit","line":520,"method":"emit","native":false}]}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'path')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:40:31)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-16T13:18:00.317Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'originalname')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:40:31)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-16T13:20:06.592Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'originalname')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:41:26)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-16T13:22:07.804Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'originalname')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:43:26)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-16T13:24:49.150Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'originalname')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:43:26)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-16T13:26:58.902Z"}
+error: uncaughtException: querySrv ESERVFAIL _mongodb._tcp.crm-db.dvzbw.mongodb.net
+Error: querySrv ESERVFAIL _mongodb._tcp.crm-db.dvzbw.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19) {"date":"Sat Apr 16 2022 18:58:02 GMT+0530 (India Standard Time)","error":{"code":"ESERVFAIL","hostname":"_mongodb._tcp.crm-db.dvzbw.mongodb.net","syscall":"querySrv"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1925949},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18589456,"external":24224276,"heapTotal":38727680,"heapUsed":27857800,"rss":68792320},"pid":44676,"uid":null,"version":"v16.14.0"},"stack":"Error: querySrv ESERVFAIL _mongodb._tcp.crm-db.dvzbw.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","timestamp":"2022-04-16T13:28:03.045Z","trace":[{"column":19,"file":"node:dns","function":"QueryReqWrap.onresolve [as oncomplete]","line":213,"method":"onresolve [as oncomplete]","native":false}]}
+error: uncaughtException: querySrv ESERVFAIL _mongodb._tcp.crm-db.dvzbw.mongodb.net
+Error: querySrv ESERVFAIL _mongodb._tcp.crm-db.dvzbw.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19) {"date":"Sat Apr 16 2022 19:09:22 GMT+0530 (India Standard Time)","error":{"code":"ESERVFAIL","hostname":"_mongodb._tcp.crm-db.dvzbw.mongodb.net","syscall":"querySrv"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1926629},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18584659,"external":20930413,"heapTotal":38989824,"heapUsed":27931376,"rss":68689920},"pid":42756,"uid":null,"version":"v16.14.0"},"stack":"Error: querySrv ESERVFAIL _mongodb._tcp.crm-db.dvzbw.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","timestamp":"2022-04-16T13:39:22.753Z","trace":[{"column":19,"file":"node:dns","function":"QueryReqWrap.onresolve [as oncomplete]","line":213,"method":"onresolve [as oncomplete]","native":false}]}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'path')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:41:26)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-16T15:00:07.722Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'path')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:41:26)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-16T15:35:41.745Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'path')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:41:26)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-16T15:56:29.977Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'path')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:41:26)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-16T16:00:04.214Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'path')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:41:26)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-16T16:03:25.176Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'path')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:41:26)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-16T16:13:45.142Z"}
+error: uncaughtException: querySrv ESERVFAIL _mongodb._tcp.crm-db.dvzbw.mongodb.net
+Error: querySrv ESERVFAIL _mongodb._tcp.crm-db.dvzbw.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19) {"date":"Mon Apr 18 2022 10:39:32 GMT+0530 (India Standard Time)","error":{"code":"ESERVFAIL","hostname":"_mongodb._tcp.crm-db.dvzbw.mongodb.net","syscall":"querySrv"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":78},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18286951,"external":24043822,"heapTotal":57864192,"heapUsed":21882248,"rss":74158080},"pid":14452,"uid":null,"version":"v16.14.0"},"stack":"Error: querySrv ESERVFAIL _mongodb._tcp.crm-db.dvzbw.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","timestamp":"2022-04-18T05:09:32.757Z","trace":[{"column":19,"file":"node:dns","function":"QueryReqWrap.onresolve [as oncomplete]","line":213,"method":"onresolve [as oncomplete]","native":false}]}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'path')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:41:26)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-18T05:11:14.831Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'path')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:41:26)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-18T05:44:29.158Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'path')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:41:26)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-18T05:45:32.331Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'path')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:41:26)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-18T05:46:31.142Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'path')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:41:26)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-18T05:49:27.706Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/emps/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-18T06:09:39.220Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/emps/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-18T06:09:40.198Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/emps/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-18T06:09:40.219Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/emps/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-18T06:09:40.348Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/emps/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-18T06:09:40.369Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/emps/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-18T06:09:40.380Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/emps/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-18T06:09:40.496Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/emps/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-18T06:09:40.513Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/emps/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-18T06:09:40.522Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/emps/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-18T06:09:40.534Z"}
+error: uncaughtException: EMFILE: too many open files, open 'C:\Projects\EmpType\logs\requests\daily\2022-04-18.log'
+Error: EMFILE: too many open files, open 'C:\Projects\EmpType\logs\requests\daily\2022-04-18.log' {"date":"Mon Apr 18 2022 11:56:45 GMT+0530 (India Standard Time)","error":{"code":"EMFILE","errno":-4066,"path":"C:\\Projects\\EmpType\\logs\\requests\\daily\\2022-04-18.log","syscall":"open"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":4710},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":20854122,"external":23359667,"heapTotal":188936192,"heapUsed":153249600,"rss":252309504},"pid":21352,"uid":null,"version":"v16.14.0"},"stack":"Error: EMFILE: too many open files, open 'C:\\Projects\\EmpType\\logs\\requests\\daily\\2022-04-18.log'","timestamp":"2022-04-18T06:26:45.333Z","trace":[]}
+error: uncaughtException: querySrv ESERVFAIL _mongodb._tcp.crm-db.dvzbw.mongodb.net
+Error: querySrv ESERVFAIL _mongodb._tcp.crm-db.dvzbw.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19) {"date":"Mon Apr 18 2022 12:00:41 GMT+0530 (India Standard Time)","error":{"code":"ESERVFAIL","hostname":"_mongodb._tcp.crm-db.dvzbw.mongodb.net","syscall":"querySrv"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":4946},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18286951,"external":19312401,"heapTotal":58388480,"heapUsed":21882320,"rss":80490496},"pid":29336,"uid":null,"version":"v16.14.0"},"stack":"Error: querySrv ESERVFAIL _mongodb._tcp.crm-db.dvzbw.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","timestamp":"2022-04-18T06:30:41.438Z","trace":[{"column":19,"file":"node:dns","function":"QueryReqWrap.onresolve [as oncomplete]","line":213,"method":"onresolve [as oncomplete]","native":false}]}
+error: uncaughtException: EMFILE: too many open files, open 'C:\Projects\EmpType\logs\requests\daily\2022-04-18.log'
+Error: EMFILE: too many open files, open 'C:\Projects\EmpType\logs\requests\daily\2022-04-18.log' {"date":"Mon Apr 18 2022 12:02:27 GMT+0530 (India Standard Time)","error":{"code":"EMFILE","errno":-4066,"path":"C:\\Projects\\EmpType\\logs\\requests\\daily\\2022-04-18.log","syscall":"open"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":5052},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":62171134,"external":65947225,"heapTotal":360116224,"heapUsed":329375696,"rss":471130112},"pid":26912,"uid":null,"version":"v16.14.0"},"stack":"Error: EMFILE: too many open files, open 'C:\\Projects\\EmpType\\logs\\requests\\daily\\2022-04-18.log'","timestamp":"2022-04-18T06:32:27.241Z","trace":[]}
+error: uncaughtException: EMFILE: too many open files, open 'C:\Projects\EmpType\logs\requests\daily\2022-04-18.log'
+Error: EMFILE: too many open files, open 'C:\Projects\EmpType\logs\requests\daily\2022-04-18.log' {"date":"Mon Apr 18 2022 12:06:38 GMT+0530 (India Standard Time)","error":{"code":"EMFILE","errno":-4066,"path":"C:\\Projects\\EmpType\\logs\\requests\\daily\\2022-04-18.log","syscall":"open"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":5303},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":24140737,"external":27348218,"heapTotal":189198336,"heapUsed":162835384,"rss":266493952},"pid":14260,"uid":null,"version":"v16.14.0"},"stack":"Error: EMFILE: too many open files, open 'C:\\Projects\\EmpType\\logs\\requests\\daily\\2022-04-18.log'","timestamp":"2022-04-18T06:36:38.414Z","trace":[]}
+error: uncaughtException: EMFILE: too many open files, open 'C:\Projects\EmpType\logs\requests\daily\2022-04-18.log'
+Error: EMFILE: too many open files, open 'C:\Projects\EmpType\logs\requests\daily\2022-04-18.log' {"date":"Mon Apr 18 2022 12:11:44 GMT+0530 (India Standard Time)","error":{"code":"EMFILE","errno":-4066,"path":"C:\\Projects\\EmpType\\logs\\requests\\daily\\2022-04-18.log","syscall":"open"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":5609},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":27123643,"external":31021028,"heapTotal":246345728,"heapUsed":224206512,"rss":317247488},"pid":3312,"uid":null,"version":"v16.14.0"},"stack":"Error: EMFILE: too many open files, open 'C:\\Projects\\EmpType\\logs\\requests\\daily\\2022-04-18.log'","timestamp":"2022-04-18T06:41:44.265Z","trace":[]}
+error: uncaughtException: EMFILE: too many open files, open 'C:\Projects\EmpType\logs\requests\daily\2022-04-18.log'
+Error: EMFILE: too many open files, open 'C:\Projects\EmpType\logs\requests\daily\2022-04-18.log' {"date":"Mon Apr 18 2022 12:15:01 GMT+0530 (India Standard Time)","error":{"code":"EMFILE","errno":-4066,"path":"C:\\Projects\\EmpType\\logs\\requests\\daily\\2022-04-18.log","syscall":"open"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":5807},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":23946665,"external":28182951,"heapTotal":219082752,"heapUsed":183820808,"rss":267067392},"pid":1792,"uid":null,"version":"v16.14.0"},"stack":"Error: EMFILE: too many open files, open 'C:\\Projects\\EmpType\\logs\\requests\\daily\\2022-04-18.log'","timestamp":"2022-04-18T06:45:02.016Z","trace":[]}
+error: uncaughtException: EMFILE: too many open files, open 'C:\Projects\EmpType\logs\requests\daily\2022-04-18.log'
+Error: EMFILE: too many open files, open 'C:\Projects\EmpType\logs\requests\daily\2022-04-18.log' {"date":"Mon Apr 18 2022 12:22:51 GMT+0530 (India Standard Time)","error":{"code":"EMFILE","errno":-4066,"path":"C:\\Projects\\EmpType\\logs\\requests\\daily\\2022-04-18.log","syscall":"open"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":6277},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":22305812,"external":24775535,"heapTotal":221442048,"heapUsed":195415312,"rss":284319744},"pid":11024,"uid":null,"version":"v16.14.0"},"stack":"Error: EMFILE: too many open files, open 'C:\\Projects\\EmpType\\logs\\requests\\daily\\2022-04-18.log'","timestamp":"2022-04-18T06:52:51.634Z","trace":[]}
+error: uncaughtException: EMFILE: too many open files, open 'C:\Projects\EmpType\logs\requests\daily\2022-04-18.log'
+Error: EMFILE: too many open files, open 'C:\Projects\EmpType\logs\requests\daily\2022-04-18.log' {"date":"Mon Apr 18 2022 12:35:07 GMT+0530 (India Standard Time)","error":{"code":"EMFILE","errno":-4066,"path":"C:\\Projects\\EmpType\\logs\\requests\\daily\\2022-04-18.log","syscall":"open"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":7013},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":20218133,"external":22594047,"heapTotal":197062656,"heapUsed":161952768,"rss":258957312},"pid":32476,"uid":null,"version":"v16.14.0"},"stack":"Error: EMFILE: too many open files, open 'C:\\Projects\\EmpType\\logs\\requests\\daily\\2022-04-18.log'","timestamp":"2022-04-18T07:05:07.629Z","trace":[]}
+error: uncaughtException: EMFILE: too many open files, open 'C:\Projects\EmpType\logs\requests\daily\2022-04-18.log'
+Error: EMFILE: too many open files, open 'C:\Projects\EmpType\logs\requests\daily\2022-04-18.log' {"date":"Mon Apr 18 2022 12:38:29 GMT+0530 (India Standard Time)","error":{"code":"EMFILE","errno":-4066,"path":"C:\\Projects\\EmpType\\logs\\requests\\daily\\2022-04-18.log","syscall":"open"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":7215},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":20855757,"external":26225241,"heapTotal":218820608,"heapUsed":181526872,"rss":281075712},"pid":23436,"uid":null,"version":"v16.14.0"},"stack":"Error: EMFILE: too many open files, open 'C:\\Projects\\EmpType\\logs\\requests\\daily\\2022-04-18.log'","timestamp":"2022-04-18T07:08:29.631Z","trace":[]}
+error: uncaughtException: EMFILE: too many open files, open 'C:\Projects\EmpType\logs\requests\daily\2022-04-18.log'
+Error: EMFILE: too many open files, open 'C:\Projects\EmpType\logs\requests\daily\2022-04-18.log' {"date":"Mon Apr 18 2022 14:20:24 GMT+0530 (India Standard Time)","error":{"code":"EMFILE","errno":-4066,"path":"C:\\Projects\\EmpType\\logs\\requests\\daily\\2022-04-18.log","syscall":"open"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":13329},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":20601800,"external":23146792,"heapTotal":231665664,"heapUsed":202789016,"rss":291393536},"pid":22576,"uid":null,"version":"v16.14.0"},"stack":"Error: EMFILE: too many open files, open 'C:\\Projects\\EmpType\\logs\\requests\\daily\\2022-04-18.log'","timestamp":"2022-04-18T08:50:24.241Z","trace":[]}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/emps/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-18T09:16:19.184Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'path')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:41:26)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-18T09:16:51.680Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'path')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:41:26)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-18T09:37:27.606Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'path')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:41:26)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-18T09:39:32.998Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token - in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\Projects\EmpType\node_modules\body-parser\lib\types\json.js:158:10)
+    at parse (C:\Projects\EmpType\node_modules\body-parser\lib\types\json.js:83:15)
+    at C:\Projects\EmpType\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Projects\EmpType\node_modules\raw-body\index.js:224:16)
+    at done (C:\Projects\EmpType\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Projects\EmpType\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:532:35)
+    at endReadableNT (node:internal/streams/readable:1346:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-18T09:54:09.606Z"}
+error: uncaughtException: querySrv EREFUSED _mongodb._tcp.crm-db.dvzbw.mongodb.net
+Error: querySrv EREFUSED _mongodb._tcp.crm-db.dvzbw.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19) {"date":"Mon Apr 18 2022 15:31:28 GMT+0530 (India Standard Time)","error":{"code":"EREFUSED","hostname":"_mongodb._tcp.crm-db.dvzbw.mongodb.net","syscall":"querySrv"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":17593},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19266861,"external":24228238,"heapTotal":38989824,"heapUsed":27429808,"rss":72187904},"pid":18600,"uid":null,"version":"v16.14.0"},"stack":"Error: querySrv EREFUSED _mongodb._tcp.crm-db.dvzbw.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","timestamp":"2022-04-18T10:01:28.158Z","trace":[{"column":19,"file":"node:dns","function":"QueryReqWrap.onresolve [as oncomplete]","line":213,"method":"onresolve [as oncomplete]","native":false}]}
+error: uncaughtException: querySrv ECONNREFUSED _mongodb._tcp.crm-db.dvzbw.mongodb.net
+Error: querySrv ECONNREFUSED _mongodb._tcp.crm-db.dvzbw.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19) {"date":"Mon Apr 18 2022 15:31:43 GMT+0530 (India Standard Time)","error":{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.crm-db.dvzbw.mongodb.net","syscall":"querySrv"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":17608},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18358111,"external":19324458,"heapTotal":58912768,"heapUsed":24387296,"rss":80474112},"pid":24012,"uid":null,"version":"v16.14.0"},"stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.crm-db.dvzbw.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","timestamp":"2022-04-18T10:01:43.421Z","trace":[{"column":19,"file":"node:dns","function":"QueryReqWrap.onresolve [as oncomplete]","line":213,"method":"onresolve [as oncomplete]","native":false}]}
+error: uncaughtException: querySrv ECONNREFUSED _mongodb._tcp.crm-db.dvzbw.mongodb.net
+Error: querySrv ECONNREFUSED _mongodb._tcp.crm-db.dvzbw.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19) {"date":"Mon Apr 18 2022 15:32:56 GMT+0530 (India Standard Time)","error":{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.crm-db.dvzbw.mongodb.net","syscall":"querySrv"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":17681},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18355281,"external":19321628,"heapTotal":58912768,"heapUsed":24287816,"rss":81080320},"pid":32136,"uid":null,"version":"v16.14.0"},"stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.crm-db.dvzbw.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","timestamp":"2022-04-18T10:02:56.434Z","trace":[{"column":19,"file":"node:dns","function":"QueryReqWrap.onresolve [as oncomplete]","line":213,"method":"onresolve [as oncomplete]","native":false}]}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token - in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\Projects\EmpType\node_modules\body-parser\lib\types\json.js:158:10)
+    at parse (C:\Projects\EmpType\node_modules\body-parser\lib\types\json.js:83:15)
+    at C:\Projects\EmpType\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Projects\EmpType\node_modules\raw-body\index.js:224:16)
+    at done (C:\Projects\EmpType\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Projects\EmpType\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:532:35)
+    at endReadableNT (node:internal/streams/readable:1346:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-18T10:04:25.722Z"}
+error: 
+    status - 500 
+    message - Error: Authorization token is required404
+    at C:\Projects\EmpType\src\middlewares\auth.middleware.ts:22:13
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\middlewares\auth.middleware.ts:4:12)
+    at adminAuth (C:\Projects\EmpType\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (C:\Projects\EmpType\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\EmpType\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\EmpType\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\EmpType\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/emps 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-18T13:21:52.998Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token - in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\Projects\EmpType\node_modules\body-parser\lib\types\json.js:158:10)
+    at parse (C:\Projects\EmpType\node_modules\body-parser\lib\types\json.js:83:15)
+    at C:\Projects\EmpType\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Projects\EmpType\node_modules\raw-body\index.js:224:16)
+    at done (C:\Projects\EmpType\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Projects\EmpType\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:532:35)
+    at endReadableNT (node:internal/streams/readable:1346:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-18T13:29:44.270Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'path')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:41:26)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-18T14:33:29.128Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'path')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:41:26)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-18T14:59:15.774Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'path')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:41:26)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-18T15:01:12.891Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'path')
+    at UserDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:41:26)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58) 
+    url - /api/v1/emps/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-18T15:09:16.826Z"}
+error: uncaughtException: querySrv ECONNREFUSED _mongodb._tcp.crm-db.dvzbw.mongodb.net
+Error: querySrv ECONNREFUSED _mongodb._tcp.crm-db.dvzbw.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19) {"date":"Tue Apr 19 2022 13:23:36 GMT+0530 (India Standard Time)","error":{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.crm-db.dvzbw.mongodb.net","syscall":"querySrv"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":58274},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18308450,"external":19274797,"heapTotal":59174912,"heapUsed":24451696,"rss":80072704},"pid":12024,"uid":null,"version":"v16.14.0"},"stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.crm-db.dvzbw.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","timestamp":"2022-04-19T07:53:36.437Z","trace":[{"column":19,"file":"node:dns","function":"QueryReqWrap.onresolve [as oncomplete]","line":213,"method":"onresolve [as oncomplete]","native":false}]}
+error: uncaughtException: querySrv ECONNREFUSED _mongodb._tcp.crm-db.dvzbw.mongodb.net
+Error: querySrv ECONNREFUSED _mongodb._tcp.crm-db.dvzbw.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19) {"date":"Tue Apr 19 2022 13:24:07 GMT+0530 (India Standard Time)","error":{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.crm-db.dvzbw.mongodb.net","syscall":"querySrv"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":58305},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18346193,"external":19312540,"heapTotal":58650624,"heapUsed":24415536,"rss":80539648},"pid":19404,"uid":null,"version":"v16.14.0"},"stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.crm-db.dvzbw.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","timestamp":"2022-04-19T07:54:07.478Z","trace":[{"column":19,"file":"node:dns","function":"QueryReqWrap.onresolve [as oncomplete]","line":213,"method":"onresolve [as oncomplete]","native":false}]}
+error: uncaughtException: querySrv ETIMEOUT _mongodb._tcp.crm-db.dvzbw.mongodb.net
+Error: querySrv ETIMEOUT _mongodb._tcp.crm-db.dvzbw.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19) {"date":"Tue Apr 19 2022 13:24:53 GMT+0530 (India Standard Time)","error":{"code":"ETIMEOUT","hostname":"_mongodb._tcp.crm-db.dvzbw.mongodb.net","syscall":"querySrv"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":58351},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Projects\\EmpType","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18286949,"external":19311341,"heapTotal":58388480,"heapUsed":22124616,"rss":78946304},"pid":11168,"uid":null,"version":"v16.14.0"},"stack":"Error: querySrv ETIMEOUT _mongodb._tcp.crm-db.dvzbw.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","timestamp":"2022-04-19T07:54:53.072Z","trace":[{"column":19,"file":"node:dns","function":"QueryReqWrap.onresolve [as oncomplete]","line":213,"method":"onresolve [as oncomplete]","native":false}]}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/emps/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-04-19T08:35:02.924Z"}

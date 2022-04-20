@@ -6,31 +6,6 @@
     "auditLog": "logs\\requests\\daily\\.66602cdde70fd43456e51d0c9addc83824638c4d-audit.json",
     "files": [
         {
-            "date": 1648790716941,
-            "name": "logs\\requests\\daily\\2022-04-01.log",
-            "hash": "72abd643eebf99642b8dfd61f46fd5b3"
-        },
-        {
-            "date": 1648890949339,
-            "name": "logs\\requests\\daily\\2022-04-02.log",
-            "hash": "f38851df37670677af63bdb091b9eaa1"
-        },
-        {
-            "date": 1648924335393,
-            "name": "logs\\requests\\daily\\2022-04-03.log",
-            "hash": "5298bab3ec8cbdc82fdefd642aa00cdb"
-        },
-        {
-            "date": 1649050782360,
-            "name": "logs\\requests\\daily\\2022-04-04.log",
-            "hash": "3c2eb06e3c0a4ebe947ea02205ef4545"
-        },
-        {
-            "date": 1649139768066,
-            "name": "logs\\requests\\daily\\2022-04-05.log",
-            "hash": "3f1bac139f523884983a86166f23ec3a"
-        },
-        {
             "date": 1649240660698,
             "name": "logs\\requests\\daily\\2022-04-06.log",
             "hash": "af757cf7d0ae8be3d95d669ebb2fbdaf"
@@ -74,6 +49,26 @@
             "date": 1649918643244,
             "name": "logs\\requests\\daily\\2022-04-14.log",
             "hash": "6562c8e0d39860ce7850a988d5d4a266"
+        },
+        {
+            "date": 1650108898503,
+            "name": "logs\\requests\\daily\\2022-04-16.log",
+            "hash": "b015e045bac364575ea47981c97898e4"
+        },
+        {
+            "date": 1650258647119,
+            "name": "logs\\requests\\daily\\2022-04-18.log",
+            "hash": "2fdaa20730f9fe376700a996cb5f87f6"
+        },
+        {
+            "date": 1650355091223,
+            "name": "logs\\requests\\daily\\2022-04-19.log",
+            "hash": "3cbb2b8aa99c71ed83e304212dab12e6"
+        },
+        {
+            "date": 1650432019616,
+            "name": "logs\\requests\\daily\\2022-04-20.log",
+            "hash": "5f0449640d1aac9a07ca638d1b7a1dd7"
         }
     ],
     "hashType": "md5"

@@ -1,12 +1,14 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import HttpStatus from 'http-status-codes';
-import departmentService from '../services/DepartmentService';
 import ResponseType from '../DTO/ResponseType.dto';
 import { Request, Response, NextFunction } from 'express';
+import DepartmentService from '../services/DepartmentService';
 
 
 class DepartmentController {
-  public departmentService = new departmentService();
+  public departmentService;
+  constructor (departmentService?:DepartmentService){
+    this.departmentService=departmentService?departmentService: new DepartmentService();
+}
 
   /**
    * Controller to create new user
@@ -67,8 +69,6 @@ class DepartmentController {
     next: NextFunction
   ): Promise<any> => {
     try {
-      console.log("hii");
-      
       const data:ResponseType = await this.departmentService.getDept(req.params._id);
       res.status(HttpStatus.OK).json({
         code: data.code,
