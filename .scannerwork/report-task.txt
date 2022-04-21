@@ -2,5 +2,5 @@ projectKey=EmpType
 serverUrl=http://localhost:9050
 serverVersion=9.3.0.51899
 dashboardUrl=http://localhost:9050/dashboard?id=EmpType
-ceTaskId=AYBG4YEEQJikQctc8U-Y
-ceTaskUrl=http://localhost:9050/api/ce/task?id=AYBG4YEEQJikQctc8U-Y
+ceTaskId=AYBK0DN0-v_wt54f0qMK
+ceTaskUrl=http://localhost:9050/api/ce/task?id=AYBK0DN0-v_wt54f0qMK

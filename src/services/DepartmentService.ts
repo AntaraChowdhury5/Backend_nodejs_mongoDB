@@ -4,14 +4,14 @@ import ResponseType from '../DTO/ResponseType.dto';
 
 class DepartmentService {
 
-
   private deptDao;
   private responseType;
-  constructor() {
-    this.deptDao = new DepartmentDao();
+  
+  constructor(deptDao?: DepartmentDao) {
+    this.deptDao = deptDao ? deptDao : new DepartmentDao();
     this.responseType = new ResponseType()
   }
-
+  
   //get all Department
   public getAllDepts = async () => {
     const res = await this.deptDao.getAllDepartment();

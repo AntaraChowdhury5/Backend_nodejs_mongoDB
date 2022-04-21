@@ -10,7 +10,7 @@ const collectionName = "users";
 const deptCol = "departments";
 const roleCol = "role";
 
-export interface IUserDao {
+export interface IEmployeeDao {
     saveUser(user?:Employee,file?:any): Promise<any>;
     findById(_id: ObjectId | string): Promise<any>;
     getAllUser(): Promise<any>;
@@ -19,7 +19,7 @@ export interface IUserDao {
     registration(body: Employee): Promise<any>;
     loggedin(body: Employee): Promise<any>;
 }
-export class UserDao implements IUserDao {
+export class EmployeeDao implements IEmployeeDao {
     public saveUser = async (user?:Employee, file?:any) => {
         let deptData = await db.collection<Department>(deptCol).findOne({ dept_name: user.department.dept_name });
         let roleData = await db.collection<Role>(roleCol).findOne({ role_name: user.role.role_name });
@@ -46,13 +46,13 @@ export class UserDao implements IUserDao {
             "isDelete": false
         }
         
-        const data=await db.collection<Employee>(collectionName).insertOne(empData);
-        return data;
+        return db.collection<Employee>(collectionName).insertOne(empData);
+        
     }
 
     public findById = async (_id: string) => {
-        let result = db.collection<Employee>(collectionName).findOne({ "_id": new ObjectId(_id) });
-        return result;
+        return db.collection<Employee>(collectionName).findOne({ "_id": new ObjectId(_id) });
+       
     }
 
     public getAllUser = async () => {
@@ -62,7 +62,7 @@ export class UserDao implements IUserDao {
 
     public deleteUser = async (_id: string) => {
         let findData =  db.collection<Employee>(collectionName).findOne({ "_id": new ObjectId(_id) });
-        let result = await db.collection<Employee>(collectionName).updateOne(
+        return  db.collection<Employee>(collectionName).updateOne(
             { "_id": new ObjectId(_id) },
             {
                 $set:{
@@ -71,14 +71,14 @@ export class UserDao implements IUserDao {
                 }
             }
             );
-        console.log(result);
-        return result;
+        
+        
     }
 
 
     public Update = async (_id: string, body: Employee) => {
         if (!body.department && !body.role) {
-            let result = await db.collection<Employee>(collectionName).findOneAndUpdate(
+            return  db.collection<Employee>(collectionName).findOneAndUpdate(
                 { _id: new ObjectId(_id) },
                 {
                     $set: {
@@ -87,7 +87,7 @@ export class UserDao implements IUserDao {
                     }
                 }
             )
-            return result;
+            
         }
         else if(!body.role && body.department){
             let deptData = await db.collection<Department>(deptCol).findOne({ dept_name: body.department.dept_name });

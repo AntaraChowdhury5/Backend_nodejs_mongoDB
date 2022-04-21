@@ -57,6 +57,7 @@
     "cross-env": "^7.0.2",
     "eslint": "^7.7.0",
     "eslint-config-prettier": "^6.11.0",
+    "eslint-config-sonar": "^0.0.8",
     "eslint-plugin-prettier": "^3.1.4",
     "jest": "^27.5.1",
     "mocha": "^8.1.3",

@@ -6,10 +6,11 @@ class RoleService {
   public responseType;
   private roleDao;
 
-  constructor(){
-    this.responseType=new ResponseType();
-    this.roleDao=new RoleDao();
+  constructor(roleDao?: RoleDao) {
+    this.roleDao = roleDao ? roleDao : new RoleDao();
+    this.responseType = new ResponseType()
   }
+
    
   //get all role
   public getAllRoles = async (): Promise<any> => {

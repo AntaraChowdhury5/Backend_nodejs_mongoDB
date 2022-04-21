@@ -17,14 +17,12 @@ export class DepartmentDao implements IDepartmentDao {
             "createAt": new Date(),
             "updateAt": new Date()
         }
-        const data=await db.collection<Department>(collectionName).insertOne(newDept);
-        console.log(data);
-        return data
+        return  db.collection<Department>(collectionName).insertOne(newDept);
     }
 
     public findById = async (_id: string) => {
-        let result =  db.collection<Department>(collectionName).findOne({ "_id": new ObjectId(_id) });
-        return result;
+        return db.collection<Department>(collectionName).findOne({ "_id": new ObjectId(_id) });
+        
     }
 
     public getAllDepartment = async () => {
@@ -34,7 +32,6 @@ export class DepartmentDao implements IDepartmentDao {
 
     public deleteDepartment = async (_id: string) => {
         let result = await db.collection<Department>(collectionName).deleteOne({ "_id": new ObjectId(_id) });
-        console.log(result);
         return result;
     }
 

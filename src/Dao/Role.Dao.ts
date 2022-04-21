@@ -1,4 +1,4 @@
-import { ObjectId } from "mongodb";
+import { ObjectId, ReturnDocument } from "mongodb";
 import { db } from "../config/database";
 import { Role } from "../DTO/role.dto";
 const collectionName = "role";
@@ -21,8 +21,8 @@ export class RoleDao implements IRoleDao {
     }
 
     public findById = async (_id: string) => {
-        let result = db.collection<Role>(collectionName).findOne({ "_id": new ObjectId(_id) });
-        return result;
+        return db.collection<Role>(collectionName).findOne({ "_id": new ObjectId(_id) });
+        
     }
 
     public getAllRole = async () => {
