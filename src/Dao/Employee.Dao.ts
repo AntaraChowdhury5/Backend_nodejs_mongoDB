@@ -6,12 +6,13 @@ import { Role } from "../DTO/role.dto";
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 import Logger from "../config/logger";
+import { Image } from "../DTO/image.dto";
 const collectionName = "users";
 const deptCol = "departments";
 const roleCol = "role";
 
 export interface IEmployeeDao {
-    saveUser(user?:Employee,file?:any): Promise<any>;
+    saveUser(user?: Employee, file?: any): Promise<any>;
     findById(_id: ObjectId | string): Promise<any>;
     getAllUser(): Promise<any>;
     deleteUser(_id: ObjectId | string): Promise<any>;
@@ -20,15 +21,15 @@ export interface IEmployeeDao {
     loggedin(body: Employee): Promise<any>;
 }
 export class EmployeeDao implements IEmployeeDao {
-    public saveUser = async (user?:Employee, file?:any) => {
+    public saveUser = async (user?: Employee, file?: any) => {
         let deptData = await db.collection<Department>(deptCol).findOne({ dept_name: user.department.dept_name });
         let roleData = await db.collection<Role>(roleCol).findOne({ role_name: user.role.role_name });
-        const hashedPassWord = await bcrypt.hash(user.password, 10);  
-    
+        const hashedPassWord = await bcrypt.hash(user.password, 10);
+
         let empData = {
             "name": user.name,
-            "email": user.email, 
-            "password":hashedPassWord,
+            "email": user.email,
+            "password": hashedPassWord,
             "department": {
                 dept_id: deptData.dept_id,
                 dept_name: deptData.dept_name,
@@ -36,49 +37,56 @@ export class EmployeeDao implements IEmployeeDao {
             "role": {
                 role_id: roleData.role_id,
                 role_name: roleData.role_name,
-            }, 
-            "address":user.address,
-            "mobile":user.mobile,
-            "image":file.path,
-            "createAt":new Date(),
-            "updateAt":new Date(),
+            },
+            "address": user.address,
+            "mobile": user.mobile,
+            
+            "createAt": new Date(),
+            "updateAt": new Date(),
             "isActive": true,
             "isDelete": false
         }
-        
+
         return db.collection<Employee>(collectionName).insertOne(empData);
-        
+
     }
+
+
+    /* public image = async (req: Image) => {
+        let image={
+            req.body.imageUrl=req.file.filename
+        }
+        return db.collection(collectionName).insertOne(image);
+    } */
+
 
     public findById = async (_id: string) => {
         return db.collection<Employee>(collectionName).findOne({ "_id": new ObjectId(_id) });
-       
+
     }
 
     public getAllUser = async () => {
-        const cursor = db.collection<Employee>(collectionName).find({isDelete: false});
+        const cursor = db.collection<Employee>(collectionName).find({ isDelete: false });
         return cursor.toArray();
     }
 
     public deleteUser = async (_id: string) => {
-        let findData =  db.collection<Employee>(collectionName).findOne({ "_id": new ObjectId(_id) });
-        return  db.collection<Employee>(collectionName).updateOne(
+        let findData = db.collection<Employee>(collectionName).findOne({ "_id": new ObjectId(_id) });
+        return db.collection<Employee>(collectionName).updateOne(
             { "_id": new ObjectId(_id) },
             {
-                $set:{
+                $set: {
                     ...findData,
-                    "isDelete":true
+                    "isDelete": true
                 }
             }
-            );
-        
-        
+        );
     }
 
 
     public Update = async (_id: string, body: Employee) => {
         if (!body.department && !body.role) {
-            return  db.collection<Employee>(collectionName).findOneAndUpdate(
+            return db.collection<Employee>(collectionName).findOneAndUpdate(
                 { _id: new ObjectId(_id) },
                 {
                     $set: {
@@ -87,9 +95,9 @@ export class EmployeeDao implements IEmployeeDao {
                     }
                 }
             )
-            
+
         }
-        else if(!body.role && body.department){
+        else if (!body.role && body.department) {
             let deptData = await db.collection<Department>(deptCol).findOne({ dept_name: body.department.dept_name });
             return db.collection<Employee>(collectionName).findOneAndUpdate(
                 { _id: new ObjectId(_id) },
@@ -104,7 +112,7 @@ export class EmployeeDao implements IEmployeeDao {
                 }
             )
         }
-        else if(!body.department && body.role){
+        else if (!body.department && body.role) {
             let roleData = await db.collection<Role>(roleCol).findOne({ role_name: body.role.role_name });
             return db.collection<Employee>(collectionName).findOneAndUpdate(
                 { _id: new ObjectId(_id) },
@@ -119,7 +127,7 @@ export class EmployeeDao implements IEmployeeDao {
                 }
             )
         }
-        else{
+        else {
             let roleD = await db.collection<Role>(roleCol).findOne({ role_name: body.role.role_name });
             let deptD = await db.collection<Department>(deptCol).findOne({ dept_name: body.department.dept_name });
             return db.collection<Employee>(collectionName).findOneAndUpdate(

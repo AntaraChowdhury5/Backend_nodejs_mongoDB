@@ -26,6 +26,7 @@ class EmployeeService {
     return this.responseType;
   };
 
+
   //get a single user
   public getEmp = async (_id: string): Promise<any> => {
     const res = await this.employeeDao.findById(_id);

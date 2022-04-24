@@ -9407,3 +9407,205 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-20T0
 info: Connected to the database. {"timestamp":"2022-04-20T05:52:00.261Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-20T08:01:31.427Z"}
 info: Connected to the database. {"timestamp":"2022-04-20T08:01:32.127Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-21T09:31:52.682Z"}
+info: Connected to the database. {"timestamp":"2022-04-21T09:31:53.435Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTU4MTEzZDAxZTI1MGIwOTI1MjJkYSIsImVtYWlsIjoiRW1wMUBnbWFpbC5jb20iLCJyb2xlIjoiUUEiLCJpYXQiOjE2NTA1MzM1ODJ9.NP-RfBBzUzrUaitSTBxM0kznAtm7waUmnVl4IGJ7lxc {"timestamp":"2022-04-21T09:33:02.231Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTU4MTdkZDAxZTI1MGIwOTI1MjJkYiIsImVtYWlsIjoiQWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjUwNTMzNjUzfQ.evmIrCNx4FTbYhxjikHcqmTYMMBwIed2rEgJhsCmCCI {"timestamp":"2022-04-21T09:34:13.791Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTU4MTEzZDAxZTI1MGIwOTI1MjJkYSIsImVtYWlsIjoiRW1wMUBnbWFpbC5jb20iLCJyb2xlIjoiUUEiLCJpYXQiOjE2NTA1MzQxODh9._RWnGFBk4DjF6X686BcrZAiNVHviGJNnqwq3XG6qwXg {"timestamp":"2022-04-21T09:43:08.242Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTU4MTEzZDAxZTI1MGIwOTI1MjJkYSIsImVtYWlsIjoiRW1wMUBnbWFpbC5jb20iLCJyb2xlIjoiUUEiLCJpYXQiOjE2NTA1MzQ3NDd9.L5Hy1_RupgysvHnxq_-LQi03hYvowWP-3mvNyxu5Fho {"timestamp":"2022-04-21T09:52:27.287Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T10:49:19.272Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T10:52:36.562Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T10:53:42.944Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T11:15:05.071Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T11:23:43.671Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T11:25:09.929Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T11:29:20.070Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T11:32:08.969Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-22T11:34:51.465Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T11:34:52.300Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-22T11:35:34.302Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T11:35:34.864Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-22T11:38:24.377Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T11:38:25.105Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-22T11:41:57.985Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T11:41:58.615Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-22T11:42:55.274Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T11:42:55.825Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-22T11:43:32.805Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T11:43:33.371Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-22T11:43:55.224Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T11:43:55.793Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-22T11:44:37.793Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T11:44:38.345Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-22T11:51:00.442Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T11:51:01.541Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T11:53:04.324Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-22T11:55:07.106Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T11:55:07.750Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T11:56:02.963Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T11:57:03.673Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T11:59:17.369Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-22T12:01:29.578Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T12:01:30.291Z"}
+error: 
+    status - 500 
+    message - BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters
+    at new BSONTypeError (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\error.ts:16:5)
+    at new ObjectId (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\objectid.ts:86:15)
+    at DepartmentDao.<anonymous> (C:\Projects\EmpType\src\Dao\Department.Dao.ts:26:20)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\Dao\Department.Dao.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\Dao\Department.Dao.ts:4:12)
+    at DepartmentDao.findById (C:\Projects\EmpType\src\Dao\Department.Dao.ts:23:42)
+    at DepartmentService.<anonymous> (C:\Projects\EmpType\src\services\DepartmentService.ts:31:36)
+    at Generator.next (<anonymous>) 
+    url - /api/v1/dept/%22625d137f0c684a81d68b967f%22 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-22T12:01:44.182Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-22T12:06:49.342Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T12:06:50.157Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-22T12:07:22.771Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T12:07:23.483Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-22T12:07:46.713Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T12:07:47.473Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-22T12:10:26.534Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T12:10:27.585Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T12:15:54.868Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T12:22:10.239Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-22T12:28:16.526Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T12:28:17.379Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-22T12:30:43.471Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T12:30:44.253Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-22T12:31:13.628Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T12:31:14.381Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-22T12:32:03.973Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T12:32:04.821Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-22T12:32:51.201Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T12:32:51.941Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-22T12:33:01.985Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T12:33:02.711Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-22T12:34:08.712Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T12:34:09.463Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T12:40:20.897Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T12:49:19.119Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T12:49:23.145Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T12:52:18.347Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T12:52:19.903Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T12:55:27.175Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T12:55:28.850Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T12:55:33.138Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T13:02:36.518Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T13:02:38.028Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T13:02:39.797Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T13:04:49.582Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T13:04:51.407Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T09:56:26.564Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T09:56:27.863Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T09:58:19.552Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T09:58:20.874Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T09:59:54.789Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T09:59:56.082Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T09:59:59.835Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T10:02:09.978Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T10:02:11.147Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T10:02:12.358Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T10:04:38.105Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T10:04:39.278Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T10:04:40.744Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T10:05:29.553Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T10:05:30.797Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T10:05:31.929Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-23T10:05:40.870Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T10:05:41.693Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-23T10:13:41.669Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T10:13:43.369Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T10:17:08.000Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T10:17:09.198Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T10:17:10.374Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T10:17:56.415Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T10:17:57.598Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T10:17:58.771Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T10:34:43.849Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T10:34:45.055Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T10:34:46.210Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T10:35:43.980Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T10:35:45.167Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T10:35:46.378Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T10:44:22.696Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T10:44:24.410Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T10:44:26.114Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-23T10:51:22.194Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T10:51:22.830Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T10:58:12.154Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T10:58:13.336Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T10:58:14.807Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-23T11:07:50.915Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T11:07:51.718Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'dept_id')
+    at EmployeeDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:108:56)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/625e74626322696e845c5967 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-23T11:10:11.949Z"}
+error: 
+    status - 500 
+    message - BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters
+    at new BSONTypeError (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\error.ts:16:5)
+    at new ObjectId (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\objectid.ts:86:15)
+    at EmployeeDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:103:24)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/625e74626322696e845c596o 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-23T11:10:21.231Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'dept_id')
+    at EmployeeDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:108:56)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emps/625e74626322696e845c5970 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-23T11:10:32.870Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T11:14:28.914Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T11:14:30.302Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T11:14:31.744Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-23T11:22:46.737Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T11:22:47.458Z"}
+error: 
+    status - 500 
+    message - BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters
+    at new BSONTypeError (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\error.ts:16:5)
+    at new ObjectId (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\objectid.ts:86:15)
+    at EmployeeDao.<anonymous> (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:90:24)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\Dao\Employee.Dao.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:4:12)
+    at EmployeeDao.Update (C:\Projects\EmpType\src\Dao\Employee.Dao.ts:87:59)
+    at EmployeeService.<anonymous> (C:\Projects\EmpType\src\services\EmployeeService.ts:47:40)
+    at Generator.next (<anonymous>) 
+    url - /api/v1/emps/625e74626322696e845c596g 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-23T11:23:49.603Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T11:25:22.284Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T11:25:24.413Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T11:25:25.699Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T11:26:39.818Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T11:26:41.648Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T11:26:42.623Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T11:53:25.683Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T11:53:27.513Z"}
+info: Connected to the database. {"timestamp":"2022-04-23T11:53:28.813Z"}

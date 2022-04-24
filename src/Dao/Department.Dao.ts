@@ -4,25 +4,27 @@ import { Department } from "../DTO/department.dto";
 const collectionName = "departments";
 
 export interface IDepartmentDao {
-    saveDepartment(dept:Department): Promise<any>;
-    findById(_id: ObjectId | string): Promise<any>;
+    saveDepartment(dept?: Department): Promise<any>;
+    findById(_id?: any): Promise<any>;
     getAllDepartment(): Promise<any>;
     deleteDepartment(_id: ObjectId | string): Promise<any>;
     updateDepartment(_id: string, body: Department): Promise<any>;
 }
 export class DepartmentDao implements IDepartmentDao {
-    public saveDepartment = async (dept:Department) => {
-        let newDept={
+    public saveDepartment = async (dept?: Department) => {
+        let newDept = {
             ...dept,
             "createAt": new Date(),
             "updateAt": new Date()
         }
-        return  db.collection<Department>(collectionName).insertOne(newDept);
+        return db.collection<Department>(collectionName).insertOne(newDept);
     }
 
-    public findById = async (_id: string) => {
-        return db.collection<Department>(collectionName).findOne({ "_id": new ObjectId(_id) });
-        
+    public findById = async (_id) => {
+        let id = _id;
+        let o_id = new ObjectId(id);   // id as a string is passed
+        return db.collection<Department>(collectionName).findOne({ "_id": o_id });
+
     }
 
     public getAllDepartment = async () => {

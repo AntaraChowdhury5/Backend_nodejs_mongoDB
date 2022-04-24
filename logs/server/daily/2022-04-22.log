@@ -1,0 +1,88 @@
+info: Connected to the database. {"timestamp":"2022-04-22T10:49:19.272Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T10:52:36.562Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T10:53:42.944Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T11:15:05.071Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T11:23:43.671Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T11:25:09.929Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T11:29:20.070Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T11:32:08.969Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-22T11:34:51.465Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T11:34:52.300Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-22T11:35:34.302Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T11:35:34.864Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-22T11:38:24.377Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T11:38:25.105Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-22T11:41:57.985Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T11:41:58.615Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-22T11:42:55.274Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T11:42:55.825Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-22T11:43:32.805Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T11:43:33.371Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-22T11:43:55.224Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T11:43:55.793Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-22T11:44:37.793Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T11:44:38.345Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-22T11:51:00.442Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T11:51:01.541Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T11:53:04.324Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-22T11:55:07.106Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T11:55:07.750Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T11:56:02.963Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T11:57:03.673Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T11:59:17.369Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-22T12:01:29.578Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T12:01:30.291Z"}
+error: 
+    status - 500 
+    message - BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters
+    at new BSONTypeError (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\error.ts:16:5)
+    at new ObjectId (C:\Projects\EmpType\node_modules\mongodb\node_modules\bson\src\objectid.ts:86:15)
+    at DepartmentDao.<anonymous> (C:\Projects\EmpType\src\Dao\Department.Dao.ts:26:20)
+    at Generator.next (<anonymous>)
+    at C:\Projects\EmpType\src\Dao\Department.Dao.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projects\EmpType\src\Dao\Department.Dao.ts:4:12)
+    at DepartmentDao.findById (C:\Projects\EmpType\src\Dao\Department.Dao.ts:23:42)
+    at DepartmentService.<anonymous> (C:\Projects\EmpType\src\services\DepartmentService.ts:31:36)
+    at Generator.next (<anonymous>) 
+    url - /api/v1/dept/%22625d137f0c684a81d68b967f%22 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-04-22T12:01:44.182Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-22T12:06:49.342Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T12:06:50.157Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-22T12:07:22.771Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T12:07:23.483Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-22T12:07:46.713Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T12:07:47.473Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-22T12:10:26.534Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T12:10:27.585Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T12:15:54.868Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T12:22:10.239Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-22T12:28:16.526Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T12:28:17.379Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-22T12:30:43.471Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T12:30:44.253Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-22T12:31:13.628Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T12:31:14.381Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-22T12:32:03.973Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T12:32:04.821Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-22T12:32:51.201Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T12:32:51.941Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-22T12:33:01.985Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T12:33:02.711Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-22T12:34:08.712Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T12:34:09.463Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T12:40:20.897Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T12:49:19.119Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T12:49:23.145Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T12:52:18.347Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T12:52:19.903Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T12:55:27.175Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T12:55:28.850Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T12:55:33.138Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T13:02:36.518Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T13:02:38.028Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T13:02:39.797Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T13:04:49.582Z"}
+info: Connected to the database. {"timestamp":"2022-04-22T13:04:51.407Z"}

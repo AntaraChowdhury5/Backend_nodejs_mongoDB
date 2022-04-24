@@ -1,14 +1,14 @@
-import { ObjectId, ReturnDocument } from "mongodb";
+import { ObjectId } from "mongodb";
 import { db } from "../config/database";
 import { Role } from "../DTO/role.dto";
 const collectionName = "role";
 
 export interface IRoleDao {
-    saveRole(dept: Role): Promise<any>;
+    saveRole(role: Role): Promise<any>;
     findById(_id: ObjectId | string): Promise<any>;
     getAllRole(): Promise<any>;
     deleteRole(_id: ObjectId | string): Promise<any>;
-    updateRole(_id: string, body: Role): Promise<any>;
+    updateRole(_id: string, body?: Role): Promise<any>;
 }
 export class RoleDao implements IRoleDao {
     public saveRole = async (role: Role) => {
@@ -36,7 +36,7 @@ export class RoleDao implements IRoleDao {
         return result;
     }
 
-    public updateRole = async (_id: string, body: Role) => {
+    public updateRole = async (_id: string, body?: Role) => {
         return db.collection<Role>(collectionName).findOneAndUpdate(
             { _id: new ObjectId(_id) },
             {

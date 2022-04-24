@@ -1,0 +1,6 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-21T09:31:52.682Z"}
+info: Connected to the database. {"timestamp":"2022-04-21T09:31:53.435Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTU4MTEzZDAxZTI1MGIwOTI1MjJkYSIsImVtYWlsIjoiRW1wMUBnbWFpbC5jb20iLCJyb2xlIjoiUUEiLCJpYXQiOjE2NTA1MzM1ODJ9.NP-RfBBzUzrUaitSTBxM0kznAtm7waUmnVl4IGJ7lxc {"timestamp":"2022-04-21T09:33:02.231Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTU4MTdkZDAxZTI1MGIwOTI1MjJkYiIsImVtYWlsIjoiQWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNjUwNTMzNjUzfQ.evmIrCNx4FTbYhxjikHcqmTYMMBwIed2rEgJhsCmCCI {"timestamp":"2022-04-21T09:34:13.791Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTU4MTEzZDAxZTI1MGIwOTI1MjJkYSIsImVtYWlsIjoiRW1wMUBnbWFpbC5jb20iLCJyb2xlIjoiUUEiLCJpYXQiOjE2NTA1MzQxODh9._RWnGFBk4DjF6X686BcrZAiNVHviGJNnqwq3XG6qwXg {"timestamp":"2022-04-21T09:43:08.242Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTU4MTEzZDAxZTI1MGIwOTI1MjJkYSIsImVtYWlsIjoiRW1wMUBnbWFpbC5jb20iLCJyb2xlIjoiUUEiLCJpYXQiOjE2NTA1MzQ3NDd9.L5Hy1_RupgysvHnxq_-LQi03hYvowWP-3mvNyxu5Fho {"timestamp":"2022-04-21T09:52:27.287Z"}

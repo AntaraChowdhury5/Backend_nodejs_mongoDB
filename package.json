@@ -7,12 +7,26 @@
     "build": "tsc",
     "dev": "ts-node-dev --respawn --transpile-only ./src/index.ts",
     "start": "tsc && node build/index.js",
-    "test": "jest --forceExit --maxWorkers=1 --coverage -c ./jest.unit.json ",
+    "test": "jest --forceExit --maxWorkers=1 --coverage -c ./jest.unit.json",
+    "test:watch": "npm run test -- --watch",
     "test:coverage": "cross-env NODE_ENV=test nyc --require ts-node/register --reporter lcov --reporter text mocha --exit --recursive --timeout=5000 tests/**/*.ts",
     "lint": "eslint . --ext .ts",
     "lint-fix": "eslint . --ext .ts --fix",
     "sonar": "sonar-scanner"
   },
+  "jest": {
+    "collectCoverage": true,
+    "testEnvironment":  "node",
+    "coveragePathIgnorePatterns": [
+        "/node_modules/"
+    ],
+    "testResultsProcessor":  "jest-sonar-reporter"
+},
+"jestSonar": {
+    "reportPath":  "coverage",
+    "reportFile":  "test-reporter.xml",
+    "indent":  4
+},
   "author": "Tolustar",
   "license": "MIT",
   "dependencies": {
@@ -60,6 +74,7 @@
     "eslint-config-sonar": "^0.0.8",
     "eslint-plugin-prettier": "^3.1.4",
     "jest": "^27.5.1",
+    "jest-sonar-reporter": "^2.0.0",
     "mocha": "^8.1.3",
     "nodemon": "^2.0.4",
     "nyc": "^15.1.0",

@@ -1,6 +1,6 @@
 import httpMock from 'node-mocks-http';
 
-import DepartmentService from '../services/DepartmentService';
+import DepartmentService from './DepartmentService';
 import {DepartmentDao} from '../Dao/Department.Dao';
 
 describe('testing Department service', () => {
